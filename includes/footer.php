@@ -1,5 +1,6 @@
-<?php if (!empty($useTemplateAssets)) : ?>
+<?php 
 
-<script src="/assets/js/script.js"></script>
+?>
 
-<?php endif; ?>
+<script src="../../assets/js/script.js"></script>
+
