@@ -1,13 +1,13 @@
-<?php 
+<?php if (!empty($useTemplateAssets)) : ?>
 
+<!-- Vendor CSS Files -->
+<link rel="stylesheet" href="/assets/vendor/css/bootstrap.css">
+<link rel="stylesheet" href="/assets/vendor/css/font-awesome-pro.css">
+<link rel="stylesheet" href="/assets/vendor/css/magnific-popup.css">
+<link rel="stylesheet" href="/assets/vendor/css/spacing.css">
+<link rel="stylesheet" href="/assets/vendor/css/swiper-bundle.css">
 
-?>
+<!-- Template Main CSS -->
+<link rel="stylesheet" href="/assets/vendor/css/style.css">
 
-    <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
-    <link rel="stylesheet" href="assets/css/spacing.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <!-- CSS here -->
+<?php endif; ?>
