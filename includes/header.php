@@ -35,18 +35,18 @@ include "template-css.php";
 
     <!-- header area start -->
     <div class="hr-side-header z-index-5 d-none d-xl-flex flex-column justify-content-between">
-        <div class="hr-side-header-logo">
-            <a href="index.html"><img data-width="125" src="/assets/vendor/img/logo/logo-white.png" alt=""></a>
-        </div>
+        <a href="<?= BASE_URL ?>/pages/public/index.php">
+            <img data-width="125" src="<?= BASE_URL ?>/assets/vendor/img/logo/logo-white.png" alt="">
+        </a>
         <div class="hr-side-header-menu tp-header-dropdown">
             <nav class="tp-mobile-menu-active">
                 <ul>
-                    <li><a href="index-hr-consulting.html#">Home</a></li>
-                    <li><a href="index-hr-consulting.html#">About</a></li>
-                    <li><a href="index-hr-consulting.html#">Projects</a></li>
-                    <li><a href="index-hr-consulting.html#">Team</a></li>
-                    <li><a href="index-hr-consulting.html#">Partner Associates</a></li>
-                    <li><a href="index-hr-consulting.html#">Contact</a></li>
+                    <li><a href="<?= BASE_URL ?>/pages/public/index.php">Home</a></li>
+                    <li><a href="<?= BASE_URL ?>/pages/public/about.php">About</a></li>
+                    <li><a href="<?= BASE_URL ?>/pages/public/projects.php">Projects</a></li>
+                    <li><a href="<?= BASE_URL ?>/pages/public/team.php">Team</a></li>
+                    <li><a href="<?= BASE_URL ?>/pages/public/partner-associate.php">Partner Associates</a></li>
+                    <li><a href="<?= BASE_URL ?>/pages/public/contact.php">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -69,9 +69,9 @@ include "template-css.php";
         <div class="tp-offcanvas-wrapper offcanvas-black-bg">
             <div class="tp-offcanvas-top d-flex align-items-center justify-content-between">
                 <div class="tp-offcanvas-logo">
-                    <a href="index.html">
-                        <img class="logo-1" data-width="120" src="/assets/vendor/img/logo/logo-black.png" alt="">
-                        <img class="logo-2" data-width="120" src="/assets/vendor/img/logo/logo-white.png" alt="">
+                    <a href="<?= BASE_URL ?>/pages/public/index.php">
+                        <img class="logo-1" src="<?= BASE_URL ?>/assets/vendor/img/logo/logo-black.png">
+                        <img class="logo-2" src="<?= BASE_URL ?>/assets/vendor/img/logo/logo-white.png">
                     </a>
                 </div>
                 <div class="tp-offcanvas-close">
@@ -95,22 +95,24 @@ include "template-css.php";
                     <div class="row gx-2">
                         <div class="col-md-3 col-3">
                             <div class="tp-offcanvas-gallery-img fix">
-                                <a class="popup-image" href="/assets/vendor/img/offcanvas/offcanvas-1.jpg"><img src="/assets/vendor/img/offcanvas/offcanvas-1.jpg" alt=""></a>
+                                <a class="popup-image" href="<?= BASE_URL ?>/assets/vendor/img/offcanvas/offcanvas-1.jpg">
+                                    <img src="<?= BASE_URL ?>/assets/vendor/img/offcanvas/offcanvas-1.jpg">
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-3 col-3">
                             <div class="tp-offcanvas-gallery-img fix">
-                                <a class="popup-image" href="/assets/vendor/img/offcanvas/offcanvas-2.jpg"><img src="/assets/vendor/img/offcanvas/offcanvas-2.jpg" alt=""></a>
+                                <a class="popup-image" href="<?= BASE_URL ?>/assets/vendor/img/offcanvas/offcanvas-2.jpg"><img src="<?= BASE_URL ?>/assets/vendor/img/offcanvas/offcanvas-2.jpg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-md-3 col-3">
                             <div class="tp-offcanvas-gallery-img fix">
-                                <a class="popup-image" href="/assets/vendor/img/offcanvas/offcanvas-3.jpg"><img src="/assets/vendor/img/offcanvas/offcanvas-3.jpg" alt=""></a>
+                                <a class="popup-image" href="<?= BASE_URL ?>/assets/vendor/img/offcanvas/offcanvas-3.jpg"><img src="<?= BASE_URL ?>/assets/vendor/img/offcanvas/offcanvas-3.jpg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-md-3 col-3">
                             <div class="tp-offcanvas-gallery-img fix">
-                                <a class="popup-image" href="/assets/vendor/img/offcanvas/offcanvas-4.jpg"><img src="/assets/vendor/img/offcanvas/offcanvas-4.jpg" alt=""></a>
+                                <a class="popup-image" href="<?= BASE_URL ?>/assets/vendor/img/offcanvas/offcanvas-4.jpg"><img src="<?= BASE_URL ?>/assets/vendor/img/offcanvas/offcanvas-4.jpg" alt=""></a>
                             </div>
                         </div>
                     </div>
