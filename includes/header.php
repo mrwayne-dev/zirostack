@@ -35,18 +35,18 @@ include "template-css.php";
 
     <!-- header area start -->
     <div class="hr-side-header z-index-5 d-none d-xl-flex flex-column justify-content-between">
-        <a href="<?= BASE_URL ?>/pages/public/index.php">
-            <img data-width="125" src="<?= BASE_URL ?>/assets/vendor/img/logo/logo-white.png" alt="">
-        </a>
+        <div class="hr-side-header-logo">
+            <a href="/"><img data-width="125" src="/assets/images/logo/zirostackdark-mode.png" alt=""></a>
+        </div>
         <div class="hr-side-header-menu tp-header-dropdown">
             <nav class="tp-mobile-menu-active">
                 <ul>
-                    <li><a href="<?= BASE_URL ?>/pages/public/index.php">Home</a></li>
-                    <li><a href="<?= BASE_URL ?>/pages/public/about.php">About</a></li>
-                    <li><a href="<?= BASE_URL ?>/pages/public/projects.php">Projects</a></li>
-                    <li><a href="<?= BASE_URL ?>/pages/public/team.php">Team</a></li>
-                    <li><a href="<?= BASE_URL ?>/pages/public/partner-associate.php">Partner Associates</a></li>
-                    <li><a href="<?= BASE_URL ?>/pages/public/contact.php">Contact</a></li>
+                    <li><a href="index-hr-consulting.html#">Home</a></li>
+                    <li><a href="index-hr-consulting.html#">About</a></li>
+                    <li><a href="index-hr-consulting.html#">Projects</a></li>
+                    <li><a href="index-hr-consulting.html#">Team</a></li>
+                    <li><a href="index-hr-consulting.html#">Partner Associates</a></li>
+                    <li><a href="index-hr-consulting.html#">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -69,9 +69,9 @@ include "template-css.php";
         <div class="tp-offcanvas-wrapper offcanvas-black-bg">
             <div class="tp-offcanvas-top d-flex align-items-center justify-content-between">
                 <div class="tp-offcanvas-logo">
-                    <a href="<?= BASE_URL ?>/pages/public/index.php">
-                        <img class="logo-1" src="<?= BASE_URL ?>/assets/vendor/img/logo/logo-black.png">
-                        <img class="logo-2" src="<?= BASE_URL ?>/assets/vendor/img/logo/logo-white.png">
+                    <a href="index.html">
+                        <img class="logo-1" data-width="120" src="/assets/vendor/img/logo/logo-black.png" alt="">
+                        <img class="logo-2" data-width="120" src="/assets/vendor/img/logo/logo-white.png" alt="">
                     </a>
                 </div>
                 <div class="tp-offcanvas-close">
@@ -95,24 +95,22 @@ include "template-css.php";
                     <div class="row gx-2">
                         <div class="col-md-3 col-3">
                             <div class="tp-offcanvas-gallery-img fix">
-                                <a class="popup-image" href="<?= BASE_URL ?>/assets/vendor/img/offcanvas/offcanvas-1.jpg">
-                                    <img src="<?= BASE_URL ?>/assets/vendor/img/offcanvas/offcanvas-1.jpg">
-                                </a>
+                                <a class="popup-image" href="/assets/vendor/img/offcanvas/offcanvas-1.jpg"><img src="/assets/vendor/img/offcanvas/offcanvas-1.jpg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-md-3 col-3">
                             <div class="tp-offcanvas-gallery-img fix">
-                                <a class="popup-image" href="<?= BASE_URL ?>/assets/vendor/img/offcanvas/offcanvas-2.jpg"><img src="<?= BASE_URL ?>/assets/vendor/img/offcanvas/offcanvas-2.jpg" alt=""></a>
+                                <a class="popup-image" href="/assets/vendor/img/offcanvas/offcanvas-2.jpg"><img src="/assets/vendor/img/offcanvas/offcanvas-2.jpg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-md-3 col-3">
                             <div class="tp-offcanvas-gallery-img fix">
-                                <a class="popup-image" href="<?= BASE_URL ?>/assets/vendor/img/offcanvas/offcanvas-3.jpg"><img src="<?= BASE_URL ?>/assets/vendor/img/offcanvas/offcanvas-3.jpg" alt=""></a>
+                                <a class="popup-image" href="/assets/vendor/img/offcanvas/offcanvas-3.jpg"><img src="/assets/vendor/img/offcanvas/offcanvas-3.jpg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-md-3 col-3">
                             <div class="tp-offcanvas-gallery-img fix">
-                                <a class="popup-image" href="<?= BASE_URL ?>/assets/vendor/img/offcanvas/offcanvas-4.jpg"><img src="<?= BASE_URL ?>/assets/vendor/img/offcanvas/offcanvas-4.jpg" alt=""></a>
+                                <a class="popup-image" href="/assets/vendor/img/offcanvas/offcanvas-4.jpg"><img src="/assets/vendor/img/offcanvas/offcanvas-4.jpg" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -174,3 +172,41 @@ include "template-css.php";
         <div id="smooth-content">
 
             <main>
+                <div class="hr-right-wrap">
+                    <div class="container-fluid p-0">
+                        <div class="row gx-0">
+
+                            <!-- header area start -->
+                            <div id="header-sticky" class="tp-header-area tp-header-ptb tp-header-blur sticky-black-bg header-transparent">
+                                <div class="container-fluid">
+                                    <div class="tp-header-hr-main">
+                                        <div class="col-xl-10 offset-xl-2">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-6">
+                                                    <div class="tp-header-hr-logo d-xl-none">
+                                                        <a href="index.html">
+                                                            <img data-width="120" src="/assets/vendor/img/logo/logo-white.png" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-8 col-6">
+                                                    <div class="tp-header-right text-end">
+                                                        <div class="tp-header-14-bar-wrap">
+                                                            <button class="tp-header-8-bar tp-offcanvas-open-btn">
+                                                                <span>Menu</span>
+                                                                <span>
+                                                                    <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M0 0H14V1.5H0V0Z" fill="currentcolor" />
+                                                                        <path d="M0 6H24V7.5H0V6Z" fill="currentcolor" />
+                                                                    </svg>
+                                                                </span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- header area end -->

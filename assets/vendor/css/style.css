@@ -174,7 +174,38 @@ li,
   /**
   @color declaration
   */
-  --tp-common-white: #F5F7F5;
+/* ==============================
+   Template Variable Overrides
+   (Zirostack Brand)
+   ============================== */
+
+/* Common */
+--tp-common-white: var(--color-surface);
+--tp-common-white-solid: #ffffff;
+--tp-common-black: var(--color-text);
+--tp-common-black-solid: #000000;
+
+/* Brand / Accent */
+--tp-common-paste: var(--color-primary);
+--tp-common-brown: var(--color-accent);
+--tp-common-yellow: var(--color-accent);
+
+/* Greys / Surfaces */
+--tp-grey-1: var(--color-bg);
+--tp-grey-2: var(--color-surface-cr);
+
+/* Text */
+--tp-text-body: var(--color-text-muted);
+
+/* Theme Colors */
+--tp-theme-primary: var(--color-primary);
+--tp-theme-secondary: var(--color-surface);
+
+/* Borders */
+--tp-border-1: var(--color-border);
+--tp-border-2: var(--color-border);
+
+  /* --tp-common-white: #F5F7F5;
   --tp-common-white-solid: white;
   --tp-common-black: #010103;
   --tp-common-black-solid: #000;
@@ -187,7 +218,7 @@ li,
   --tp-theme-primary: #C9F31D;
   --tp-theme-secondary: #F5F7F5;
   --tp-border-1: #EAEBED;
-  --tp-border-2: #e7e7e7;
+  --tp-border-2: #e7e7e7; */
 }
 
 * {
@@ -3893,7 +3924,6 @@ body.tp-magic-cursor #magic-cursor {
   line-height: 1.2;
   display: block;
   padding: 15px 40px;
-  text-transform: uppercase;
   color: var(--tp-common-white);
   font-family: var(--tp-ff-bricolage);
 }

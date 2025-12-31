@@ -10,44 +10,7 @@ $useTemplateAssets = true;
 <?php include INCLUDES_PATH . '/header.php'; ?>
 
 
-                <div class="hr-right-wrap">
-                    <div class="container-fluid p-0">
-                        <div class="row gx-0">
 
-                            <!-- header area start -->
-                            <div id="header-sticky" class="tp-header-area tp-header-ptb tp-header-blur sticky-black-bg header-transparent">
-                                <div class="container-fluid">
-                                    <div class="tp-header-hr-main">
-                                        <div class="col-xl-10 offset-xl-2">
-                                            <div class="row align-items-center">
-                                                <div class="col-xl-3 col-6">
-                                                    <div class="tp-header-hr-logo d-xl-none">
-                                                        <a href="index.html">
-                                                            <img data-width="120" src="/assets/vendor/img/logo/logo-white.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-8 col-6">
-                                                    <div class="tp-header-right text-end">
-                                                        <div class="tp-header-14-bar-wrap">
-                                                            <button class="tp-header-8-bar tp-offcanvas-open-btn">
-                                                                <span>Menu</span>
-                                                                <span>
-                                                                    <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                        <path d="M0 0H14V1.5H0V0Z" fill="currentcolor" />
-                                                                        <path d="M0 6H24V7.5H0V6Z" fill="currentcolor" />
-                                                                    </svg>
-                                                                </span>
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- header area end -->
 
 
                             <!-- hero area end -->
@@ -237,9 +200,9 @@ $useTemplateAssets = true;
                             </div>
                             <div class="col-xl-4 col-md-6">
                                 <div class="ma-funfact-item d-flex align-items-start mb-30 tp_fade_anim" data-delay=".4">
-                                    <span class="ma-funfact-subtitle">Clients</span>
+                                    <span class="ma-funfact-subtitle">Total Revenue</span>
                                     <div class="ma-funfact-content">
-                                        <h4><span data-purecounter-duration="2" data-purecounter-end="2.5" class="purecounter">0</span>m+</h4>
+                                        <h4><span data-purecounter-duration="2" data-purecounter-end="1.7" class="purecounter">0</span>m+</h4>
                                         <p>
                                             Partnering with this agency has
                                             been a transformative experience
@@ -250,7 +213,7 @@ $useTemplateAssets = true;
                             </div>
                             <div class="col-xl-4 col-md-6">
                                 <div class="ma-funfact-item d-flex align-items-start mb-30 tp_fade_anim" data-delay=".5">
-                                    <span class="ma-funfact-subtitle">Members</span>
+                                    <span class="ma-funfact-subtitle">Profits</span>
                                     <div class="ma-funfact-content">
                                         <h4><span data-purecounter-duration="2" data-purecounter-end="15" class="purecounter">0</span>K+</h4>
                                         <p>

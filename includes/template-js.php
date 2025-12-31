@@ -1,44 +1,42 @@
-<?php
-if (!defined('BASE_URL')) {
-    die('BASE_URL not defined');
-}
-?>
+<?php if (!empty($useTemplateAssets)) : ?>
 
-<!-- jQuery -->
-<script src="<?= BASE_URL ?>/assets/vendor/js/vendor/jquery.js"></script>
+<!-- jQuery (must load first) -->
+<script src="/assets/vendor/js/vendor/jquery.js"></script>
 
 <!-- Bootstrap -->
-<script src="<?= BASE_URL ?>/assets/vendor/js/bootstrap-bundle.js"></script>
+<script src="/assets/vendor/js/bootstrap-bundle.js"></script>
 
-<!-- Core Utilities -->
-<script src="<?= BASE_URL ?>/assets/vendor/js/imagesloaded-pkgd.js"></script>
-<script src="<?= BASE_URL ?>/assets/vendor/js/hammer.js"></script>
-<script src="<?= BASE_URL ?>/assets/vendor/js/magnific-popup.js"></script>
-<script src="<?= BASE_URL ?>/assets/vendor/js/purecounter.js"></script>
-<script src="<?= BASE_URL ?>/assets/vendor/js/splitting.min.js"></script>
+<!-- Core Plugins -->
+<script src="/assets/vendor/js/imagesloaded-pkgd.js"></script>
+<script src="/assets/vendor/js/hammer.js"></script>
+<script src="/assets/vendor/js/magnific-popup.js"></script>
+<script src="/assets/vendor/js/purecounter.js"></script>
+<script src="/assets/vendor/js/splitting.min.js"></script>
 
-<!-- Swiper -->
-<script src="<?= BASE_URL ?>/assets/vendor/js/swiper-bundle.js"></script>
+<!-- Swiper (REQUIRED before slider-active.js) -->
+<script src="/assets/vendor/js/swiper-bundle.js"></script>
 
-<!-- Slider Logic -->
-<script src="<?= BASE_URL ?>/assets/vendor/js/slider-active.js"></script>
-<script src="<?= BASE_URL ?>/assets/vendor/js/portfolio-slider-1.js"></script>
+<!-- Sliders / UI effects (depend on Swiper) -->
+<script src="/assets/vendor/js/slider-active.js"></script>
+<script src="/assets/vendor/js/portfolio-slider-1.js"></script>
 
-<!-- Visual Effects -->
-<script src="<?= BASE_URL ?>/assets/vendor/js/hover-effect.umd.js"></script>
-<script src="<?= BASE_URL ?>/assets/vendor/js/parallax-slider.js"></script>
+<!-- Visual / Animation Utilities -->
+<script src="/assets/vendor/js/hover-effect.umd.js"></script>
+<script src="/assets/vendor/js/parallax-slider.js"></script>
 
-<!-- Cursor Animation (depends on GSAP) -->
-<script src="<?= BASE_URL ?>/assets/vendor/js/tp-cursor.js"></script>
+<!-- Three.js / WebGL (optional, safe to keep) -->
+<script src="/assets/vendor/js/three.js"></script>
+<script src="/assets/vendor/js/webgl.js"></script>
 
-<!-- Optional WebGL -->
-<script src="<?= BASE_URL ?>/assets/vendor/js/three.js"></script>
-<script src="<?= BASE_URL ?>/assets/vendor/js/webgl.js"></script>
+<!-- AJAX & General Template Logic -->
+<script src="/assets/vendor/js/ajax-form.js"></script>
+<script src="/assets/vendor/js/plugin.js"></script>
 
-<!-- Template Core -->
-<script src="<?= BASE_URL ?>/assets/vendor/js/ajax-form.js"></script>
-<script src="<?= BASE_URL ?>/assets/vendor/js/plugin.js"></script>
-<script src="<?= BASE_URL ?>/assets/vendor/js/main.js"></script>
+<!-- Main template initializer (must be last among vendor JS) -->
+<script src="/assets/vendor/js/main.js"></script>
 
-<!-- Project JS -->
-<script src="<?= BASE_URL ?>/assets/js/scripts.js"></script>
+<!-- Zirostack Main Script -->
+<script src="/assets/js/script.js"></script>
+
+
+<?php endif; ?>

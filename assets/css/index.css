@@ -1,0 +1,148 @@
+/* fonts */
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/fonts/Roboto-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/fonts/Roboto-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/fonts/Roboto-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/fonts/Roboto-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/fonts/Roboto-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+/* ==============================
+   Variables
+   ============================== */
+:root {
+  /* Colors */
+  --color-primary: #005EBC; /* The vibrant blue from the top section of the 'Z' */
+  --color-primary-hover: #004A94; /* A deeper shade of the logo blue for interaction */
+  --color-accent: #000000; /* The solid black from the base of the logo */
+  --color-bg: #FFFFFF; /* Clean white background to make the blue pop */
+  --color-surface: #F5F9FF; /* A very faint blue-tinted white for cards */
+  --color-surface-cr: #EDF2F7; /* A soft grey-blue for containers */
+  --color-surface-alt: #E1E8F0; /* Light steel blue for subtle section variation */
+  --color-text: #080C10; /* Near-black for high readability */
+  --color-text-muted: #4A5568; /* A neutral grey for secondary information */  
+  --color-border: rgba(0, 94, 188, 0.15); /* Subtle border using a transparent primary blue */
+
+  
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #123499, #0a2472);
+  --gradient-accent: linear-gradient(135deg, #5eaf73, #CADEDE);
+
+  /* Typography */
+  --font-family-base: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --header-font-size: 3.5rem;
+  --paragraph-font-size: 1.8rem;
+
+  /* Spacing Scale */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4rem;
+  --section-padding: 100px;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.2);
+  --shadow-xl: 0 16px 32px rgba(0, 0, 0, 0.25);
+
+  /* Radius */
+  --radius-4: 4px;
+  --radius-8: 8px;
+  --radius-12: 12px;
+  --radius-24: 24px;
+
+  /* Transitions */
+  --transition-1: 0.25s ease-in-out;
+  --transition-2: 0.5s ease-in-out;
+  --transition-3: 1s ease-in-out;
+}
+
+/* ==============================
+   Global Reset & Base
+   ============================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-base);
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+body, body * {
+  font-family: 'Roboto', sans-serif !important;
+}
+[class^="tp-"],
+[class*=" tp-"] {
+  font-family: var(--font-family-base) !important;
+}
