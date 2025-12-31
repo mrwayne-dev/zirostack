@@ -42,7 +42,7 @@ include "template-css.php";
             <nav class="tp-mobile-menu-active">
                 <ul>
                     <li><a href="index-hr-consulting.html#">Home</a></li>
-                    <li><a href="index-hr-consulting.html#">About</a></li>
+                    <li><a href="/pages/public/about.php">About</a></li>
                     <li><a href="index-hr-consulting.html#">Projects</a></li>
                     <li><a href="index-hr-consulting.html#">Team</a></li>
                     <li><a href="index-hr-consulting.html#">Partner Associates</a></li>

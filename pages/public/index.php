@@ -9,10 +9,6 @@ $useTemplateAssets = true;
 <html lang="en">
 <?php include INCLUDES_PATH . '/header.php'; ?>
 
-
-
-
-
                             <!-- hero area end -->
                             <div class="hr-hero-bg include-bg z-index-1 hero-section" data-background="/assets/vendor/img/hr-consulting/hero-1.jpg">
                                 <div class="hr-hero-main d-flex flex-column justify-content-between h-100">
