@@ -41,12 +41,11 @@ include "template-css.php";
         <div class="hr-side-header-menu tp-header-dropdown">
             <nav class="tp-mobile-menu-active">
                 <ul>
-                    <li><a href="index-hr-consulting.html#">Home</a></li>
+                    <li><a href="/pages/public/index.php">Home</a></li>
                     <li><a href="/pages/public/about.php">About</a></li>
-                    <li><a href="index-hr-consulting.html#">Projects</a></li>
-                    <li><a href="index-hr-consulting.html#">Team</a></li>
-                    <li><a href="index-hr-consulting.html#">Partner Associates</a></li>
-                    <li><a href="index-hr-consulting.html#">Contact</a></li>
+                    <li><a href="/pages/public/projects.php">Projects</a></li>
+                    <li><a href="/pages/public/team.php">Team</a></li>
+                    <li><a href="/pages/public/contact.php">Contact</a></li>
                 </ul>
             </nav>
         </div>
