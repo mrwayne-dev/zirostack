@@ -57,8 +57,8 @@ $useTemplateAssets = true;
                                         </div>
                                         <div class="bnc-about-content-btn-box d-flex">
                                             <div class="bnc-about-content-btn tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">
-                                                <a style="color: white;" class="tp-btn-green bdr-5 fw-700 ff-bricolage tp-btn-anim" href="about.html">
-                                                    <div class="tp-btn-text">About Us </div>
+                                                <a style="color: white;" class="tp-btn-green bdr-5 fw-700 ff-bricolage tp-btn-anim" href="contact.php">
+                                                    <div class="tp-btn-text">Get a Quote </div>
                                                     <span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10" viewBox="0 0 18 10" fill="none">
                                                             <path d="M8.29231 0C10.773 2.00217 14.7748 3.89283 18 5.00061C14.7748 6.10761 10.7731 7.99749 8.29278 10L10.0219 5.5746L0.619514 5.57487C0.455171 5.57467 0.297634 5.51408 0.181516 5.40642C0.0948336 5.32613 0.0358078 5.22386 0.011901 5.11253C-0.0120059 5.0012 0.00027696 4.8858 0.0472025 4.78093C0.0941274 4.67606 0.173586 4.58643 0.275531 4.52336C0.377475 4.46029 0.497332 4.42662 0.619946 4.4266L10.022 4.42665L8.29231 0Z" fill="currentColor"/>
@@ -67,8 +67,8 @@ $useTemplateAssets = true;
                                                 </a>
                                             </div>
                                             <div class="bnc-about-content-btn tp_fade_anim" data-delay=".7" data-fade-from="top" data-ease="bounce">
-                                                <a class="tp-btn-green bdr-5 fw-700 ff-bricolage bg-none-style tp-btn-anim" href="service.html">
-                                                    <div style="color: black;" class="tp-btn-text">More Services</div>
+                                                <a class="tp-btn-green bdr-5 fw-700 ff-bricolage bg-none-style tp-btn-anim" href="Team.php">
+                                                    <div style="color: black;" class="tp-btn-text">Our Team</div>
                                                     <span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10" viewBox="0 0 18 10" fill="none">
                                                             <path d="M8.29231 0C10.773 2.00217 14.7748 3.89283 18 5.00061C14.7748 6.10761 10.7731 7.99749 8.29278 10L10.0219 5.5746L0.619514 5.57487C0.455171 5.57467 0.297634 5.51408 0.181516 5.40642C0.0948336 5.32613 0.0358078 5.22386 0.011901 5.11253C-0.0120059 5.0012 0.00027696 4.8858 0.0472025 4.78093C0.0941274 4.67606 0.173586 4.58643 0.275531 4.52336C0.377475 4.46029 0.497332 4.42662 0.619946 4.4266L10.022 4.42665L8.29231 0Z" fill="currentColor"/>
@@ -84,6 +84,93 @@ $useTemplateAssets = true;
                     </div>
                 </div>
                 <!-- about area end -->
+
+                 <!-- step area start -->
+                <div class="bnc-step-area p-relative pt-100 pb-50" style="background-color: white;">
+                    <div class="bnc-step-text-wrap tp-about-inner-step-text">
+                        <h4 class="bnc-step-text-title tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">Experts</h4>
+                    </div>
+                    <div class="container container-1510">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="bnc-step-title-box pb-60">
+                                    <span class="tp-section-subtitle st-unbounded st-dot st-border tp_fade_anim" data-delay=".3">How We Work</span>
+                                    <h3 class="tp-section-title tt-capitalize fs-42 tl-unbounded fw-600 tp-split-title">A Smarter Way to <br>
+                                        Achieve Our Clients Goals.</h3>
+                                </div>
+                                <div class="bnc-step-thumb fix tp-clip-anim z-index-1">
+                                    <img class="w-100 tp-anim-img" data-animate="true" src="../../assets/images/test.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="bnc-step-wrapper">
+                                    <div class="bnc-step-item p-relative mb-70">
+                                        <div class="bnc-step-item-sub">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14" fill="none">
+                                                    <path d="M7.80843 10.3786C7.75025 10.324 7.68104 10.2806 7.60477 10.2509C7.52851 10.2213 7.44671 10.2061 7.3641 10.2061C7.28148 10.2061 7.19969 10.2213 7.12342 10.2509C7.04716 10.2806 6.97795 10.324 6.91977 10.3786L4.64805 12.4964V0.583398C4.64805 0.428671 4.58212 0.280281 4.46475 0.170873C4.34739 0.0614649 4.18821 0 4.02223 0C3.85625 0 3.69708 0.0614649 3.57971 0.170873C3.46235 0.280281 3.39641 0.428671 3.39641 0.583398V12.4905L1.13095 10.3786C1.07731 10.3103 1.00835 10.2536 0.928843 10.2126C0.849341 10.1716 0.761212 10.1472 0.67058 10.1411C0.579949 10.1351 0.488989 10.1475 0.404023 10.1775C0.319056 10.2075 0.242122 10.2544 0.178566 10.315C0.115009 10.3755 0.0663563 10.4482 0.0359877 10.5281C0.00561905 10.6079 -0.00573671 10.6929 0.00270981 10.7773C0.0111563 10.8616 0.0392023 10.9432 0.0848988 11.0164C0.130595 11.0897 0.192846 11.1527 0.267324 11.2012L2.72053 13.4882C3.07255 13.8159 3.54974 14 4.04726 14C4.54479 14 5.02197 13.8159 5.374 13.4882L7.8272 11.2012C7.9413 11.0896 8.00338 10.9405 7.99986 10.7863C7.99634 10.6322 7.92752 10.4856 7.80843 10.3786Z" fill="white"/>
+                                                </svg>
+                                            </span>
+                                            step _ 01
+                                        </div>
+                                        <h4 class="bnc-step-item-title">Discovery & Direction</h4>
+                                        <div class="bnc-step-item-text">
+                                            <p>We dive deep into your vision, challenges, and goals — establishing clarity,<br>
+                                                 priorities, and a strong foundation before execution begins.</p>
+                                        </div>
+                                    </div>
+                                    <div class="bnc-step-item p-relative mb-70">
+                                        <div class="bnc-step-item-sub">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14" fill="none">
+                                                    <path d="M7.80843 10.3786C7.75025 10.324 7.68104 10.2806 7.60477 10.2509C7.52851 10.2213 7.44671 10.2061 7.3641 10.2061C7.28148 10.2061 7.19969 10.2213 7.12342 10.2509C7.04716 10.2806 6.97795 10.324 6.91977 10.3786L4.64805 12.4964V0.583398C4.64805 0.428671 4.58212 0.280281 4.46475 0.170873C4.34739 0.0614649 4.18821 0 4.02223 0C3.85625 0 3.69708 0.0614649 3.57971 0.170873C3.46235 0.280281 3.39641 0.428671 3.39641 0.583398V12.4905L1.13095 10.3786C1.07731 10.3103 1.00835 10.2536 0.928843 10.2126C0.849341 10.1716 0.761212 10.1472 0.67058 10.1411C0.579949 10.1351 0.488989 10.1475 0.404023 10.1775C0.319056 10.2075 0.242122 10.2544 0.178566 10.315C0.115009 10.3755 0.0663563 10.4482 0.0359877 10.5281C0.00561905 10.6079 -0.00573671 10.6929 0.00270981 10.7773C0.0111563 10.8616 0.0392023 10.9432 0.0848988 11.0164C0.130595 11.0897 0.192846 11.1527 0.267324 11.2012L2.72053 13.4882C3.07255 13.8159 3.54974 14 4.04726 14C4.54479 14 5.02197 13.8159 5.374 13.4882L7.8272 11.2012C7.9413 11.0896 8.00338 10.9405 7.99986 10.7863C7.99634 10.6322 7.92752 10.4856 7.80843 10.3786Z" fill="white"/>
+                                                </svg>
+                                            </span>
+                                            step _ 02
+                                        </div>
+                                        <h4 class="bnc-step-item-title">Structure & Creation</h4>
+                                        <div class="bnc-step-item-text">
+                                            <p>We design and build with intention, shaping systems, interfaces, <br>
+                                                and experiences that are clean, functional, and scalable.</p>
+                                        </div>
+                                    </div>
+                                    <div class="bnc-step-item p-relative mb-70">
+                                        <div class="bnc-step-item-sub">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14" fill="none">
+                                                    <path d="M7.80843 10.3786C7.75025 10.324 7.68104 10.2806 7.60477 10.2509C7.52851 10.2213 7.44671 10.2061 7.3641 10.2061C7.28148 10.2061 7.19969 10.2213 7.12342 10.2509C7.04716 10.2806 6.97795 10.324 6.91977 10.3786L4.64805 12.4964V0.583398C4.64805 0.428671 4.58212 0.280281 4.46475 0.170873C4.34739 0.0614649 4.18821 0 4.02223 0C3.85625 0 3.69708 0.0614649 3.57971 0.170873C3.46235 0.280281 3.39641 0.428671 3.39641 0.583398V12.4905L1.13095 10.3786C1.07731 10.3103 1.00835 10.2536 0.928843 10.2126C0.849341 10.1716 0.761212 10.1472 0.67058 10.1411C0.579949 10.1351 0.488989 10.1475 0.404023 10.1775C0.319056 10.2075 0.242122 10.2544 0.178566 10.315C0.115009 10.3755 0.0663563 10.4482 0.0359877 10.5281C0.00561905 10.6079 -0.00573671 10.6929 0.00270981 10.7773C0.0111563 10.8616 0.0392023 10.9432 0.0848988 11.0164C0.130595 11.0897 0.192846 11.1527 0.267324 11.2012L2.72053 13.4882C3.07255 13.8159 3.54974 14 4.04726 14C4.54479 14 5.02197 13.8159 5.374 13.4882L7.8272 11.2012C7.9413 11.0896 8.00338 10.9405 7.99986 10.7863C7.99634 10.6322 7.92752 10.4856 7.80843 10.3786Z" fill="white"/>
+                                                </svg>
+                                            </span>
+                                            step _ 03
+                                        </div>
+                                        <h4 class="bnc-step-item-title">Alignment & Execution</h4>
+                                        <div class="bnc-step-item-text">
+                                            <p>We work closely with you throughout development, ensuring <br>
+                                             transparency, collaboration, and precision at every stage.</p>
+                                        </div>
+                                    </div>
+                                    <div class="bnc-step-item p-relative mb-70">
+                                        <div class="bnc-step-item-sub">
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14" fill="none">
+                                                    <path d="M7.80843 10.3786C7.75025 10.324 7.68104 10.2806 7.60477 10.2509C7.52851 10.2213 7.44671 10.2061 7.3641 10.2061C7.28148 10.2061 7.19969 10.2213 7.12342 10.2509C7.04716 10.2806 6.97795 10.324 6.91977 10.3786L4.64805 12.4964V0.583398C4.64805 0.428671 4.58212 0.280281 4.46475 0.170873C4.34739 0.0614649 4.18821 0 4.02223 0C3.85625 0 3.69708 0.0614649 3.57971 0.170873C3.46235 0.280281 3.39641 0.428671 3.39641 0.583398V12.4905L1.13095 10.3786C1.07731 10.3103 1.00835 10.2536 0.928843 10.2126C0.849341 10.1716 0.761212 10.1472 0.67058 10.1411C0.579949 10.1351 0.488989 10.1475 0.404023 10.1775C0.319056 10.2075 0.242122 10.2544 0.178566 10.315C0.115009 10.3755 0.0663563 10.4482 0.0359877 10.5281C0.00561905 10.6079 -0.00573671 10.6929 0.00270981 10.7773C0.0111563 10.8616 0.0392023 10.9432 0.0848988 11.0164C0.130595 11.0897 0.192846 11.1527 0.267324 11.2012L2.72053 13.4882C3.07255 13.8159 3.54974 14 4.04726 14C4.54479 14 5.02197 13.8159 5.374 13.4882L7.8272 11.2012C7.9413 11.0896 8.00338 10.9405 7.99986 10.7863C7.99634 10.6322 7.92752 10.4856 7.80843 10.3786Z" fill="white"/>
+                                                </svg>
+                                            </span>
+                                            step _ 04
+                                        </div>
+                                        <h4 class="bnc-step-item-title">Support & Growth</h4>
+                                        <div class="bnc-step-item-text">
+                                            <p>We maintain, monitor, and improve your product post-launch, <br>
+                                                ensuring stability, performance, and continuous growth over time.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- step area end -->
+
 
 
                 <!-- about funfact area start -->
@@ -334,92 +421,7 @@ $useTemplateAssets = true;
                 <!-- service area end -->
 
 
-                <!-- step area start -->
-                <div class="bnc-step-area p-relative pt-100 pb-50" style="background-color: white;">
-                    <div class="bnc-step-text-wrap tp-about-inner-step-text">
-                        <h4 class="bnc-step-text-title tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">Experts</h4>
-                    </div>
-                    <div class="container container-1510">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="bnc-step-title-box pb-60">
-                                    <span class="tp-section-subtitle st-unbounded st-dot st-border tp_fade_anim" data-delay=".3">How We Work</span>
-                                    <h3 class="tp-section-title tt-capitalize fs-42 tl-unbounded fw-600 tp-split-title">A Smarter Way to <br>
-                                        Achieve Our Clients Goals.</h3>
-                                </div>
-                                <div class="bnc-step-thumb fix tp-clip-anim z-index-1">
-                                    <img class="w-100 tp-anim-img" data-animate="true" src="../../assets/images/test.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="bnc-step-wrapper">
-                                    <div class="bnc-step-item p-relative mb-70">
-                                        <div class="bnc-step-item-sub">
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14" fill="none">
-                                                    <path d="M7.80843 10.3786C7.75025 10.324 7.68104 10.2806 7.60477 10.2509C7.52851 10.2213 7.44671 10.2061 7.3641 10.2061C7.28148 10.2061 7.19969 10.2213 7.12342 10.2509C7.04716 10.2806 6.97795 10.324 6.91977 10.3786L4.64805 12.4964V0.583398C4.64805 0.428671 4.58212 0.280281 4.46475 0.170873C4.34739 0.0614649 4.18821 0 4.02223 0C3.85625 0 3.69708 0.0614649 3.57971 0.170873C3.46235 0.280281 3.39641 0.428671 3.39641 0.583398V12.4905L1.13095 10.3786C1.07731 10.3103 1.00835 10.2536 0.928843 10.2126C0.849341 10.1716 0.761212 10.1472 0.67058 10.1411C0.579949 10.1351 0.488989 10.1475 0.404023 10.1775C0.319056 10.2075 0.242122 10.2544 0.178566 10.315C0.115009 10.3755 0.0663563 10.4482 0.0359877 10.5281C0.00561905 10.6079 -0.00573671 10.6929 0.00270981 10.7773C0.0111563 10.8616 0.0392023 10.9432 0.0848988 11.0164C0.130595 11.0897 0.192846 11.1527 0.267324 11.2012L2.72053 13.4882C3.07255 13.8159 3.54974 14 4.04726 14C4.54479 14 5.02197 13.8159 5.374 13.4882L7.8272 11.2012C7.9413 11.0896 8.00338 10.9405 7.99986 10.7863C7.99634 10.6322 7.92752 10.4856 7.80843 10.3786Z" fill="white"/>
-                                                </svg>
-                                            </span>
-                                            step _ 01
-                                        </div>
-                                        <h4 class="bnc-step-item-title">Discovery & Direction</h4>
-                                        <div class="bnc-step-item-text">
-                                            <p>We dive deep into your vision, challenges, and goals — establishing clarity,<br>
-                                                 priorities, and a strong foundation before execution begins.</p>
-                                        </div>
-                                    </div>
-                                    <div class="bnc-step-item p-relative mb-70">
-                                        <div class="bnc-step-item-sub">
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14" fill="none">
-                                                    <path d="M7.80843 10.3786C7.75025 10.324 7.68104 10.2806 7.60477 10.2509C7.52851 10.2213 7.44671 10.2061 7.3641 10.2061C7.28148 10.2061 7.19969 10.2213 7.12342 10.2509C7.04716 10.2806 6.97795 10.324 6.91977 10.3786L4.64805 12.4964V0.583398C4.64805 0.428671 4.58212 0.280281 4.46475 0.170873C4.34739 0.0614649 4.18821 0 4.02223 0C3.85625 0 3.69708 0.0614649 3.57971 0.170873C3.46235 0.280281 3.39641 0.428671 3.39641 0.583398V12.4905L1.13095 10.3786C1.07731 10.3103 1.00835 10.2536 0.928843 10.2126C0.849341 10.1716 0.761212 10.1472 0.67058 10.1411C0.579949 10.1351 0.488989 10.1475 0.404023 10.1775C0.319056 10.2075 0.242122 10.2544 0.178566 10.315C0.115009 10.3755 0.0663563 10.4482 0.0359877 10.5281C0.00561905 10.6079 -0.00573671 10.6929 0.00270981 10.7773C0.0111563 10.8616 0.0392023 10.9432 0.0848988 11.0164C0.130595 11.0897 0.192846 11.1527 0.267324 11.2012L2.72053 13.4882C3.07255 13.8159 3.54974 14 4.04726 14C4.54479 14 5.02197 13.8159 5.374 13.4882L7.8272 11.2012C7.9413 11.0896 8.00338 10.9405 7.99986 10.7863C7.99634 10.6322 7.92752 10.4856 7.80843 10.3786Z" fill="white"/>
-                                                </svg>
-                                            </span>
-                                            step _ 02
-                                        </div>
-                                        <h4 class="bnc-step-item-title">Structure & Creation</h4>
-                                        <div class="bnc-step-item-text">
-                                            <p>We design and build with intention, shaping systems, interfaces, <br>
-                                                and experiences that are clean, functional, and scalable.</p>
-                                        </div>
-                                    </div>
-                                    <div class="bnc-step-item p-relative mb-70">
-                                        <div class="bnc-step-item-sub">
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14" fill="none">
-                                                    <path d="M7.80843 10.3786C7.75025 10.324 7.68104 10.2806 7.60477 10.2509C7.52851 10.2213 7.44671 10.2061 7.3641 10.2061C7.28148 10.2061 7.19969 10.2213 7.12342 10.2509C7.04716 10.2806 6.97795 10.324 6.91977 10.3786L4.64805 12.4964V0.583398C4.64805 0.428671 4.58212 0.280281 4.46475 0.170873C4.34739 0.0614649 4.18821 0 4.02223 0C3.85625 0 3.69708 0.0614649 3.57971 0.170873C3.46235 0.280281 3.39641 0.428671 3.39641 0.583398V12.4905L1.13095 10.3786C1.07731 10.3103 1.00835 10.2536 0.928843 10.2126C0.849341 10.1716 0.761212 10.1472 0.67058 10.1411C0.579949 10.1351 0.488989 10.1475 0.404023 10.1775C0.319056 10.2075 0.242122 10.2544 0.178566 10.315C0.115009 10.3755 0.0663563 10.4482 0.0359877 10.5281C0.00561905 10.6079 -0.00573671 10.6929 0.00270981 10.7773C0.0111563 10.8616 0.0392023 10.9432 0.0848988 11.0164C0.130595 11.0897 0.192846 11.1527 0.267324 11.2012L2.72053 13.4882C3.07255 13.8159 3.54974 14 4.04726 14C4.54479 14 5.02197 13.8159 5.374 13.4882L7.8272 11.2012C7.9413 11.0896 8.00338 10.9405 7.99986 10.7863C7.99634 10.6322 7.92752 10.4856 7.80843 10.3786Z" fill="white"/>
-                                                </svg>
-                                            </span>
-                                            step _ 03
-                                        </div>
-                                        <h4 class="bnc-step-item-title">Alignment & Execution</h4>
-                                        <div class="bnc-step-item-text">
-                                            <p>We work closely with you throughout development, ensuring <br>
-                                             transparency, collaboration, and precision at every stage.</p>
-                                        </div>
-                                    </div>
-                                    <div class="bnc-step-item p-relative mb-70">
-                                        <div class="bnc-step-item-sub">
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14" fill="none">
-                                                    <path d="M7.80843 10.3786C7.75025 10.324 7.68104 10.2806 7.60477 10.2509C7.52851 10.2213 7.44671 10.2061 7.3641 10.2061C7.28148 10.2061 7.19969 10.2213 7.12342 10.2509C7.04716 10.2806 6.97795 10.324 6.91977 10.3786L4.64805 12.4964V0.583398C4.64805 0.428671 4.58212 0.280281 4.46475 0.170873C4.34739 0.0614649 4.18821 0 4.02223 0C3.85625 0 3.69708 0.0614649 3.57971 0.170873C3.46235 0.280281 3.39641 0.428671 3.39641 0.583398V12.4905L1.13095 10.3786C1.07731 10.3103 1.00835 10.2536 0.928843 10.2126C0.849341 10.1716 0.761212 10.1472 0.67058 10.1411C0.579949 10.1351 0.488989 10.1475 0.404023 10.1775C0.319056 10.2075 0.242122 10.2544 0.178566 10.315C0.115009 10.3755 0.0663563 10.4482 0.0359877 10.5281C0.00561905 10.6079 -0.00573671 10.6929 0.00270981 10.7773C0.0111563 10.8616 0.0392023 10.9432 0.0848988 11.0164C0.130595 11.0897 0.192846 11.1527 0.267324 11.2012L2.72053 13.4882C3.07255 13.8159 3.54974 14 4.04726 14C4.54479 14 5.02197 13.8159 5.374 13.4882L7.8272 11.2012C7.9413 11.0896 8.00338 10.9405 7.99986 10.7863C7.99634 10.6322 7.92752 10.4856 7.80843 10.3786Z" fill="white"/>
-                                                </svg>
-                                            </span>
-                                            step _ 04
-                                        </div>
-                                        <h4 class="bnc-step-item-title">Support & Growth</h4>
-                                        <div class="bnc-step-item-text">
-                                            <p>We maintain, monitor, and improve your product post-launch, <br>
-                                                ensuring stability, performance, and continuous growth over time.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- step area end -->
-
+               
 
                 
                 <!-- team area start -->
