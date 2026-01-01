@@ -36,12 +36,12 @@ include "template-css.php";
     <!-- header area start -->
     <div class="hr-side-header z-index-5 d-none d-xl-flex flex-column justify-content-between">
         <div class="hr-side-header-logo">
-            <a href="/"><img data-width="125" src="/assets/images/logo/zirostackdark-mode.png" alt=""></a>
+            <a href="/"><img data-width="200" src="/assets/images/logo/zirostackdark-mode.png" alt=""></a>
         </div>
         <div class="hr-side-header-menu tp-header-dropdown">
             <nav class="tp-mobile-menu-active">
                 <ul>
-                    <li><a href="/pages/public/index.php">Home</a></li>
+                    <li><a style="hover: text-decoration: underline;" href="/pages/public/index.php">Home</a></li>
                     <li><a href="/pages/public/about.php">About</a></li>
                     <li><a href="/pages/public/projects.php">Projects</a></li>
                     <li><a href="/pages/public/services.php">Services</a></li>
