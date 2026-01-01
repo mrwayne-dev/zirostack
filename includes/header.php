@@ -44,6 +44,7 @@ include "template-css.php";
                     <li><a href="/pages/public/index.php">Home</a></li>
                     <li><a href="/pages/public/about.php">About</a></li>
                     <li><a href="/pages/public/projects.php">Projects</a></li>
+                    <li><a href="/pages/public/services.php">Services</a></li>
                     <li><a href="/pages/public/team.php">Team</a></li>
                     <li><a href="/pages/public/contact.php">Contact</a></li>
                 </ul>
@@ -175,37 +176,4 @@ include "template-css.php";
                     <div class="container-fluid p-0">
                         <div class="row gx-0">
 
-                            <!-- header area start -->
-                            <div id="header-sticky" class="tp-header-area tp-header-ptb tp-header-blur sticky-black-bg header-transparent">
-                                <div class="container-fluid">
-                                    <div class="tp-header-hr-main">
-                                        <div class="col-xl-10 offset-xl-2">
-                                            <div class="row align-items-center">
-                                                <div class="col-xl-3 col-6">
-                                                    <div class="tp-header-hr-logo d-xl-none">
-                                                        <a href="index.html">
-                                                            <img data-width="120" src="/assets/vendor/img/logo/logo-white.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-8 col-6">
-                                                    <div class="tp-header-right text-end">
-                                                        <div class="tp-header-14-bar-wrap">
-                                                            <button class="tp-header-8-bar tp-offcanvas-open-btn">
-                                                                <span>Menu</span>
-                                                                <span>
-                                                                    <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                        <path d="M0 0H14V1.5H0V0Z" fill="currentcolor" />
-                                                                        <path d="M0 6H24V7.5H0V6Z" fill="currentcolor" />
-                                                                    </svg>
-                                                                </span>
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- header area end -->
+                            

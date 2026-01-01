@@ -1,18 +1,33 @@
-<!-- Page Template -->
-
 <?php
 require_once __DIR__ . '/../../config/constants.php';
 
-$pageTitle = "Services – Zirostack";
+$pageTitle = "Team – Zirostack";
 $useTemplateAssets = true;
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
 <?php include INCLUDES_PATH . '/header.php'; ?>
 
 
+<div class="col-xl-10 offset-xl-2">
 
-<?php include INCLUDES_PATH . '/template-js.php'; ?>
-</body>
-</html>
+    <!-- HERO AREA -->
+    <!-- (paste hero section here) -->
+
+    <!-- TEAM GRID -->
+    <!-- (paste team area here) -->
+
+    <!-- TESTIMONIAL -->
+    <!-- (paste testimonial section here) -->
+
+    <!-- TEXT SLIDER -->
+    <!-- (paste text slider section here) -->
+
+    <!-- AWARDS -->
+    <!-- (paste award section here) -->
+
+</div>
+<!-- ===============================
+     END PAGE CONTENT COLUMN
+     =============================== -->
+
+<?php include INCLUDES_PATH . '/footer.php'; ?>
