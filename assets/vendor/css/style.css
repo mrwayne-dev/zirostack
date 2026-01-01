@@ -775,7 +775,7 @@ input[type=color] {
   padding: 18px 24px;
   display: inline-block;
   text-transform: uppercase;
-  color: var(--tp-common-black);
+  color: white;
   font-family: var(--tp-ff-bricolage);
   background-color: var(--tp-theme-primary);
 }
@@ -829,6 +829,7 @@ input[type=color] {
 .tp-btn-green.br-8 {
   border-radius: 8px;
   font-family: var(--tp-ff-popins);
+  color: white;
 }
 .tp-btn-circle {
   position: relative;
@@ -3950,6 +3951,7 @@ body.tp-magic-cursor #magic-cursor {
 }
 .hr-side-header-btn .tp-btn-green.br-8:hover {
   background-color: var(--tp-common-white);
+  color: var(--tp-common-black);
 }
 .hr-side-header-btn .tp-btn-green.br-8 span {
   margin-left: 5px;
