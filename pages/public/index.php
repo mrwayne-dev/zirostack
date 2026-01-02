@@ -464,7 +464,7 @@ $useTemplateAssets = true;
                                                 </p>
                                                 <div class="tp-service-item-btn">
                                                     <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
-                                                        <div class="tp-btn-text">Read More</div>
+                                                        <div class="tp-btn-text">Get a quote</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
                                                                <path d="M1.01301 10.9362L10.9225 1.65031L3.41074 2.83889" stroke="currentColor" stroke-width="1.5"/>
@@ -490,7 +490,7 @@ $useTemplateAssets = true;
                                                 </p>
                                                 <div class="tp-service-item-btn">
                                                     <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
-                                                        <div class="tp-btn-text">Read More</div>
+                                                        <div class="tp-btn-text">Get a quote</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
                                                                <path d="M1.01301 10.9362L10.9225 1.65031L3.41074 2.83889" stroke="currentColor" stroke-width="1.5"/>
@@ -516,7 +516,7 @@ $useTemplateAssets = true;
                                                 </p>
                                                 <div class="tp-service-item-btn">
                                                     <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
-                                                        <div class="tp-btn-text">Read More</div>
+                                                        <div class="tp-btn-text">Get a quote</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
                                                                <path d="M1.01301 10.9362L10.9225 1.65031L3.41074 2.83889" stroke="currentColor" stroke-width="1.5"/>
@@ -542,7 +542,7 @@ $useTemplateAssets = true;
                                                 </p>
                                                 <div class="tp-service-item-btn">
                                                     <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
-                                                        <div class="tp-btn-text">Read More</div>
+                                                        <div class="tp-btn-text">Get a quote</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
                                                                <path d="M1.01301 10.9362L10.9225 1.65031L3.41074 2.83889" stroke="currentColor" stroke-width="1.5"/>
@@ -568,7 +568,7 @@ $useTemplateAssets = true;
                                                 </p>
                                                 <div class="tp-service-item-btn">
                                                     <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
-                                                        <div class="tp-btn-text">Read More</div>
+                                                        <div class="tp-btn-text">Get a quote</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
                                                                <path d="M1.01301 10.9362L10.9225 1.65031L3.41074 2.83889" stroke="currentColor" stroke-width="1.5"/>
@@ -594,7 +594,7 @@ $useTemplateAssets = true;
                                                 </p>
                                                 <div class="tp-service-item-btn">
                                                     <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
-                                                        <div class="tp-btn-text">Read More</div>
+                                                        <div class="tp-btn-text">Get a quote</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
                                                                <path d="M1.01301 10.9362L10.9225 1.65031L3.41074 2.83889" stroke="currentColor" stroke-width="1.5"/>

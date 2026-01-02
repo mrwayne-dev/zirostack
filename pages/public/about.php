@@ -85,7 +85,7 @@ $useTemplateAssets = true;
                                             </p>
                                             <p class="tp-text-perspective">
                                              We don’t chase trends. We design timeless digital infrastructure — platforms that are <br>
-                                            clean, resilient, and scalable by design. Inspired by simplicity, precision, and human-centered <br>
+                                            clean, resilient, and scalable by design. Inspired by simplicity, precision, and human-centered service-details.html<br>
                                             
                                             thinking, we approach every project as a long-term asset, not a quick win.</p>
                                         </div>
