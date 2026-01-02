@@ -12,6 +12,10 @@
     <!-- Zirostack Primary Styles (override template later) -->
     <link rel="stylesheet" href="/assets/css/index.css">
     <link rel="stylesheet" href="/assets/css/responsive.css">
+    <!-- Phosphor Icons -->
+<link rel="stylesheet" href="/assets/vendor/phosphor/style.css">
+
+
 
     <!-- Favicon
     <link rel="icon" href="/assets/favicon/favicon-32x32.png">

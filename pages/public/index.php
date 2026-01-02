@@ -16,7 +16,7 @@ $useTemplateAssets = true;
                                             <div class="row align-items-center">
                                                 <div class="col-xl-3 col-6">
                                                     <div class="tp-header-hr-logo d-xl-none">
-                                                        <a href="index.html">
+                                                        <a href="/">
                                                             <img data-width="120" src="/assets/vendor/img/logo/logo-white.png" alt="">
                                                         </a>
                                                     </div>
@@ -43,7 +43,7 @@ $useTemplateAssets = true;
                             </div>
                             <!-- header area end -->
                             <!-- hero area end -->
-                            <div class="hr-hero-bg include-bg z-index-1 hero-section" data-background="/assets/vendor/img/hr-consulting/hero-1.jpg">
+                            <div class="hr-hero-bg include-bg z-index-1 hero-section" data-background="/assets/images/background/zirostack-hero2.jpg">
                                 <div class="hr-hero-main d-flex flex-column justify-content-between h-100">
                                     <div class="hr-hero-content pl-160">
                                         <div class="row gx-0">
@@ -51,10 +51,10 @@ $useTemplateAssets = true;
                                                 <div class="row align-items-end">
                                                     <div class="col-lg-9">
                                                         <div class="hr-hero-title-box">
-                                                            <span class="hr-hero-subtitle d-flex align-items-center tp_fade_anim" data-delay=".3">
+                                                            <!-- <span class="hr-hero-subtitle d-flex align-items-center tp_fade_anim" data-delay=".3">
                                                                 <i><img src="/assets/vendor/img/hr-consulting/logo-sm.png" alt=""></i>
                                                                 "Theory and Execution"
-                                                            </span>
+                                                            </span> -->
                                                             <h4 class="hr-hero-title ">Bring Your <br> Project to life</h4>
                                                         </div>
                                                     </div>
@@ -80,10 +80,7 @@ $useTemplateAssets = true;
                                                     <div class="col-xl-4 col-lg-4 col-md-6">
                                                         <div class="hr-feature-item d-flex align-items-start">
                                                             <span class="hr-feature-icon">
-
                                                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                
-                                                                
                                                                     <path d="M32 31.3353C32 31.7022 31.7013 32 31.3333 32L4.66667 31.9681C2.09467 31.9681 0 29.881 0 27.3154V0.664673C0 0.296444 0.298667 0 0.666667 0C1.03467 0 1.33333 0.297773 1.33333 0.664673V27.3154C1.33333 29.1472 2.82933 30.6388 4.66667 30.6388L31.3333 30.6707C31.7013 30.6707 32 30.9698 32 31.3353ZM32 7.6876V12.8853C32 13.6271 31.5733 14.2639 30.8867 14.547C30.656 14.6414 30.4187 14.6879 30.1853 14.6879C29.7213 14.6879 29.2707 14.5045 28.9213 14.1562L26.5147 11.7567L20.9867 17.2682C20.096 18.1562 18.5413 18.1562 17.6507 17.2682L16.7267 16.347C16.3267 15.9482 15.676 15.9482 15.276 16.347L6.472 25.1246C6.34133 25.2549 6.17067 25.3187 6 25.3187C5.82933 25.3187 5.65867 25.2536 5.528 25.1246C5.268 24.8654 5.268 24.444 5.528 24.1848L14.332 15.4071C15.2507 14.4912 16.748 14.4912 17.668 15.4071L18.592 16.3283C18.992 16.7272 19.6427 16.7272 20.0427 16.3283L25.5707 10.8169L23.1973 8.45065C22.6707 7.92556 22.5213 7.17581 22.8067 6.48986C23.092 5.80392 23.7307 5.37986 24.4733 5.37986H29.6867C30.9627 5.37986 32 6.41542 32 7.6876ZM30.6667 7.6876C30.6667 7.14922 30.2267 6.71053 29.6867 6.71053H24.4733C24.1893 6.71053 24.0747 6.91259 24.0373 7.00033C24.0013 7.08674 23.9387 7.3114 24.14 7.51213L29.8627 13.2177C30.0627 13.4171 30.288 13.3559 30.376 13.32C30.464 13.2841 30.6667 13.1698 30.6667 12.8853V7.6876Z" fill="#F5F7F5" />
                                                                 </svg>
                                                             </span>
@@ -114,7 +111,7 @@ $useTemplateAssets = true;
                                                                 </svg>
                                                             </span>
                                                             <div class="hr-feature-content">
-                                                                <h4 class="hr-feature-title">Media &SEO</h4>
+                                                                <h4 class="hr-feature-title">Media & SEO</h4>
                                                                 <p>Media & SEO drives strategic visibility—turning attention <br> into authority, growth and search precision.</p>
                                                             </div>
                                                         </div>

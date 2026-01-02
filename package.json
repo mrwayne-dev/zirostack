@@ -1,0 +1,24 @@
+{
+  "name": "zirostack",
+  "version": "1.0.0",
+  "description": "<?php\r require_once __DIR__ . '/../../config/constants.php';",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrwayne-dev/zirostack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mrwayne-dev/zirostack/issues"
+  },
+  "homepage": "https://github.com/mrwayne-dev/zirostack#readme",
+  "dependencies": {
+    "@phosphor-icons/web": "^2.1.2"
+  }
+}

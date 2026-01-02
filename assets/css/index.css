@@ -48,6 +48,7 @@
   /* Colors */
   --color-primary: #005EBC; /* The vibrant blue from the top section of the 'Z' */
   --color-primary-hover: #004A94; /* A deeper shade of the logo blue for interaction */
+  --color-primary-hover: rgba(0, 74, 148, 0.8); /* Slightly transparent for hover effects */
   --color-accent: #000000; /* The solid black from the base of the logo */
   --color-bg: #FFFFFF; /* Clean white background to make the blue pop */
   --color-surface: #F5F9FF; /* A very faint blue-tinted white for cards */
@@ -145,4 +146,25 @@ body, body * {
 [class^="tp-"],
 [class*=" tp-"] {
   font-family: var(--font-family-base) !important;
+}
+/* === FINAL FIX: Offcanvas social icons (Phosphor) === */
+.tp-offcanvas-social ul li a {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: normal !important; /* override template */
+}
+
+.tp-offcanvas-social i {
+  font-family: 'Phosphor' !important;
+  font-size: 18px;
+  display: block;
+  line-height: 1;
+  color: var(--color-bg);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.tp-offcanvas-social a:hover i {
+  color: var(--color-primary);
+  transform: translateY(-1px);
 }
