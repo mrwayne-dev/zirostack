@@ -88,7 +88,7 @@ $useTemplateAssets = true;
                                                 </div>
                                                 <h4 class="tp-service-item-title"><a class="tp-line-black" href="service-details.html">Web Development</a></h4>
                                                 <p>
-                                                     Scalable, high-performance web applications <br>
+                                                     Scalable,  high-performance web applications <br>
                                                    tailored to business needs, and custom <br>
                                                     systems built for long-term growth.
                                                 </p>
