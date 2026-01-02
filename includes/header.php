@@ -4,7 +4,7 @@
 include "head.php"; 
 include "template-css.php"; 
 ?>
-<body class="tp-magic-cursor" data-bg-color="#082228">
+<body class="tp-magic-cursor" data-bg-color="#1d2e5eff">
 
     <!-- Begin magic cursor -->
     <div id="magic-cursor" class="cursor-white-bg">
