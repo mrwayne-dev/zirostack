@@ -27,7 +27,7 @@ $useTemplateAssets = true;
                                         <span class="mr-20">
                                             <svg width="59" height="54" viewBox="0 0 59 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M0 0H58.3784V51.0811L0 0Z" fill="#010103" />
-                                                <path d="M0 29.1892H27.7297V54L0 29.1892Z" fill="#C9F31D" />
+                                                <path d="M0 29.1892H27.7297V54L0 29.1892Z" fill="#005EBC" />
                                             </svg>
                                         </span>
                                         Real Projects
@@ -39,12 +39,12 @@ $useTemplateAssets = true;
                                     <div class="row">
                                         <div class="col-lg-3 col-md-3">
                                             <div class="tp-breadcrumb-s7-subtitle">
-                                                <div style="color: white;" class="tp-breadcrumb-s1-subtitle">Portfolio</div>
+                                                <div class="tp-breadcrumb-s1-subtitle">Portfolio</div>
                                             </div>
                                         </div>
                                         <div class="col-lg-5 col-md-8">
                                             <div  class="tp-breadcrumb-s7-content">
-                                                <p style="color: white;" class="mb-5">We are a forward-thinking digital creative agency
+                                                <p  class="mb-5">We are a forward-thinking digital creative agency
                                                     dedicated to crafting impactful brand.</p>
                                             </div>
                                         </div>
@@ -57,26 +57,26 @@ $useTemplateAssets = true;
                 <!-- breadcrumb style 7 end -->
 
                 <!-- tp-project-area-start -->
-                <div class="tp-project-area fix" style="background-color: gray;">
+                <div class="tp-project-area fix" style="background-color: white;">
                     <div class="container-fluid gx-0">
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="inner-portfolio-tab-btn pb-40">
                                     <ul class="nav nav-tab justify-content-center" id="myTab" role="tablist">
                                         <li class="nav-item" role="presentation">
-                                            <button style="color: white;" class="nav-links active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">all Works</button>
+                                            <button style="color: black;" class="nav-links active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">all Works</button>
                                         </li>
                                         <li class="nav-item" role="presentation">
-                                            <button style="color: white;" class="nav-links" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">design</button>
+                                            <button style="color: black;" class="nav-links" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">design</button>
                                         </li>
                                         <li class="nav-item" role="presentation">
-                                            <button style="color: white;" class="nav-links" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">development</button>
+                                            <button style="color: black;" class="nav-links" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">development</button>
                                         </li>
                                         <li class="nav-item" role="presentation">
-                                            <button style="color: white;" class="nav-links" id="web-tab" data-bs-toggle="tab" data-bs-target="#web-tab-pane" type="button" role="tab" aria-controls="web-tab-pane" aria-selected="false">marketing</button>
+                                            <button style="color: black;" class="nav-links" id="web-tab" data-bs-toggle="tab" data-bs-target="#web-tab-pane" type="button" role="tab" aria-controls="web-tab-pane" aria-selected="false">marketing</button>
                                         </li>
                                         <li class="nav-item" role="presentation">
-                                            <button style="color: white;" class="nav-links" id="oth-tab" data-bs-toggle="tab" data-bs-target="#oth-tab-pane" type="button" role="tab" aria-controls="oth-tab-pane" aria-selected="false">other</button>
+                                            <button style="color: black;" class="nav-links" id="oth-tab" data-bs-toggle="tab" data-bs-target="#oth-tab-pane" type="button" role="tab" aria-controls="oth-tab-pane" aria-selected="false">other</button>
                                         </li>
                                     </ul>
                                 </div>

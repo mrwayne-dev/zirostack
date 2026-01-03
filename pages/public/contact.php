@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../config/constants.php';
 
-$pageTitle = "Team – Zirostack";
+$pageTitle = "Contact – Zirostack";
 $useTemplateAssets = true;
 ?>
 
@@ -31,7 +31,7 @@ $useTemplateAssets = true;
                             <div class="col-lg-8">
                                 <div class="tp-contact-us-top-wrapper p-relative">
                                     <div class="tp-contact-us-map">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193596.26002818075!2d-74.1443121872927!3d40.69728463485858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1745055504744!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63611.57343505697!2d6.9635970187655!3d4.81749473954739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cea39f2c48e3%3A0x53562bdd7d8832db!2sPort%20Harcourt%2C%20Rivers!5e0!3m2!1sen!2sng!4v1767468334413!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </div>
                                     <div class="tp-contact-us-info">
                                         <div class="ar-about-funfact-wrap z-index-1 p-relative tp_fade_anim" data-delay=".5" data-bg-color="rgba(0, 74, 148, 0.9)">
@@ -47,7 +47,7 @@ $useTemplateAssets = true;
                                                     </div>
                                                     <div class="ar-about-funfact-item-content">
                                                         <p style="color: white;"> Call Us Directly</p>
-                                                        <a style="color: white;" class="tp-line-white" href="tel:2246767430">+(1) 224 676 7430</a>
+                                                        <a style="color: white;" class="tp-line-white" href="tel:08074581371">08074581371</a>
                                                     </div>
                                                 </div>
                                                 <div class="ar-about-funfact-item d-flex align-items-center">
@@ -58,7 +58,7 @@ $useTemplateAssets = true;
                                                     </div>
                                                     <div class="ar-about-funfact-item-content">
                                                         <p style="color: white;">Need Support?</p>
-                                                        <a style="color: white;" class="tp-line-white" href="mailto:acjon@studio.com">acjon@studio.com</a>
+                                                        <a style="color: white;" class="tp-line-white" href="mailto:support@zirostack.com">support@zirostack.com</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -112,10 +112,10 @@ $useTemplateAssets = true;
                                     <div class="tp-contact-us-form-wrapper">
                                         <div class="tp-contact-us-form-heading text-center mb-50">
                                             <span class="tp-contact-us-form-subtitle">Get In touch</span>
-                                            <h4 class="tp-contact-us-form-title">how we can help you?</h4>
+                                            <h4 class="tp-contact-us-form-title">How we can help you?</h4>
                                         </div>
                                         <div class="tp-contact-us-form-wrap">
-                                            <form id="contact-form" action="https://html.aqlova.com/acjon-prev/acjon/assets/mail.php" method="POST">
+                                            <form id="contact-form" action="#" method="POST">
                                                 <div class="row">
                                                     <div class="col-lg-6">
                                                         <div class="tp-contact-us-form-input mb-30">
@@ -131,26 +131,39 @@ $useTemplateAssets = true;
                                                     </div>
                                                     <div class="col-lg-6">
                                                         <div class="tp-contact-us-form-input mb-30">
-                                                            <label>Company</label>
-                                                            <input name="subject" type="text" placeholder="Ex. Microsoft ">
+                                                            <label>Type of Message</label>
+                                                            <select name="subject">
+                                                                <option value="" disabled selected>Select message type</option>
+                                                                <option value="inquiry">General Inquiry</option>
+                                                                <option value="support">Support</option>
+                                                                <option value="quote">Request a Quote</option>
+                                                            </select>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-6">
                                                         <div class="tp-contact-us-form-input mb-30">
-                                                            <label>Email Address*</label>
-                                                            <input name="number" type="text" placeholder="+92 854 453 ***">
+                                                            <label>Related Service</label>
+                                                            <select name="service">
+                                                                <option value="" disabled selected>Select a Service</option>
+                                                                <option value="web-design">Web Development</option>
+                                                                <option value="web-design">Product Development</option>
+                                                                <option value="seo">SEO Optimization</option>
+                                                                <option value="seo">Video Editing</option>
+                                                                <option value="marketing">Digital Marketing</option>
+                                                                <option value="marketing">Other</option>
+                                                            </select>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tp-contact-us-form-input mb-30">
-                                                            <label>Choose Needed Service</label>
-                                                            <input name="text" type="text" placeholder="Branding Design">
+                                                            <label>Subject</label>
+                                                            <input name="text" type="text" placeholder="What's this about?">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tp-contact-us-form-input mb-30">
-                                                            <label>Project Details</label>
-                                                            <textarea name="message" placeholder="Write to brief about project"></textarea>
+                                                            <label>Message</label>
+                                                            <textarea name="message" placeholder="Tell us more.."></textarea>
                                                         </div>
                                                         <div class="tp-contact-us-form-btn">
                                                             <button type="submit" class="tp-btn-green tp-btn-anim">

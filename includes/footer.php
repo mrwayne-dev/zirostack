@@ -1,6 +1,7 @@
 <?php
 // footer.php
 ?>
+                    
 
                         </div> <!-- /.row -->
                     </div> <!-- /.container-fluid -->
@@ -8,6 +9,7 @@
             </main>
         </div> <!-- /#smooth-content -->
     </div> <!-- /#smooth-wrapper -->
+    
 
     <?php include INCLUDES_PATH . '/template-js.php'; ?>
 

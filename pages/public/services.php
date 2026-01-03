@@ -279,6 +279,7 @@ $useTemplateAssets = true;
                 <!-- text slider end -->
 
 </div></div>
+
             
 
 <?php include INCLUDES_PATH . '/footer.php'; ?>

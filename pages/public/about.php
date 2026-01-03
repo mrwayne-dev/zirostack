@@ -45,15 +45,11 @@ $useTemplateAssets = true;
                                 <div class="col-lg-6">
                                     <div class="bnc-about-content">
                                         <div class="bnc-about-content-text">
-                                            <p class="tp-text-perspective">At Zirostack, we believe technology should feel intentional. Every product <br>
-                                                 we build, every system we architect, and every startup we support is guided by one principle: <br>
-                                                function must be beautiful, and beauty must serve purpose.
+                                            <p class="tp-text-perspective">At Zirostack, we believe technology should feel intentional. Every product
+                                                 we build, every system we architect, and every startup we support is guided by one principle: function must be beautiful, and beauty must serve purpose.
                                             </p>
                                             <p class="tp-text-perspective">
-                                             We don’t chase trends. We design timeless digital infrastructure — platforms that are <br>
-                                            clean, resilient, and scalable by design. Inspired by simplicity, precision, and human-centered service-details.html<br>
-                                            
-                                            thinking, we approach every project as a long-term asset, not a quick win.</p>
+                                             We don’t chase trends. We design timeless digital infrastructure platforms that are clean, resilient, and scalable by design. Inspired by simplicity, precision, and human-centered thinking, we approach every project as a long-term asset, not a quick win.</p>
                                         </div>
                                         <div class="bnc-about-content-btn-box d-flex">
                                             <div class="bnc-about-content-btn tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">

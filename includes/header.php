@@ -94,8 +94,8 @@ include "template-css.php";
                 <div class="tp-offcanvas-contact">
                     <h3 class="tp-offcanvas-title sm">Information</h3>
                     <ul>
-                        <li><a href="tel:1245654">08074581371</a></li>
-                        <li><a href="mailto:hello@acjon.com">support@zirostack.com</a></li>
+                        <li><a href="tel:08074581371">08074581371</a></li>
+                        <li><a href="mailto:support@zirostack.com">support@zirostack.com</a></li>
                     </ul>
                 </div>
                 <div class="tp-offcanvas-social">

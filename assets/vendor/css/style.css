@@ -778,9 +778,11 @@ input[type=color] {
   color: white;
   font-family: var(--tp-ff-bricolage);
   background-color: var(--tp-theme-primary);
+  transition: 0.3s all ease-in-out;
 }
 .tp-btn-green:hover {
-  color: var(--tp-common-black);
+  color: white;
+  background-color: var(--color-primary-hover);
 }
 .tp-btn-green:hover span svg {
   animation: tfLeftToRight 0.5s forwards;
@@ -11748,7 +11750,6 @@ body.tp-magic-cursor #magic-cursor {
 }
 .bnc-about-content-text p {
   font-size: 16px;
-  text-transform: capitalize;
   color: rgba(1, 1, 3, 0.8);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -16791,7 +16792,6 @@ body.tp-magic-cursor #magic-cursor {
   font-weight: 400;
   line-height: 1.42;
   letter-spacing: -0.48px;
-  text-transform: capitalize;
   color: var(--tp-common-black);
   font-family: var(--tp-ff-unbounded);
 }

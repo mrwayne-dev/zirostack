@@ -168,3 +168,62 @@ body, body * {
   color: var(--color-primary);
   transform: translateY(-1px);
 }
+/* Shared Styles (Keep this) */
+.tp-contact-us-form-input input, 
+.tp-contact-us-form-input textarea,
+.tp-contact-us-form-input select {
+  color: var(--tp-common-black);
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  height: 50px; 
+  padding: 0 20px; 
+  background: #f8f9fa;
+  border-radius: 4px; 
+}
+
+/* Focus State (Keep this) */
+.tp-contact-us-form-input input:focus, 
+.tp-contact-us-form-input textarea:focus,
+.tp-contact-us-form-input select:focus {
+  background-color: transparent;
+  outline: none; 
+  border-color: #000;
+}
+
+/* Label Styling (Keep this) */
+.tp-contact-us-form-input label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #030303;
+  margin-bottom: 10px;
+  display: block; 
+}
+
+/* NEW: Specific Textarea Override */
+.tp-contact-us-form-input textarea {
+  height: 180px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  resize: none;
+}
+/* Secondary / smaller team cards */
+.tp-team-item--sm {
+  transform: scale(0.82);
+}
+
+.tp-team-secondary {
+  margin-top: 40px;
+}
+
+/* Reduce content spacing slightly */
+.tp-team-item--sm .tp-team-content {
+  margin: 25px;
+}
+
+.tp-team-item--sm .tp-team-title {
+  font-size: 22px;
+}
+
+.tp-team-item--sm span {
+  font-size: 14px;
+}
