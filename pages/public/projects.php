@@ -12,23 +12,8 @@ $useTemplateAssets = true;
 
 <div class="col-xl-10 offset-xl-2">
     <div class="hr-border-wrap">
-
-
-
-
-
-
-
-
-
-
-<div id="smooth-wrapper">
-        <div id="smooth-content">
-
-            <main>
-
                 <!-- breadcrumb style 7 start -->
-                <div class="tp-breadcrumb-s7-ptb tp-breadcrumb-s8-style position-relative" style="background-color: gray;">
+                <div class="tp-breadcrumb-s7-ptb tp-breadcrumb-s8-style position-relative" style="background-color: white;">
                     <span class="tp-breadcrumb-s7-shape d-none d-xl-block" data-speed=".9">
                         <svg style="color: white;" width="113" height="123" viewBox="0 0 113 123" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M112 47.2999C105.185 51.2617 89.5377 57.5982 75.0023 57.7144M75.0023 57.7144C65.5616 57.7899 56.59 55.2414 50.8116 47.7142C43.4495 37.7336 36.607 15.9077 65.6044 2.44499C76.5432 -2.63361 87.4881 5.67159 83.3326 27.4117C82.0597 34.0713 79.9484 45.7292 75.0023 57.7144ZM75.0023 57.7144C70.6328 68.3022 64.0508 79.1454 53.8798 87.0237C42.976 95.4696 20.1437 104.7 3.43798 103.877M3.43798 103.877C2.60952 103.836 1.79613 103.77 1 103.679M3.43798 103.877C2.57068 103.775 1.75142 103.71 1 103.679M3.43798 103.877C11.9098 104.872 24.9659 109.446 24.152 122M1 103.679C6.29953 103.76 18.5389 98.8375 25.1004 78.4927M85.2188 67.6675C83.7138 72.7063 76.1105 89.0948 60.6553 96.4496" stroke="#010103" stroke-width="1.5" />
@@ -38,7 +23,7 @@ $useTemplateAssets = true;
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="tp-breadcrumb-s7-title-wrap mb-35">
-                                    <h4 style="color: white;" class="tp-breadcrumb-s7-title text-uppercase tp-split-title">Our Creative<br>
+                                    <h4 style="color: black;" class="tp-breadcrumb-s7-title text-uppercase tp-split-title">Our Creative<br>
                                         <span class="mr-20">
                                             <svg width="59" height="54" viewBox="0 0 59 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M0 0H58.3784V51.0811L0 0Z" fill="#010103" />

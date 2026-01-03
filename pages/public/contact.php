@@ -7,10 +7,10 @@ $useTemplateAssets = true;
 
 <?php include INCLUDES_PATH . '/header.php'; ?>
 
-<div class="col-xl-10 offset-xl-2">
+<div class="col-xl-10 offset-xl-2" style="background-color: white;">
 
 <!-- contact top area start -->
-                 <div class="tp-contact-us-top-ptb pt-200 pb-80">
+                 <div class="tp-contact-us-top-ptb pt-200 pb-80" style="background-color: white;">
                     <div class="container container-1480">
                         <div class="row">
                             <div class="col-lg-4">
@@ -34,76 +34,64 @@ $useTemplateAssets = true;
                                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193596.26002818075!2d-74.1443121872927!3d40.69728463485858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1745055504744!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </div>
                                     <div class="tp-contact-us-info">
-                                        <div class="ar-about-funfact-wrap z-index-1 p-relative tp_fade_anim" data-delay=".5" data-bg-color="#c9f31d">
+                                        <div class="ar-about-funfact-wrap z-index-1 p-relative tp_fade_anim" data-delay=".5" data-bg-color="rgba(0, 74, 148, 0.9)">
                                             <div class="ar-about-funfact-content">
-                                                <h4>Get <br> In Touch!</h4>
+                                                <h4 style="color: white;">Get <br> In Touch!</h4>
                                             </div>
                                             <div class="ar-about-funfact-item-box mb-35">
                                                 <div class="ar-about-funfact-item d-flex align-items-center">
                                                     <div class="ar-about-funfact-item-icon">
-                                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                                            <path d="M15.6212 8.75008C15.1911 8.75008 14.851 8.40009 14.851 7.98009C14.851 7.61009 14.4809 6.84009 13.8607 6.17009C13.2505 5.52009 12.5804 5.14009 12.0202 5.14009C11.5901 5.14009 11.25 4.79009 11.25 4.3701C11.25 3.9501 11.6001 3.6001 12.0202 3.6001C13.0205 3.6001 14.0708 4.1401 14.991 5.11009C15.8513 6.02009 16.4014 7.15009 16.4014 7.97009C16.4014 8.40009 16.0513 8.75008 15.6212 8.75008Z" fill="black" />
-                                                            <path d="M19.23 8.74998C18.7999 8.74998 18.4598 8.39998 18.4598 7.97998C18.4598 4.42999 15.569 1.55 12.028 1.55C11.5979 1.55 11.2578 1.2 11.2578 0.779998C11.2578 0.359999 11.5979 0 12.018 0C16.4192 0 20.0002 3.57999 20.0002 7.97998C20.0002 8.39998 19.6501 8.74998 19.23 8.74998Z" fill="black" />
-                                                            <path opacity="0.4" d="M9.79269 12.21L6.52179 15.48C6.1617 15.16 5.8116 14.83 5.4715 14.49C4.44122 13.45 3.51097 12.36 2.68074 11.22C1.86051 10.08 1.20033 8.93998 0.720198 7.80998C0.240066 6.66998 0 5.57999 0 4.53999C0 3.85999 0.120033 3.20999 0.360099 2.60999C0.600165 2 0.98027 1.44 1.51042 0.939998C2.15059 0.309999 2.85078 0 3.59099 0C3.87106 0 4.15114 0.0599999 4.40121 0.18C4.66128 0.299999 4.89135 0.479999 5.07139 0.739998L7.39203 4.00999C7.57208 4.25999 7.70212 4.48999 7.79214 4.70999C7.88217 4.91999 7.93218 5.12999 7.93218 5.31999C7.93218 5.55999 7.86216 5.79999 7.72212 6.02999C7.59209 6.25998 7.40204 6.49998 7.16197 6.73998L6.40176 7.52998C6.29173 7.63998 6.24172 7.76998 6.24172 7.92998C6.24172 8.00998 6.25172 8.07998 6.27173 8.15998C6.30173 8.23998 6.33174 8.29998 6.35175 8.35998C6.5318 8.68998 6.84188 9.11998 7.282 9.63998C7.73213 10.16 8.21226 10.69 8.7324 11.22C9.0925 11.57 9.4426 11.91 9.79269 12.21Z" fill="black" />
-                                                            <path d="M19.975 16.33C19.975 16.61 19.9249 16.9 19.8249 17.18C19.7949 17.26 19.7649 17.34 19.7249 17.42C19.5548 17.78 19.3348 18.12 19.0447 18.44C18.5546 18.98 18.0144 19.37 17.4043 19.62C17.3943 19.62 17.3843 19.63 17.3742 19.63C16.7841 19.87 16.1439 20 15.4537 20C14.4334 20 13.3431 19.76 12.1928 19.27C11.0425 18.78 9.89219 18.12 8.75188 17.29C8.36177 17 7.97166 16.71 7.60156 16.4L10.8725 13.13C11.1525 13.34 11.4026 13.5 11.6127 13.61C11.6627 13.63 11.7227 13.66 11.7927 13.69C11.8727 13.72 11.9528 13.73 12.0428 13.73C12.2128 13.73 12.3429 13.67 12.4529 13.56L13.2131 12.81C13.4632 12.56 13.7032 12.37 13.9333 12.25C14.1634 12.11 14.3934 12.04 14.6435 12.04C14.8335 12.04 15.0336 12.08 15.2537 12.17C15.4737 12.26 15.7038 12.39 15.9539 12.56L19.2648 14.91C19.5248 15.09 19.7049 15.3 19.8149 15.55C19.9149 15.8 19.975 16.05 19.975 16.33Z" fill="black" />
-                                                        </svg>
+                                                        <span>
+                                                            <i style="color: white; font-size: 2rem;" class="ph ph-phone"></i>
                                                         </span>
                                                     </div>
                                                     <div class="ar-about-funfact-item-content">
-                                                        <p> Call Us Directly</p>
-                                                        <a class="tp-line-white" href="tel:2246767430">+(1) 224 676 7430</a>
+                                                        <p style="color: white;"> Call Us Directly</p>
+                                                        <a style="color: white;" class="tp-line-white" href="tel:2246767430">+(1) 224 676 7430</a>
                                                     </div>
                                                 </div>
                                                 <div class="ar-about-funfact-item d-flex align-items-center">
                                                     <div class="ar-about-funfact-item-icon">
-                                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="21" height="18" viewBox="0 0 21 18" fill="none">
-                                                            <path d="M17.9879 5.13992C19.4073 5.13992 20.5579 3.98931 20.5579 2.56996C20.5579 1.15061 19.4073 0 17.9879 0C16.5686 0 15.418 1.15061 15.418 2.56996C15.418 3.98931 16.5686 5.13992 17.9879 5.13992Z" fill="black" />
-                                                            <path d="M17.9879 5.13992C19.4073 5.13992 20.5579 3.98931 20.5579 2.56996C20.5579 1.15061 19.4073 0 17.9879 0C16.5686 0 15.418 1.15061 15.418 2.56996C15.418 3.98931 16.5686 5.13992 17.9879 5.13992Z" fill="black" />
-                                                            <path opacity="0.4" d="M19.2439 6.48673C19.8915 6.28113 20.5597 6.78485 20.5597 7.4736V12.8602C20.5597 16.4582 18.5037 18.0001 15.4198 18.0001H5.13992C2.05597 18.0001 0 16.4582 0 12.8602V5.66434C0 2.06639 2.05597 0.524414 5.13992 0.524414H12.9629C13.6311 0.524414 14.0834 1.14122 13.96 1.78885C13.8367 2.39536 13.8572 3.04298 14.0423 3.71117C14.4226 5.08867 15.5431 6.18861 16.9206 6.5484C17.7327 6.754 18.5243 6.71288 19.2439 6.48673Z" fill="black" />
-                                                            <path d="M10.2809 10.1461C9.41737 10.1461 8.54359 9.87884 7.8754 9.33401L4.65781 6.76405C4.32885 6.49677 4.26718 6.01362 4.53445 5.68466C4.80173 5.35571 5.28487 5.29403 5.61382 5.56131L8.83142 8.13127C9.61269 8.75834 10.9388 8.75834 11.7201 8.13127L12.9331 7.16496C13.262 6.89768 13.7555 6.94908 14.0125 7.28831C14.2797 7.61727 14.2284 8.1107 13.8891 8.3677L12.6761 9.33401C12.0182 9.87884 11.1444 10.1461 10.2809 10.1461Z" fill="black" />
-                                                        </svg>
+                                                        <span>
+                                                            <i style="color: white; font-size: 2rem;" class="ph ph-envelope-simple"></i>
                                                         </span>
                                                     </div>
                                                     <div class="ar-about-funfact-item-content">
-                                                        <p>Need Support?</p>
-                                                        <a class="tp-line-white" href="mailto:acjon@studio.com">acjon@studio.com</a>
-                                                    </div>
-                                                </div>
-                                                <div class="ar-about-funfact-item d-flex align-items-center">
-                                                    <div class="ar-about-funfact-item-icon">
-                                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                                            <path opacity="0.4" d="M16.4698 14.83L16.8598 17.99C16.9598 18.82 16.0698 19.4 15.3598 18.97L11.1698 16.48C10.7098 16.48 10.2599 16.45 9.81985 16.39C10.5599 15.52 10.9998 14.42 10.9998 13.23C10.9998 10.39 8.53985 8.09003 5.49985 8.09003C4.33985 8.09003 3.26985 8.42 2.37985 9C2.34985 8.75 2.33984 8.49999 2.33984 8.23999C2.33984 3.68999 6.28985 0 11.1698 0C16.0498 0 19.9998 3.68999 19.9998 8.23999C19.9998 10.94 18.6098 13.33 16.4698 14.83Z" fill="black" />
-                                                            <path d="M11 13.2298C11 14.4198 10.56 15.5198 9.82001 16.3898C8.83001 17.5898 7.26 18.3598 5.5 18.3598L2.89 19.9098C2.45 20.1798 1.89 19.8098 1.95 19.2998L2.2 17.3298C0.859997 16.3998 0 14.9098 0 13.2298C0 11.4698 0.940005 9.91982 2.38 8.99982C3.27 8.41982 4.34 8.08984 5.5 8.08984C8.54 8.08984 11 10.3898 11 13.2298Z" fill="black" />
-                                                        </svg>
-                                                        </span>
-                                                    </div>
-                                                    <div class="ar-about-funfact-item-content">
-                                                        <a class="tp-line-white" href="contact-us.html">Start Chat</a>
+                                                        <p style="color: white;">Need Support?</p>
+                                                        <a style="color: white;" class="tp-line-white" href="mailto:acjon@studio.com">acjon@studio.com</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="ar-about-funfact-item-bottom">
-                                                <p>See our <span>Refund Policies</span> or <a href="faq.html">FAQ</a></p>
+                                                <p style="color: white;">Check out our socials</p>
                                             </div>
                                             <div class="ar-about-funfact-item-social">
-                                                <a href="contact-us.html#"><span><svg xmlns="http://www.w3.org/2000/svg" width="5" height="11" viewBox="0 0 5 11" fill="none">
-                                                <path d="M1.1313 6.43027V11H3.11964V6.43027H4.60233L4.91087 4.3291H3.11964V3.58574C3.11964 2.475 3.4676 2.04961 4.36579 2.04961C4.64518 2.04961 4.86973 2.0582 5 2.07539V0.169727C4.75489 0.0859375 4.15495 0 3.80871 0C1.97635 0 1.1313 1.08496 1.1313 3.42461V4.3291H0V6.43027H1.1313Z" fill="currentColor"/>
-                                                </svg></span></a>
-                                                <a href="contact-us.html#">
-                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
-                                                    <path d="M9.4498 0H11.2907L7.26988 4.65913L12 11H8.29726L5.39505 7.15529L2.07823 11H0.234681L4.53455 6.01562L0 0H3.79661L6.41721 3.51418L9.4498 0ZM8.80313 9.88413H9.82269L3.2412 1.05769H2.14602L8.80313 9.88413Z" fill="currentColor"/>
-                                                    </svg></span>
+                                                <a href="https://www.facebook.com/share/1C2PozCQY7/">
+                                                    <span>
+                                                            <i class="ph ph-facebook-logo"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="https://www.instagram.com/zirostack?igsh=a3U0dXM5endjN2pt">
+                                                    <span>
+                                                            <i class="ph ph-instagram-logo"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="https://x.com/zirostack">
+                                                    <span>
+                                                            <i class="ph ph-twitter-logo"></i>
+                                                    </span>
+                                                </a>
+                                                <a href="https://www.tiktok.com/@zirostack_tech?_r=1&_t=ZS-92kOUaSzdhs">
+                                                    <span>
+                                                            <i class="ph ph-tiktok-logo"></i>
+                                                    </span>
                                                 </a>
                                                 <a href="contact-us.html#">
-                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
-                                                    <path d="M6.00134 2.67974C4.29872 2.67974 2.92538 3.93892 2.92538 5.5C2.92538 7.06108 4.29872 8.32026 6.00134 8.32026C7.70396 8.32026 9.0773 7.06108 9.0773 5.5C9.0773 3.93892 7.70396 2.67974 6.00134 2.67974ZM6.00134 7.33354C4.90106 7.33354 4.00156 6.51127 4.00156 5.5C4.00156 4.48873 4.89838 3.66646 6.00134 3.66646C7.10429 3.66646 8.00112 4.48873 8.00112 5.5C8.00112 6.51127 7.10162 7.33354 6.00134 7.33354ZM9.92058 2.56438C9.92058 2.9301 9.59933 3.22219 9.20312 3.22219C8.80424 3.22219 8.48567 2.92765 8.48567 2.56438C8.48567 2.2011 8.80692 1.90656 9.20312 1.90656C9.59933 1.90656 9.92058 2.2011 9.92058 2.56438ZM11.9578 3.23201C11.9123 2.35083 11.6928 1.57029 10.9887 0.927201C10.2873 0.284112 9.43603 0.0828406 8.47496 0.0386589C7.48444 -0.0128863 4.51556 -0.0128863 3.52504 0.0386589C2.56665 0.080386 1.71534 0.281658 1.01127 0.924746C0.307195 1.56783 0.0903514 2.34838 0.042164 3.22955C-0.0140547 4.13773 -0.0140547 6.85981 0.042164 7.76799C0.0876743 8.64917 0.307195 9.42971 1.01127 10.0728C1.71534 10.7159 2.56397 10.9172 3.52504 10.9613C4.51556 11.0129 7.48444 11.0129 8.47496 10.9613C9.43603 10.9196 10.2873 10.7183 10.9887 10.0728C11.6901 9.42971 11.9096 8.64917 11.9578 7.76799C12.0141 6.85981 12.0141 4.14019 11.9578 3.23201ZM10.6782 8.74244C10.4694 9.22353 10.0651 9.59416 9.53776 9.78807C8.74802 10.0753 6.87407 10.009 6.00134 10.009C5.12861 10.009 3.25198 10.0728 2.46492 9.78807C1.94021 9.59662 1.53597 9.22598 1.32448 8.74244C1.01127 8.01835 1.08355 6.30018 1.08355 5.5C1.08355 4.69982 1.01394 2.97919 1.32448 2.25756C1.5333 1.77647 1.93753 1.40584 2.46492 1.21193C3.25466 0.924746 5.12861 0.991019 6.00134 0.991019C6.87407 0.991019 8.7507 0.927201 9.53776 1.21193C10.0625 1.40338 10.4667 1.77402 10.6782 2.25756C10.9914 2.98165 10.9191 4.69982 10.9191 5.5C10.9191 6.30018 10.9914 8.02081 10.6782 8.74244Z" fill="currentColor"/>
-                                                    </svg></span>
+                                                    <span>
+                                                            <i class="ph ph-linkedin-logo"></i>
+                                                    </span>
                                                 </a>
-                                                <a href="contact-us.html#">
-                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
-                                                    <path d="M2.46272 11H0.181696V3.65603H2.46272V11ZM1.32098 2.65424C0.591741 2.65424 0 2.05022 0 1.32098C0 0.970636 0.139174 0.634639 0.386907 0.386907C0.634639 0.139174 0.970636 0 1.32098 0C1.67133 0 2.00733 0.139174 2.25506 0.386907C2.50279 0.634639 2.64196 0.970636 2.64196 1.32098C2.64196 2.05022 2.05022 2.65424 1.32098 2.65424ZM8.72143 11V7.425C8.72143 6.57299 8.70424 5.48036 7.53549 5.48036C6.34955 5.48036 6.16786 6.40603 6.16786 7.36362V11H3.88929V3.65603H6.07701V4.65781H6.10893C6.41339 4.0808 7.15737 3.47187 8.26719 3.47187C10.5752 3.47187 11 4.99174 11 6.96585V11H8.72143Z" fill="currentColor"/>
-                                                    </svg></span>
-                                                </a>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -113,123 +101,6 @@ $useTemplateAssets = true;
                     </div>
                  </div>
                 <!-- contact top area end -->
-
-                
-                <!-- contact area start -->
-                <div class="tp-contact-us-ptb pb-160">
-                    <div class="container container-1480">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="cn-contact-info-item mb-30">
-                                    <div class="row">
-                                        <div class="col-xl-7">
-                                            <div class="cn-contact-left d-flex flex-wrap align-items-center">
-                                                <div class="cn-contact-info-thumb">
-                                                <img src="assets/img/inner-image/contact/thumb-1.jpg" alt="">
-                                                </div>
-                                                <div class="cn-contact-left-info">
-                                                <h4 class="cn-contact-left-title">France</h4>
-                                                <span>
-                                                    <i class="fa-regular fa-clock"></i>
-                                                    12:00 pm GMT+2
-                                                </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-5">
-                                            <div class="cn-contact-right-wrap d-flex align-items-start justify-content-between">
-                                                <div class="cn-contact-right">
-                                                <div class="cn-contact-location">
-                                                    <span class="cn-contact-location-title">Base Create</span>
-                                                    <a href="https://www.google.com/maps" target="_blank">Base Creative, 43 Appleton <br> Lane, 3287 Hamilton</a>
-                                                </div>
-                                                <div class="cn-contact-map">
-                                                    <a href="contact-us.html#">Google Maps</a>
-                                                </div>
-                                                </div>
-                                                <div class="cn-contact-right-info text-start text-md-end">
-                                                <a href="tel:(+91)76001726">(+91) 76001726</a> <br>
-                                                <a href="mailto:Hello@contact.com">Hello@contact.com</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cn-contact-info-item mb-30">
-                                    <div class="row">
-                                        <div class="col-xl-7">
-                                            <div class="cn-contact-left d-flex flex-wrap align-items-center">
-                                                <div class="cn-contact-info-thumb">
-                                                <img src="assets/img/inner-image/contact/thumb-2.jpg" alt="">
-                                                </div>
-                                                <div class="cn-contact-left-info">
-                                                <h4 class="cn-contact-left-title">Germany</h4>
-                                                <span>
-                                                    <i class="fa-regular fa-clock"></i>
-                                                    12:00 pm GMT+2
-                                                </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-5">
-                                            <div class="cn-contact-right-wrap d-flex align-items-start justify-content-between">
-                                                <div class="cn-contact-right">
-                                                <div class="cn-contact-location">
-                                                    <span class="cn-contact-location-title">Base Create</span>
-                                                    <a href="https://www.google.com/maps" target="_blank">Base Creative, 43 Appleton <br> Lane, 3287 Hamilton</a>
-                                                </div>
-                                                <div class="cn-contact-map">
-                                                    <a href="contact-us.html#">Google Maps</a>
-                                                </div>
-                                                </div>
-                                                <div class="cn-contact-right-info text-start text-md-end">
-                                                <a href="tel:(+91)76001726">(+91) 76001726</a> <br>
-                                                <a href="mailto:Hello@contact.com">Hello@contact.com</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cn-contact-info-item">
-                                    <div class="row">
-                                        <div class="col-xl-7">
-                                            <div class="cn-contact-left d-flex flex-wrap align-items-center">
-                                                <div class="cn-contact-info-thumb">
-                                                <img src="assets/img/inner-image/contact/thumb-3.jpg" alt="">
-                                                </div>
-                                                <div class="cn-contact-left-info">
-                                                <h4 class="cn-contact-left-title">New Zealand</h4>
-                                                <span>
-                                                    <i class="fa-regular fa-clock"></i>
-                                                    12:00 pm GMT+2
-                                                </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-5">
-                                            <div class="cn-contact-right-wrap d-flex align-items-start justify-content-between">
-                                                <div class="cn-contact-right">
-                                                <div class="cn-contact-location">
-                                                    <span class="cn-contact-location-title">Base Create</span>
-                                                    <a href="https://www.google.com/maps" target="_blank">Base Creative, 43 Appleton <br> Lane, 3287 Hamilton</a>
-                                                </div>
-                                                <div class="cn-contact-map">
-                                                    <a href="contact-us.html#">Google Maps</a>
-                                                </div>
-                                                </div>
-                                                <div class="cn-contact-right-info text-start text-md-end">
-                                                <a href="tel:(+91)76001726">(+91) 76001726</a> <br>
-                                                <a href="mailto:Hello@contact.com">Hello@contact.com</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- contact area end -->
 
                 
                 <!-- contact us area start -->

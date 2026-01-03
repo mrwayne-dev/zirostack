@@ -8,8 +8,6 @@ $useTemplateAssets = true;
 <?php include INCLUDES_PATH . '/header.php'; ?>
 <div class="col-xl-10 offset-xl-2">
     <div class="hr-border-wrap">
-
-
 <!-- service area start -->
                 <div class="tp-service-area tp-item-anime-area-md tp-fixed-title-wrap position-relative tp-about-dgm-ptb pt-120 pb-130" style="background-color: white;">
                     <span class="tp-service-inner-2-shape" data-speed="1.1">
@@ -17,7 +15,7 @@ $useTemplateAssets = true;
                             <path d="M108 45.004C101.431 48.7694 86.3472 54.7917 72.3355 54.9021M72.3355 54.9021C63.2351 54.9739 54.5867 52.5518 49.0166 45.3978C41.9197 35.9121 35.3239 15.1685 63.2763 2.37334C73.8209 -2.45343 84.3714 5.43994 80.3657 26.102C79.1386 32.4314 77.1035 43.5113 72.3355 54.9021ZM72.3355 54.9021C68.1235 64.9649 61.7787 75.2705 51.9743 82.7581C41.4633 90.7852 19.4538 99.558 3.35013 98.7752M3.35013 98.7752C2.55152 98.7364 1.76744 98.6741 1 98.587M3.35013 98.7752C2.51408 98.6783 1.72434 98.6171 1 98.587M3.35013 98.7752C11.5166 99.7216 24.1022 104.069 23.3176 116M1 98.587C6.10855 98.6647 17.9069 93.9861 24.2319 74.6501M82.1839 64.3617C80.7331 69.1506 73.4038 84.7265 58.5056 91.7165" stroke="#010103" stroke-width="1.5" />
                         </svg>
                     </span>
-                    <h2 class="tp-service-inner-2-bigtext tp-item-anime-md marque d-none d-lg-block">Our service</h2>
+                    <!-- <h2 class="tp-service-inner-2-bigtext tp-item-anime-md marque d-none d-lg-block">Our service</h2> -->
                     <div class="container container-1510">
                         <div class="row">
                             <div class="col-lg-4">
@@ -267,12 +265,12 @@ $useTemplateAssets = true;
                         <div class="swiper-wrapper slide-transtion">
                             <div class="swiper-slide">
                                 <div class="tp-copyright-slider-item d-flex align-items-center">
-                                    <p>Experiences That Connect & Convert</p>
+                                    <p style="color: #1d2e5e;">Experiences That Connect & Convert</p>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="tp-copyright-slider-item d-flex align-items-center">
-                                    <p>Experiences That Connect & Convert</p>
+                                    <p style="color: #1d2e5e;">Experiences That Connect & Convert</p>
                                 </div>
                             </div>
                         </div>

@@ -12146,7 +12146,7 @@ body.tp-magic-cursor #magic-cursor {
   text-align: center;
   border-radius: 50%;
   place-content: center;
-  background-color: #DFAE4F;
+  background-color: var(--color-surface-cr);
 }
 .tp-about-funfact-circle span {
   color: #000;
@@ -12162,6 +12162,7 @@ body.tp-magic-cursor #magic-cursor {
   position: absolute;
   top: 180px;
   right: 70px;
+  background-color: var(--color-primary);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-about-funfact-circle.style-2 {
@@ -12799,7 +12800,7 @@ body.tp-magic-cursor #magic-cursor {
   display: inline-grid;
   place-content: center;
   border-radius: 50px;
-  border: 1px solid rgba(1, 1, 3, 0.1);
+  border: 1px solid white;
 }
 .ar-about-funfact-item-content p {
   margin: 0;
@@ -12825,20 +12826,23 @@ body.tp-magic-cursor #magic-cursor {
   gap: 10px;
   display: flex;
 }
-.ar-about-funfact-item-social a {
+.ar-about-funfact-item-social a i {
   display: grid;
-  height: 32px;
-  width: 32px;
-  text-align: center;
-  border-radius: 50px;
+  height: 40px; /* Increased size slightly to fit the icon + padding */
+  width: 40px;
   place-content: center;
-  color: var(--tp-common-black);
-  border: 1px solid rgba(1, 1, 3, 0.1);
+  border-radius: 50%; /* 50% is safer for a perfect circle */
+  border: 1px solid white;
+  color: white; /* Base color moved from inline to here */
+  font-size: 2rem; /* Adjusted so icon doesn't hit the borders */
+  transition: all 0.3s ease;
 }
-.ar-about-funfact-item-social a:hover {
-  color: var(--tp-common-black);
-  border-color: var(--tp-common-black);
-  background-color: var(--tp-common-black);
+
+/* This will now work because there is no inline style blocking it */
+.ar-about-funfact-item-social a:hover i {
+  color: rgb(0, 74, 148);
+  background-color: white;
+  border-color: white;
 }
 
 .tp-about-me-hero-ptb {
@@ -16042,12 +16046,12 @@ body.tp-magic-cursor #magic-cursor {
   padding: 37px 60px 31px;
 }
 .ca-award-item:hover .ca-award-year, .ca-award-item:hover .ca-award-text, .ca-award-item:hover .ca-award-position {
-  color: #010103;
+  color: white;
 }
 .ca-award-item:hover .ca-award-icon {
   transform: rotate(-45deg);
-  color: var(--tp-common-white);
-  background-color: var(--tp-common-black);
+  color: var(--tp-common-black);
+  background-color: var(--tp-common-white);
 }
 .ca-award-item:hover::after {
   height: 100%;
@@ -17821,7 +17825,12 @@ body.tp-magic-cursor #magic-cursor {
   opacity: 0;
   transition: 0.4s;
   visibility: hidden;
-  background: linear-gradient(180deg, rgba(117, 141, 17, 0) 41.21%, #c9f31d 100%);
+  background: linear-gradient(
+  180deg,
+  rgba(0, 94, 188, 0) 41.21%,
+  rgba(0, 94, 188, 0.9) 100%
+);
+
 }
 .tp-team-content {
   position: absolute;
