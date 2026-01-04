@@ -3,6 +3,7 @@ require_once __DIR__ . '/../../config/constants.php';
 
 $pageTitle = "Zirostack";
 $useTemplateAssets = true; 
+$current_page = 'home';
 ?>
 
 <!DOCTYPE html>
@@ -62,7 +63,8 @@ $useTemplateAssets = true;
                                                         <div class="hr-hero-play-btn-wrap mb-35">
                                                             <a class="hr-hero-play-btn popup-video video-animetion" href="https://www.youtube.com/watch?v=VCPGMjCW0is">
                                                                 <span>
-                                                                    <svg width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <svg viewBox="0 0 24 28" xmlns="http://www.w3.org/2000/svg">
+
                                                                         <path d="M24 14L6.02284e-07 27.8564L1.81365e-06 0.143593L24 14Z" fill="#010103" />
                                                                     </svg>
                                                                 </span>
@@ -972,24 +974,10 @@ $useTemplateAssets = true;
                                             
                                     </div>
                                 </div>
-
-
-                                
-
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                
-
-            </main>
-
-        </div>
-    </div>
 
 
-    <?php include INCLUDES_PATH . '/template-js.php'; ?>
+    <?php include INCLUDES_PATH . '/footer.php'; ?>
 
 </body>
 

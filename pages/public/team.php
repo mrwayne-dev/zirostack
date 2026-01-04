@@ -3,11 +3,46 @@ require_once __DIR__ . '/../../config/constants.php';
 
 $pageTitle = "Team – Zirostack";
 $useTemplateAssets = true;
+$current_page = 'team';
 ?>
 
 <?php include INCLUDES_PATH . '/header.php'; ?>
 <!-- PAGE CONTENT COLUMN -->
 <div class="col-xl-10 offset-xl-2">
+            <!-- header area start -->
+                            <div id="header-sticky" class="tp-header-area tp-header-ptb tp-header-blur sticky-black-bg header-transparent" >
+                                <div class="container-fluid">
+                                    <div class="tp-header-hr-main">
+                                        <div class="col-xl-10 offset-xl-2">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-6">
+                                                    <div class="tp-header-hr-logo d-xl-none">
+                                                        <a href="/">
+                                                            <!-- <img data-width="120" src="/assets/vendor/img/logo/logo-white.png" alt=""> -->
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-8 col-6">
+                                                    <div class="tp-header-right text-end">
+                                                        <div class="tp-header-14-bar-wrap" style="color: #000000; border-color: #000000;"" >
+                                                            <button class="tp-header-8-bar tp-offcanvas-open-btn" style="color: #000000; border-color: #000000;">
+                                                                <span style="color: #000000;">Menu</span>
+                                                                <span style="color: #000000;">
+                                                                    <svg style="color: #000000;" width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M0 0H14V1.5H0V0Z" fill="currentcolor" />
+                                                                        <path d="M0 6H24V7.5H0V6Z" fill="currentcolor" />
+                                                                    </svg>
+                                                                </span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- header area end -->
 
     <!-- hero area start -->
                 <div class="sa-hero-ptb fix pt-180 pb-30" style="background-color: white;">
@@ -16,13 +51,13 @@ $useTemplateAssets = true;
                             <div class="swiper-wrapper slide-transtion">
                                 <div class="swiper-slide">
                                     <div class="sa-hero-text-item">
-                                        <h3 class="sa-hero-text-title"><a href="team-details.html">Our Creative Team</a></h3>
+                                        <h3 class="sa-hero-text-title"><a href="/contact">Our Creative Team</a></h3>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="sa-hero-text-btn circle-btn-pos">
-                            <a class="tp-btn-circle z-index-1" href="team-details.html">
+                            <a class="tp-btn-circle z-index-1" href="/contact">
                                 <span>
                                     <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 13L13 2L3.85071 3.35308" stroke="currentcolor" stroke-width="1.5"></path>
@@ -47,9 +82,6 @@ $useTemplateAssets = true;
                                                 and Purpose
                                             </h3>
                                         </div>
-                                        <div class="sa-hero-shape">
-                                            <img src="assets/img/startup-agancy/hero/hero-shape.png" alt="">
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -69,7 +101,7 @@ $useTemplateAssets = true;
                                             <img src="/assets/images/background/aboutsection1.avif" alt="">
                                         </div>
                                         <div class="tp-team-content">
-                                            <h4 class="tp-team-title"><a class="tp-line-black" href="team-details.html">Emily Carter</a></h4>
+                                            <h4 class="tp-team-title">Emily Carter</h4>
                                             <span>SEO Specialist</span>
                                         </div>
                                         <div class="tp-team-social">
@@ -110,7 +142,7 @@ $useTemplateAssets = true;
                                             <img src="/assets/images/background/aboutsection1.avif" alt="">
                                         </div>
                                         <div class="tp-team-content">
-                                            <h4 class="tp-team-title"><a class="tp-line-black" href="team-details.html">Daniel Brooks</a></h4>
+                                            <h4 class="tp-team-title">Daniel Brooks</h4>
                                             <span>Marketing Expert</span>
                                         </div>
                                         <div class="tp-team-social">
@@ -151,7 +183,7 @@ $useTemplateAssets = true;
                                             <img src="/assets/images/background/aboutsection1.avif" alt="">
                                         </div>
                                         <div class="tp-team-content">
-                                            <h4 class="tp-team-title"><a class="tp-line-black" href="team-details.html">Emma Rhodes</a></h4>
+                                            <h4 class="tp-team-title">Emma Rhodes</h4>
                                             <span>APP Designer</span>
                                         </div>
                                         <div class="tp-team-social">
@@ -192,7 +224,7 @@ $useTemplateAssets = true;
                                             <img src="/assets/images/background/aboutsection1.avif" alt="">
                                         </div>
                                         <div class="tp-team-content">
-                                            <h4 class="tp-team-title"><a class="tp-line-black" href="team-details.html">Mason Blake</a></h4>
+                                            <h4 class="tp-team-title">Mason Blake</h4>
                                             <span>APP Designer</span>
                                         </div>
                                         <div class="tp-team-social">
@@ -235,7 +267,7 @@ $useTemplateAssets = true;
                                             <img src="/assets/images/background/aboutsection1.avif" alt="">
                                         </div>
                                         <div class="tp-team-content">
-                                            <h4 class="tp-team-title"><a class="tp-line-black" href="team-details.html">Emily Carter</a></h4>
+                                            <h4 class="tp-team-title">Emily Carter</h4>
                                             <span>SEO Specialist</span>
                                         </div>
                                         <div class="tp-team-social">
@@ -276,7 +308,7 @@ $useTemplateAssets = true;
                                             <img src="/assets/images/background/aboutsection1.avif" alt="">
                                         </div>
                                         <div class="tp-team-content">
-                                            <h4 class="tp-team-title"><a class="tp-line-black" href="team-details.html">Emily Carter</a></h4>
+                                            <h4 class="tp-team-title">Emily Carter</h4>
                                             <span>SEO Specialist</span>
                                         </div>
                                         <div class="tp-team-social">
@@ -317,7 +349,7 @@ $useTemplateAssets = true;
                                             <img src="/assets/images/background/aboutsection1.avif" alt="">
                                         </div>
                                         <div class="tp-team-content">
-                                            <h4 class="tp-team-title"><a class="tp-line-black" href="team-details.html">Emily Carter</a></h4>
+                                            <h4 class="tp-team-title">Emily Carter</h4>
                                             <span>SEO Specialist</span>
                                         </div>
                                         <div class="tp-team-social">
@@ -358,7 +390,7 @@ $useTemplateAssets = true;
                                             <img src="/assets/images/background/aboutsection1.avif" alt="">
                                         </div>
                                         <div class="tp-team-content">
-                                            <h4 class="tp-team-title"><a class="tp-line-black" href="team-details.html">Emily Carter</a></h4>
+                                            <h4 class="tp-team-title">Emily Carter</h4>
                                             <span>SEO Specialist</span>
                                         </div>
                                         <div class="tp-team-social">
@@ -538,4 +570,4 @@ $useTemplateAssets = true;
 </div>
 <!-- END PAGE CONTENT COLUMN -->
 
-<?php include INCLUDES_PATH . '/footer.php'; ?>
+    <?php include INCLUDES_PATH . '/footer.php'; ?>

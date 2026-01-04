@@ -41,12 +41,47 @@ include "template-css.php";
         <div class="hr-side-header-menu tp-header-dropdown">
             <nav class="tp-mobile-menu-active">
                 <ul>
-                    <li><a href="/pages/public/index.php">Home</a></li>
-                    <li><a href="/pages/public/about.php">About</a></li>
-                    <li><a href="/pages/public/projects.php">Projects</a></li>
-                    <li><a href="/pages/public/services.php">Services</a></li>
-                    <li><a href="/pages/public/team.php">Team</a></li>
-                    <li><a href="/pages/public/contact.php">Contact</a></li>
+                    <li>
+                        <a href="/"
+                        class="<?= ($current_page === 'home') ? 'active' : '' ?>">
+                        Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/about"
+                        class="<?= ($current_page === 'about') ? 'active' : '' ?>">
+                        About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/projects"
+                        class="<?= ($current_page === 'projects') ? 'active' : '' ?>">
+                        Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/services"
+                        class="<?= ($current_page === 'services') ? 'active' : '' ?>">
+                        Services
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/team"
+                        class="<?= ($current_page === 'team') ? 'active' : '' ?>">
+                        Team
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/contact"
+                        class="<?= ($current_page === 'contact') ? 'active' : '' ?>">
+                        Contact
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>

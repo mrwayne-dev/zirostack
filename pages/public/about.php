@@ -3,14 +3,50 @@ require_once __DIR__ . '/../../config/constants.php';
 
 $pageTitle = "About Us - Zirostack";
 $useTemplateAssets = true; 
+$current_page = 'about';
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <?php include INCLUDES_PATH . '/header.php'; ?>
 
+
 <div class="col-xl-10 offset-xl-2">
     <div class="hr-border-wrap">
+        <!-- header area start -->
+                            <div id="header-sticky" class="tp-header-area tp-header-ptb tp-header-blur sticky-black-bg header-transparent" >
+                                <div class="container-fluid">
+                                    <div class="tp-header-hr-main">
+                                        <div class="col-xl-10 offset-xl-2">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-6">
+                                                    <div class="tp-header-hr-logo d-xl-none">
+                                                        <a href="/">
+                                                            <!-- <img data-width="120" src="/assets/vendor/img/logo/logo-white.png" alt=""> -->
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-8 col-6">
+                                                    <div class="tp-header-right text-end">
+                                                        <div class="tp-header-14-bar-wrap" style="color: #000000; border-color: #000000;"" >
+                                                            <button class="tp-header-8-bar tp-offcanvas-open-btn" style="color: #000000; border-color: #000000;">
+                                                                <span style="color: #000000;">Menu</span>
+                                                                <span style="color: #000000;">
+                                                                    <svg style="color: #000000;" width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M0 0H14V1.5H0V0Z" fill="currentcolor" />
+                                                                        <path d="M0 6H24V7.5H0V6Z" fill="currentcolor" />
+                                                                    </svg>
+                                                                </span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- header area end -->
 
          <!-- about area start -->
                 <div class="bnc-about-ptb p-relative pt-100 pb-120" style="background-color: white;">
@@ -268,7 +304,7 @@ $useTemplateAssets = true;
                                     <span class="tp-section-subtitle ">// tools we employ in building/managing <br> digital products and startups</span>
                                     <h3 class="tp-section-title mb-45 tp-split-title">The services <br> we provide</h3>
                                     <div class="tp-service-btn tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">
-                                        <a class="tp-btn-green btn-black-bg tp-btn-anim btn-h-60" href="#">
+                                        <a class="tp-btn-green btn-black-bg tp-btn-anim btn-h-60" href="/contact">
                                             <div class="tp-btn-text"> Get a Quote </div>
                                             <span>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="8" viewBox="0 0 21 8" fill="none">
@@ -287,14 +323,14 @@ $useTemplateAssets = true;
                                                 <div class="tp-service-item-icon">
                                                     <img src="/assets/vendor/img/digital-agency/service/service-icon-1.png" alt="">
                                                 </div>
-                                                <h4 class="tp-service-item-title"><a class="tp-line-lr" href="service-details.html">Mobile App Development</a></h4>
+                                                <h4 class="tp-service-item-title">Mobile App Development</h4>
                                                 <p>
                                                    We develop reliable mobile applications that<br> 
                                                      deliver seamless performance across<br>
                                                   devices and in real-world usage scenarios.
                                                 </p>
                                                 <div class="tp-service-item-btn">
-                                                    <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
+                                                    <!-- <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
                                                         <div class="tp-btn-text">Read More</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -304,7 +340,7 @@ $useTemplateAssets = true;
                                                                <path d="M1.01301 10.9362L10.9225 1.65031L3.41074 2.83889" stroke="currentColor" stroke-width="1.5"/>
                                                            </svg>
                                                         </i>
-                                                    </a>
+                                                    </a> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -313,14 +349,14 @@ $useTemplateAssets = true;
                                                 <div class="tp-service-item-icon">
                                                     <img src="/assets/vendor/img/digital-agency/service/service-icon-2.png" alt="">
                                                 </div>
-                                                <h4 class="tp-service-item-title"><a class="tp-line-lr" href="service-details.html">Product Design (UI/UX)</a></h4>
+                                                <h4 class="tp-service-item-title">Product Design (UI/UX)</h4>
                                                 <p>
                                                     We design modern digital experiences <br> that  balance aesthetics
                                                      with usability.  <br>
                                                       built to convert users into loyal customers.
                                                 </p>
                                                 <div class="tp-service-item-btn">
-                                                    <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
+                                                    <!-- <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
                                                         <div class="tp-btn-text">Read More</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -330,7 +366,7 @@ $useTemplateAssets = true;
                                                                <path d="M1.01301 10.9362L10.9225 1.65031L3.41074 2.83889" stroke="currentColor" stroke-width="1.5"/>
                                                            </svg>
                                                         </i>
-                                                    </a>
+                                                    </a> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -339,14 +375,14 @@ $useTemplateAssets = true;
                                                 <div class="tp-service-item-icon">
                                                     <img src="/assets/vendor/img/digital-agency/service/service-icon-3.png" alt="">
                                                 </div>
-                                                <h4 class="tp-service-item-title"><a class="tp-line-lr" href="service-details.html">Web Development</a></h4>
+                                                <h4 class="tp-service-item-title">Web Development</h4>
                                                 <p>
                                                    Scalable, high-performance web applications <br>
                                                    tailored to business needs, and custom <br>
                                                     systems built for long-term growth.
                                                 </p>
                                                 <div class="tp-service-item-btn">
-                                                    <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
+                                                    <!-- <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
                                                         <div class="tp-btn-text">Read More</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -356,7 +392,7 @@ $useTemplateAssets = true;
                                                                <path d="M1.01301 10.9362L10.9225 1.65031L3.41074 2.83889" stroke="currentColor" stroke-width="1.5"/>
                                                            </svg>
                                                         </i>
-                                                    </a>
+                                                    </a> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -365,14 +401,14 @@ $useTemplateAssets = true;
                                                 <div class="tp-service-item-icon">
                                                     <img src="/assets/vendor/img/digital-agency/service/service-icon-4.png" alt="">
                                                 </div>
-                                                <h4 class="tp-service-item-title"><a class="tp-line-lr" href="service-details.html">Static Website Design</a></h4>
+                                                <h4 class="tp-service-item-title">Static Website Design</h4>
                                                 <p>
                                                     We create fast, modern, conversion-focused <br>
                                                      websites that reflect brand authority and work<br>
                                                       seamlessly across all screen sizes.
                                                 </p>
                                                 <div class="tp-service-item-btn">
-                                                    <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
+                                                    <!-- <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
                                                         <div class="tp-btn-text">Read More</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -382,7 +418,7 @@ $useTemplateAssets = true;
                                                                <path d="M1.01301 10.9362L10.9225 1.65031L3.41074 2.83889" stroke="currentColor" stroke-width="1.5"/>
                                                            </svg>
                                                         </i>
-                                                    </a>
+                                                    </a> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -391,14 +427,14 @@ $useTemplateAssets = true;
                                                 <div class="tp-service-item-icon">
                                                     <img src="/assets/vendor/img/digital-agency/service/service-icon-5.png" alt="">
                                                 </div>
-                                                <h4 class="tp-service-item-title"><a class="tp-line-lr" href="service-details.html">SEO</a></h4>
+                                                <h4 class="tp-service-item-title">SEO</h4>
                                                 <p>
                                                    We optimize websites and digital products for <br> 
                                                    search visibility, speed, and performance <br> 
                                                    helping  brands rank higher and convert better.
                                                 </p>
                                                 <div class="tp-service-item-btn">
-                                                    <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
+                                                    <!-- <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
                                                         <div class="tp-btn-text">Read More</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -408,7 +444,7 @@ $useTemplateAssets = true;
                                                                <path d="M1.01301 10.9362L10.9225 1.65031L3.41074 2.83889" stroke="currentColor" stroke-width="1.5"/>
                                                            </svg>
                                                         </i>
-                                                    </a>
+                                                    </a> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -417,14 +453,14 @@ $useTemplateAssets = true;
                                                 <div class="tp-service-item-icon">
                                                     <img src="/assets/vendor/img/digital-agency/service/service-icon-6.png" alt="">
                                                 </div>
-                                                <h4 class="tp-service-item-title"><a class="tp-line-lr" href="service-details.html">Brand Identity & Media</a></h4>
+                                                <h4 class="tp-service-item-title">Brand Identity & Media</h4>
                                                 <p>
                                                    We craft unique brand identities, color-  <br>
                                                    systems, typography, and design that Speak<br>
                                                    clarity, credibility, and long-term vision.
                                                 </p>
                                                 <div class="tp-service-item-btn">
-                                                    <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
+                                                    <!-- <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
                                                         <div class="tp-btn-text">Read More</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -434,7 +470,7 @@ $useTemplateAssets = true;
                                                                <path d="M1.01301 10.9362L10.9225 1.65031L3.41074 2.83889" stroke="currentColor" stroke-width="1.5"/>
                                                            </svg>
                                                         </i>
-                                                    </a>
+                                                    </a> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -463,7 +499,7 @@ $useTemplateAssets = true;
                                 </div>
                                 <div class="col-xl-6 col-lg-4">
                                     <div class="tp-team-btn text-lg-end tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">
-                                        <a class="tp-btn-green btn-black-bg tp-btn-anim btn-h-60" href="contact.html">
+                                        <a class="tp-btn-green btn-black-bg tp-btn-anim btn-h-60" href="/contact">
                                             <div class="tp-btn-text">Get in Touch</div>
                                             <span>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="8" viewBox="0 0 21 8" fill="none">
@@ -482,7 +518,7 @@ $useTemplateAssets = true;
                                         <img src="../../assets/images/test.jpg" alt="">
                                     </div>
                                     <div class="tp-team-content">
-                                        <h4 class="tp-team-title"><a class="tp-line-black" href="team-details.html">Tonye Williams</a></h4>
+                                        <h4 class="tp-team-title">Tonye Williams</h4>
                                         <span>Head of Operations</span>
                                     </div>
                                     <div class="tp-team-social">
@@ -492,7 +528,7 @@ $useTemplateAssets = true;
                                             </svg>
                                         </span>
                                         <div class="tp-team-social-icon">
-                                            <a href="about.html#">
+                                            <a href="https://www.facebook.com/share/1AA3FJHx6c/?mibextid=wwXIfr">
                                                 <span>
                                                     <svg width="10" height="19" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                        <path d="M2.2626 10.5867V18.0645H6.23929V10.5867H9.20466L9.82173 7.14844H6.23929V5.93203C6.23929 4.11445 6.93521 3.41836 8.73157 3.41836C9.29037 3.41836 9.73946 3.43242 10 3.46055V0.342187C9.50977 0.205078 8.30991 0.0644531 7.61741 0.0644531C3.95269 0.0644531 2.2626 1.83984 2.2626 5.66836V7.14844H0V10.5867H2.2626Z" fill="currentcolor" />
@@ -506,7 +542,7 @@ $useTemplateAssets = true;
                                                     </svg>
                                                 </span>
                                             </a>
-                                            <a href="about.html#">
+                                            <a href="https://www.instagram.com/tonyewills?igsh=MXhiODJ0eWlvOXQ5eQ%3D%3D&utm_source=qr">
                                                 <span>
                                                     <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                        <path d="M9.50212 4.44948C6.8063 4.44948 4.63185 6.50995 4.63185 9.06445C4.63185 11.619 6.8063 13.6794 9.50212 13.6794C12.1979 13.6794 14.3724 11.619 14.3724 9.06445C14.3724 6.50995 12.1979 4.44948 9.50212 4.44948ZM9.50212 12.0648C7.76001 12.0648 6.33581 10.7193 6.33581 9.06445C6.33581 7.40965 7.75577 6.06412 9.50212 6.06412C11.2485 6.06412 12.6684 7.40965 12.6684 9.06445C12.6684 10.7193 11.2442 12.0648 9.50212 12.0648ZM15.7076 4.2607C15.7076 4.85916 15.1989 5.33713 14.5716 5.33713C13.94 5.33713 13.4356 4.85515 13.4356 4.2607C13.4356 3.66626 13.9443 3.18428 14.5716 3.18428C15.1989 3.18428 15.7076 3.66626 15.7076 4.2607ZM18.9332 5.3532C18.8612 3.91127 18.5136 2.63402 17.3988 1.58169C16.2883 0.529364 14.9404 0.20001 13.4187 0.127713C11.8504 0.0433664 7.14964 0.0433664 5.58132 0.127713C4.06386 0.195994 2.71595 0.525348 1.60117 1.57767C0.486392 2.63 0.143056 3.90725 0.0667596 5.34918C-0.0222532 6.83529 -0.0222532 11.2896 0.0667596 12.7757C0.138818 14.2176 0.486392 15.4949 1.60117 16.5472C2.71595 17.5995 4.05962 17.9289 5.58132 18.0012C7.14964 18.0855 11.8504 18.0855 13.4187 18.0012C14.9404 17.9329 16.2883 17.6036 17.3988 16.5472C18.5094 15.4949 18.8569 14.2176 18.9332 12.7757C19.0223 11.2896 19.0223 6.83931 18.9332 5.3532ZM16.9071 14.3703C16.5765 15.1575 15.9365 15.764 15.1015 16.0813C13.851 16.5512 10.8839 16.4428 9.50212 16.4428C8.1203 16.4428 5.14897 16.5472 3.90279 16.0813C3.072 15.768 2.43196 15.1615 2.0971 14.3703C1.60117 13.1854 1.71562 10.3738 1.71562 9.06445C1.71562 7.75507 1.60541 4.93949 2.0971 3.75864C2.42772 2.9714 3.06776 2.36491 3.90279 2.04761C5.15321 1.57767 8.1203 1.68612 9.50212 1.68612C10.8839 1.68612 13.8553 1.58169 15.1015 2.04761C15.9322 2.36089 16.5723 2.96739 16.9071 3.75864C17.4031 4.94351 17.2886 7.75507 17.2886 9.06445C17.2886 10.3738 17.4031 13.1894 16.9071 14.3703Z" fill="currentcolor" />
@@ -523,7 +559,7 @@ $useTemplateAssets = true;
                                         <img src="../../assets/images/test.jpg" alt="">
                                     </div>
                                     <div class="tp-team-content">
-                                        <h4 class="tp-team-title"><a class="tp-line-black" href="team-details.html">Michael </a></h4>
+                                        <h4 class="tp-team-title">Michael</h4>
                                         <span>Director Development</span>
                                     </div>
                                     <div class="tp-team-social">
@@ -564,7 +600,7 @@ $useTemplateAssets = true;
                                         <img src="../../assets/images/test.jpg" alt="">
                                     </div>
                                     <div class="tp-team-content">
-                                        <h4 class="tp-team-title"><a class="tp-line-black" href="team-details.html">Andrew</a></h4>
+                                        <h4 class="tp-team-title">Andrew</h4>
                                         <span>Director branding</span>
                                     </div>
                                     <div class="tp-team-social">
@@ -605,7 +641,7 @@ $useTemplateAssets = true;
                                         <img src="../../assets/images/test.jpg" alt="">
                                     </div>
                                     <div class="tp-team-content">
-                                        <h4 class="tp-team-title"><a class="tp-line-black" href="team-details.html">Paul sampson</a></h4>
+                                        <h4 class="tp-team-title">Paul</h4>
                                         <span>Director Media</span>
                                     </div>
                                     <div class="tp-team-social">
@@ -647,7 +683,7 @@ $useTemplateAssets = true;
 
 
 
-    </div> </div> <?php include INCLUDES_PATH . '/template-js.php'; ?>
+    </div> </div>     <?php include INCLUDES_PATH . '/footer.php'; ?>
 
 </body>
 </html>

@@ -3,11 +3,46 @@ require_once __DIR__ . '/../../config/constants.php';
 
 $pageTitle = "Team – Zirostack";
 $useTemplateAssets = true;
+$current_page = 'services';
 ?>
 
 <?php include INCLUDES_PATH . '/header.php'; ?>
 <div class="col-xl-10 offset-xl-2">
     <div class="hr-border-wrap">
+                <!-- header area start -->
+                            <div id="header-sticky" class="tp-header-area tp-header-ptb tp-header-blur sticky-black-bg header-transparent" >
+                                <div class="container-fluid">
+                                    <div class="tp-header-hr-main">
+                                        <div class="col-xl-10 offset-xl-2">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-6">
+                                                    <div class="tp-header-hr-logo d-xl-none">
+                                                        <a href="/">
+                                                            <!-- <img data-width="120" src="/assets/vendor/img/logo/logo-white.png" alt=""> -->
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-8 col-6">
+                                                    <div class="tp-header-right text-end">
+                                                        <div class="tp-header-14-bar-wrap" style="color: #000000; border-color: #000000;"" >
+                                                            <button class="tp-header-8-bar tp-offcanvas-open-btn" style="color: #000000; border-color: #000000;">
+                                                                <span style="color: #000000;">Menu</span>
+                                                                <span style="color: #000000;">
+                                                                    <svg style="color: #000000;" width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M0 0H14V1.5H0V0Z" fill="currentcolor" />
+                                                                        <path d="M0 6H24V7.5H0V6Z" fill="currentcolor" />
+                                                                    </svg>
+                                                                </span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- header area end -->
 <!-- service area start -->
                 <div class="tp-service-area tp-item-anime-area-md tp-fixed-title-wrap position-relative tp-about-dgm-ptb pt-120 pb-130" style="background-color: white;">
                     <span class="tp-service-inner-2-shape" data-speed="1.1">
@@ -32,14 +67,14 @@ $useTemplateAssets = true;
                                                 <div class="tp-service-item-icon">
                                                     <img src="assets/img/digital-agency/service/service-icon-1.png" alt="">
                                                 </div>
-                                                <h4 class="tp-service-item-title"><a class="tp-line-black" href="service-details.html">Mobile App Development</a></h4>
+                                                <h4 class="tp-service-item-title">Mobile App Development</h4>
                                                 <p>
                                                      We develop reliable mobile applications that<br> 
                                                      deliver seamless performance across<br>
                                                   devices and in real-world usage scenarios.
                                                 </p>
                                                 <div class="tp-service-item-btn">
-                                                    <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
+                                                    <a class=" tp-btn-anim tp-doubble-effect" href="/contact">
                                                         <div class="tp-btn-text">Get a quote</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -58,14 +93,14 @@ $useTemplateAssets = true;
                                                 <div class="tp-service-item-icon">
                                                     <img src="assets/img/digital-agency/service/service-icon-2.png" alt="">
                                                 </div>
-                                                <h4 class="tp-service-item-title"><a class="tp-line-black" href="service-details.html">Product Design (UI/UX)</a></h4>
+                                                <h4 class="tp-service-item-title">Product Design (UI/UX)</h4>
                                                 <p>
                                                  We design modern digital experiences <br> that  balance aesthetics
                                                      with usability.  <br>
                                                       built to convert users into loyal customers.
                                                 </p>
                                                 <div class="tp-service-item-btn">
-                                                    <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
+                                                    <a class=" tp-btn-anim tp-doubble-effect" href="/contact">
                                                         <div class="tp-btn-text">Get a quote</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -84,14 +119,14 @@ $useTemplateAssets = true;
                                                 <div class="tp-service-item-icon">
                                                     <img src="assets/img/digital-agency/service/service-icon-5.png" alt="">
                                                 </div>
-                                                <h4 class="tp-service-item-title"><a class="tp-line-black" href="service-details.html">Web Development</a></h4>
+                                                <h4 class="tp-service-item-title">Web Development</h4>
                                                 <p>
                                                      Scalable,  high-performance web applications <br>
                                                    tailored to business needs, and custom <br>
                                                     systems built for long-term growth.
                                                 </p>
                                                 <div class="tp-service-item-btn">
-                                                    <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
+                                                    <a class=" tp-btn-anim tp-doubble-effect" href="/contact">
                                                         <div class="tp-btn-text">Get a quote</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -110,14 +145,14 @@ $useTemplateAssets = true;
                                                 <div class="tp-service-item-icon">
                                                     <img src="assets/img/digital-agency/service/service-icon-3.png" alt="">
                                                 </div>
-                                                <h4 class="tp-service-item-title"><a class="tp-line-black" href="service-details.html">Static Website Design</a></h4>
+                                                <h4 class="tp-service-item-title">Static Website Design</h4>
                                                 <p>
                                                     We create fast, modern, conversion-focused <br>
                                                      websites that reflect brand authority and work<br>
                                                       seamlessly across all screen sizes.
                                                 </p>
                                                 <div class="tp-service-item-btn">
-                                                    <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
+                                                    <a class=" tp-btn-anim tp-doubble-effect" href="/contact">
                                                         <div class="tp-btn-text">Get a quote</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -136,14 +171,14 @@ $useTemplateAssets = true;
                                                 <div class="tp-service-item-icon">
                                                     <img src="assets/img/digital-agency/service/service-icon-4.png" alt="">
                                                 </div>
-                                                <h4 class="tp-service-item-title"><a class="tp-line-black" href="service-details.html">SEO</a></h4>
+                                                <h4 class="tp-service-item-title">SEO</h4>
                                                 <p>
                                                      We optimize websites and digital products for <br> 
                                                    search visibility, speed, and performance <br> 
                                                    helping  brands rank higher and convert better.
                                                 </p>
                                                 <div class="tp-service-item-btn">
-                                                    <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
+                                                    <a class=" tp-btn-anim tp-doubble-effect" href="/contact">
                                                         <div class="tp-btn-text">Get a quote</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -162,14 +197,14 @@ $useTemplateAssets = true;
                                                 <div class="tp-service-item-icon">
                                                     <img src="assets/img/digital-agency/service/service-icon-6.png" alt="">
                                                 </div>
-                                                <h4 class="tp-service-item-title"><a class="tp-line-black" href="service-details.html">Brand Identity & Media</a></h4>
+                                                <h4 class="tp-service-item-title">Brand Identity & Media</h4>
                                                 <p>
                                                      We craft unique brand identities, color-  <br>
                                                    systems, typography, and design that Speak<br>
                                                    clarity, credibility, and long-term vision.
                                                 </p>
                                                 <div class="tp-service-item-btn">
-                                                    <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
+                                                    <a class=" tp-btn-anim tp-doubble-effect" href="/contact">
                                                         <div class="tp-btn-text">Get a quote</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">

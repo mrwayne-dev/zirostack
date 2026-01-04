@@ -227,3 +227,135 @@ body, body * {
 .tp-team-item--sm span {
   font-size: 14px;
 }
+/* ===============================
+   PLAY BUTTON RESPONSIVE OVERRIDE
+   =============================== */
+
+.hr-hero-play-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Large desktops */
+@media (max-width: 1599px) {
+  .hr-hero-play-btn {
+    width: 110px !important;
+    height: 110px !important;
+  }
+}
+
+@media (max-width: 1399px) {
+  .hr-hero-play-btn {
+    width: 100px !important;
+    height: 100px !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .hr-hero-play-btn {
+    width: 90px !important;
+    height: 90px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .hr-hero-play-btn {
+    width: 80px !important;
+    height: 80px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hr-hero-play-btn {
+    width: 70px !important;
+    height: 70px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .hr-hero-play-btn {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
+
+/* SVG scaling */
+.hr-hero-play-btn svg {
+  width: 22%;
+  height: auto;
+}
+/* ===============================
+   Footer Circle Button Responsive
+   =============================== */
+
+@media (max-width: 1599px) {
+  .ds-footer-btn .tp-btn-circle {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 1399px) {
+  .ds-footer-btn .tp-btn-circle {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .ds-footer-btn .tp-btn-circle {
+    width: 125px;
+    height: 125px;
+  }
+}
+
+@media (max-width: 991px) {
+  .ds-footer-btn .tp-btn-circle {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ds-footer-btn .tp-btn-circle {
+    width: 95px;
+    height: 95px;
+  }
+}
+
+@media (max-width: 575px) {
+  .ds-footer-btn .tp-btn-circle {
+    width: 80px;
+    height: 80px;
+  }
+}
+/* Sidebar nav link base state */
+.hr-side-header-menu > nav > ul > li a {
+  opacity: 0.6;
+  transition: opacity 0.25s ease;
+}
+
+/* Hover state */
+.hr-side-header-menu > nav > ul > li a:hover {
+  opacity: 1;
+}
+
+/* Active page link */
+.hr-side-header-menu > nav > ul > li a.active {
+  opacity: 1;
+  pointer-events: none; /* optional: prevents re-clicking same page */
+  position: relative;
+}
+
+.hr-side-header-menu > nav > ul > li a.active::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 60%;
+  background: var(--color-primary);
+  border-radius: 2px;
+}
