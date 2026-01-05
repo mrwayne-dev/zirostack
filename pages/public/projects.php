@@ -2,7 +2,7 @@
 <?php
 require_once __DIR__ . '/../../config/constants.php';
 
-$pageTitle = "About Us - Zirostack";
+$pageTitle = "Projects - Zirostack";
 $useTemplateAssets = true; 
 $current_page = 'projects';
 ?>
@@ -99,12 +99,12 @@ $current_page = 'projects';
                             <div class="col-lg-4 col-md-6">
                                 <div class="tp-project-item mb-50">
                                     <div class="tp-project-thumb mb-25">
-                                        <a href="project-details-2.html">
+                                        <a href="/project1">
                                             <img src="/assets/images/background/aboutsection1.avif" alt="">
                                         </a>
                                     </div>
                                     <div class="tp-project-content">
-                                        <h4 class="tp-project-title"><a class="tp-line-black" href="project-details-2.html">Apps development</a></h4>
+                                        <h4 class="tp-project-title"><a class="tp-line-black" href="/project1">Apps development</a></h4>
                                         <span><i>2026</i>Branding</span>
                                     </div>
                                 </div>
@@ -211,19 +211,6 @@ $current_page = 'projects';
                                         <h4 class="tp-project-title"><a class="tp-line-black" href="project-details-2.html">MarketFlow Exchange</a></h4>
                                         <span><i>2022</i>Branding</span>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-12">
-                                <div class="tp-portfolio-btn pt-30 text-center tp-fade-anim" data-delay=".3" data-ease="bounce" data-fade-from="top" data-duration="1.2">
-                                    <a class="tp-btn-circle tp-hover-btn-item tp-hover-btn" href="/">
-                                        <span>
-                                            <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                               <path d="M1 13L13 2L3.85071 3.35308" stroke="currentcolor" stroke-width="1.5" />
-                                            </svg>
-                                        </span>
-                                        Load More
-                                        <div class="tp-btn-circle-dot"></div>
-                                    </a>
                                 </div>
                             </div>
                         </div>  

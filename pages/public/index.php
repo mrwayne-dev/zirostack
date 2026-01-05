@@ -56,7 +56,11 @@ $current_page = 'home';
                                                                 <i><img src="/assets/vendor/img/hr-consulting/logo-sm.png" alt=""></i>
                                                                 "Theory and Execution"
                                                             </span> -->
-                                                            <h4 class="hr-hero-title ">Bring Your <br> Project to life</h4>
+                                                            <h4 class="hr-hero-title">
+                                                            Bring Your <br>
+                                                            <span class="hero-word-fade">Project</span>
+                                                            to life
+                                                            </h4>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-3">

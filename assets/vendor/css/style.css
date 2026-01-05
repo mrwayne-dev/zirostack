@@ -10720,6 +10720,7 @@ body.tp-magic-cursor #magic-cursor {
 
 .hr-hero-bg {
   position: relative;
+  min-height: 100vh;
 }
 .hr-hero-bg::after {
   position: absolute;

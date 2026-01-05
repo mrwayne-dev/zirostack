@@ -359,3 +359,11 @@ body, body * {
   background: var(--color-primary);
   border-radius: 2px;
 }
+.hero-word-fade {
+  display: inline-block;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+.hero-word-fade.hide {
+  opacity: 0;
+  transform: translateY(10px);
+}
