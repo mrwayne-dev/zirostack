@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../../config/constants.php';
 
-$pageTitle = "Team – Zirostack";
+$pageTitle = "Services – Zirostack";
 $useTemplateAssets = true;
 $current_page = 'services';
 ?>

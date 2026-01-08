@@ -86,7 +86,7 @@ include "template-css.php";
             </nav>
         </div>
         <div class="hr-side-header-btn">
-            <a href="service.html" class="tp-btn-green btn-h-60 br-8">
+            <a href="https://wa.me/2348074581371?text=Hello%20Zirostack%20team,%20I%20would%20like%20to%20get%20a%20free%20consultation%20about%20my%20project." class="tp-btn-green btn-h-60 br-8">
                 Free <br> Consulting
                 <span>
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
