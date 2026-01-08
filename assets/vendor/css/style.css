@@ -17877,6 +17877,7 @@ body.tp-magic-cursor #magic-cursor {
   transition: transform 0.3s ease-out, opacity 0.3s ease-out, visibility 0.3s ease-out;
   transition-delay: 0s;
   font-family: var(--tp-ff-bricolage);
+  color: white;
 }
 .tp-team-content span {
   font-weight: 400;
@@ -17888,6 +17889,7 @@ body.tp-magic-cursor #magic-cursor {
   transition: transform 0.3s ease-out, opacity 0.3s ease-out, visibility 0.3s ease-out;
   transition-delay: 0s;
   text-transform: capitalize;
+  color: white;
 }
 .tp-team-social {
   position: absolute;
@@ -19517,7 +19519,6 @@ body.tp-magic-cursor #magic-cursor {
   font-size: 18px;
   font-weight: 400;
   line-height: 178%;
-  text-transform: capitalize;
   color: var(--tp-common-black);
   opacity: 0.8;
 }

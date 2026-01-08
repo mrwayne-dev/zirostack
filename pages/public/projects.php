@@ -99,117 +99,117 @@ $current_page = 'projects';
                             <div class="col-lg-4 col-md-6">
                                 <div class="tp-project-item mb-50">
                                     <div class="tp-project-thumb mb-25">
-                                        <a href="/project1">
-                                            <img src="/assets/images/background/aboutsection1.avif" alt="">
+                                        <a href="/apiuniverse">
+                                            <img src="/assets/images/projects/api universe.png" alt="">
                                         </a>
                                     </div>
                                     <div class="tp-project-content">
-                                        <h4 class="tp-project-title"><a class="tp-line-black" href="/project1">Apps development</a></h4>
-                                        <span><i>2026</i>Branding</span>
+                                        <h4 class="tp-project-title"><a class="tp-line-black" href="/apiuniverse">Api Universe</a></h4>
+                                        <span><i>2025</i>Backend Systems</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="tp-project-item mb-50">
                                     <div class="tp-project-thumb mb-25">
-                                        <a href="project-details-2.html">
-                                            <img src="/assets/images/background/aboutsection1.avif" alt="">
+                                        <a href="/cleanlux">
+                                            <img src="/assets/images/projects/Cleanlux site mockup.png" alt="">
                                         </a>
                                     </div>
                                     <div class="tp-project-content">
-                                        <h4 class="tp-project-title"><a class="tp-line-black" href="project-details-2.html">Trading website</a></h4>
-                                        <span><i>2018</i>Creative</span>
+                                        <h4 class="tp-project-title"><a class="tp-line-black" href="/cleanlux">Cleanlux</a></h4>
+                                        <span><i>2025</i>Web Development</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="tp-project-item mb-50">
                                     <div class="tp-project-thumb mb-25">
-                                        <a href="project-details-2.html">
-                                            <img src="/assets/images/background/aboutsection1.avif" alt="">
+                                        <a href="/elevatedebate">
+                                            <img src="/assets/images/projects/Elevate Debate Mockup.png" alt="">
                                         </a>
                                     </div>
                                     <div class="tp-project-content">
-                                        <h4 class="tp-project-title"><a class="tp-line-black" href="project-details-2.html">ProTrader Zone</a></h4>
-                                        <span><i>2023</i>Creative</span>
+                                        <h4 class="tp-project-title"><a class="tp-line-black" href="/elevatedebate">Elevate Debate</a></h4>
+                                        <span><i>2026</i>Web Development</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="tp-project-item mb-50">
                                     <div class="tp-project-thumb mb-25">
-                                        <a href="project-details-2.html">
-                                            <img src="/assets/images/background/aboutsection1.avif" alt="">
+                                        <a href="/gameriq">
+                                            <img src="/assets/images/projects/GameRig HQ Mockup.png" alt="">
                                         </a>
                                     </div>
                                     <div class="tp-project-content">
-                                        <h4 class="tp-project-title"><a class="tp-line-black" href="project-details-2.html">MarketFlow Exchange</a></h4>
-                                        <span><i>2022</i>Branding</span>
+                                        <h4 class="tp-project-title"><a class="tp-line-black" href="/gameriq">GameRig HQ</a></h4>
+                                        <span><i>2025</i>Web Development</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="tp-project-item mb-50">
                                     <div class="tp-project-thumb mb-25">
-                                        <a href="project-details-2.html">
-                                            <img src="/assets/images/background/aboutsection1.avif" alt="">
+                                        <a href="/creedlance">
+                                            <img src="/assets/images/projects/Creedlance mockup.png" alt="">
                                         </a>
                                     </div>
                                     <div class="tp-project-content">
-                                        <h4 class="tp-project-title"><a class="tp-line-black" href="project-details-2.html">Building Brighter Tomorrows</a></h4>
-                                        <span><i>2026</i>Branding</span>
+                                        <h4 class="tp-project-title"><a class="tp-line-black" href="/creedlance">Creedlance</a></h4>
+                                        <span><i>2025</i>Branding</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="tp-project-item mb-50">
                                     <div class="tp-project-thumb mb-25">
-                                        <a href="project-details-2.html">
-                                            <img src="/assets/images/background/aboutsection1.avif" alt="">
+                                        <a href="/riversstateacjmc">
+                                            <img src="/assets/images/projects/Riversstateacjmc.png" alt="">
                                         </a>
                                     </div>
                                     <div class="tp-project-content">
-                                        <h4 class="tp-project-title"><a class="tp-line-black" href="project-details-2.html">Designing New Realities</a></h4>
-                                        <span><i>2018</i>Creative</span>
+                                        <h4 class="tp-project-title"><a class="tp-line-black" href="/riversstateacjmc">Riversstate ACJMC</a></h4>
+                                        <span><i>2025</i>Web Development</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="tp-project-item mb-50">
                                     <div class="tp-project-thumb mb-25">
-                                        <a href="project-details-2.html">
-                                            <img src="/assets/images/background/aboutsection1.avif" alt="">
+                                        <a href="/lymora">
+                                            <img src="/assets/images/projects/Tablet in Hand Mockup.png" alt="">
                                         </a>
                                     </div>
                                     <div class="tp-project-content">
-                                        <h4 class="tp-project-title"><a class="tp-line-black" href="project-details-2.html">Apps development</a></h4>
-                                        <span><i>2023</i>Creative</span>
+                                        <h4 class="tp-project-title"><a class="tp-line-black" href="/lymora">Lymora</a></h4>
+                                        <span><i>2025</i>Product Development</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="tp-project-item mb-50">
                                     <div class="tp-project-thumb mb-25">
-                                        <a href="project-details-2.html">
-                                            <img src="/assets/images/background/aboutsection1.avif" alt="">
+                                        <a href="/coinearners">
+                                            <img src="/assets/images/projects/The coin earners mup.png" alt="">
                                         </a>
                                     </div>
                                     <div class="tp-project-content">
-                                        <h4 class="tp-project-title"><a class="tp-line-black" href="project-details-2.html">Trading website</a></h4>
-                                        <span><i>2022</i>Branding</span>
+                                        <h4 class="tp-project-title"><a class="tp-line-black" href="/coinearners">The Coin Earners</a></h4>
+                                        <span><i>2025</i>UI/UX</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="tp-project-item mb-50">
                                     <div class="tp-project-thumb mb-25">
-                                        <a href="project-details-2.html">
-                                            <img src="/assets/images/background/aboutsection1.avif" alt="">
+                                        <a href="/cybercyn">
+                                            <img src="/assets/images/projects/cybecynmockup.png" alt="">
                                         </a>
                                     </div>
                                     <div class="tp-project-content">
-                                        <h4 class="tp-project-title"><a class="tp-line-black" href="project-details-2.html">MarketFlow Exchange</a></h4>
-                                        <span><i>2022</i>Branding</span>
+                                        <h4 class="tp-project-title"><a class="tp-line-black" href="/cybercyn">CyberCyn</a></h4>
+                                        <span><i>2025</i>Branding</span>
                                     </div>
                                 </div>
                             </div>

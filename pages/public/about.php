@@ -515,7 +515,7 @@ $current_page = 'about';
                             <div class="col-xl-3 col-lg-4 col-md-6">
                                 <div class="tp-team-item p-relative mb-30 tp_fade_anim" data-delay=".3">
                                     <div class="tp-team-thumb">
-                                        <img src="../../assets/images/test.jpg" alt="">
+                                        <img src="/assets/images/team/tonye.png" alt="Tonye">
                                     </div>
                                     <div class="tp-team-content">
                                         <h4 class="tp-team-title">Tonye Williams</h4>
@@ -556,7 +556,7 @@ $current_page = 'about';
                             <div class="col-xl-3 col-lg-4 col-md-6">
                                 <div class="tp-team-item p-relative mb-30 tp_fade_anim" data-delay=".5">
                                     <div class="tp-team-thumb">
-                                        <img src="../../assets/images/test.jpg" alt="">
+                                        <img src="/assets/images/team/michael.png" alt="Michael">
                                     </div>
                                     <div class="tp-team-content">
                                         <h4 class="tp-team-title">Michael</h4>
@@ -597,7 +597,7 @@ $current_page = 'about';
                             <div class="col-xl-3 col-lg-4 col-md-6">
                                 <div class="tp-team-item p-relative mb-30 tp_fade_anim" data-delay=".7">
                                     <div class="tp-team-thumb">
-                                        <img src="../../assets/images/test.jpg" alt="">
+                                        <img src="/assets/images/team/andy.png" alt="Andrew">
                                     </div>
                                     <div class="tp-team-content">
                                         <h4 class="tp-team-title">Andrew</h4>
@@ -638,7 +638,7 @@ $current_page = 'about';
                                                        <div class="col-xl-3 col-lg-4 col-md-6">
                                 <div class="tp-team-item p-relative mb-30 tp_fade_anim" data-delay=".7">
                                     <div class="tp-team-thumb">
-                                        <img src="../../assets/images/test.jpg" alt="">
+                                        <img src="/assets/images/team/paul.png" alt="Paul">
                                     </div>
                                     <div class="tp-team-content">
                                         <h4 class="tp-team-title">Paul</h4>
