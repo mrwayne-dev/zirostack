@@ -80,7 +80,7 @@ $current_page = 'projects';
                                         <div class="col-lg-5 col-md-8">
                                             <div class="tp-breadcrumb-s7-content">
                                                 <p class="mb-5">We are a forward-thinking digital creative agency
-                                                    dedicated to crafting impactful brand.</p>
+                                                    dedicated to crafting impactful brand. Here's a few of those projects.</p>
                                             </div>
                                         </div>
                                     </div>

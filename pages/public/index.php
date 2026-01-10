@@ -150,32 +150,29 @@ $current_page = 'home';
                                                                 <div class="swiper-wrapper slide-transtion">
                                                                     <div class="swiper-slide">
                                                                         <div class="hr-brand-item">
-                                                                            <img src="/assets/vendor/img/hr-consulting/brand/brand-1.png" alt="">
+                                                                            <img src="/assets/images/carousel/1.png" alt="">
                                                                         </div>
                                                                     </div>
                                                                     <div class="swiper-slide">
                                                                         <div class="hr-brand-item">
-                                                                            <img src="/assets/vendor/img/hr-consulting/brand/brand-2.png" alt="">
+                                                                            <img src="/assets/images/carousel/2.png" alt="">
                                                                         </div>
                                                                     </div>
                                                                     <div class="swiper-slide">
                                                                         <div class="hr-brand-item">
-                                                                            <img src="/assets/vendor/img/hr-consulting/brand/brand-3.png" alt="">
+                                                                            <img src="/assets/images/carousel/3.png" alt="">
                                                                         </div>
                                                                     </div>
                                                                     <div class="swiper-slide">
                                                                         <div class="hr-brand-item">
-                                                                            <img src="/assets/vendor/img/hr-consulting/brand/brand-4.png" alt="">
+                                                                            <img src="/assets/images/carousel/4.png" alt="">
                                                                         </div>
                                                                     </div>
                                                                     <div class="swiper-slide">
                                                                         <div class="hr-brand-item">
-                                                                            <img src="/assets/vendor/img/hr-consulting/brand/brand-5.png" alt="">
+                                                                            <img src="/assets/images/carousel/5.png" alt="">
                                                                         </div>
                                                                     </div>
-                                                                    <div class="swiper-slide">
-                                                                        <div class="hr-brand-item">
-                                                                            <img src="/assets/vendor/img/hr-consulting/brand/brand-1.png" alt="">
                                                                         </div>
                                                                     </div>
                                                                 </div>

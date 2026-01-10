@@ -56,7 +56,7 @@ $current_page = 'services';
                             <div class="col-lg-4">
                                 <div class="tp-service-heading tp-service-inner-2-title tp-fixed-title mb-30">
                                     <h3 class="tp-section-title mb-35 tp-split-title">Services we <br> provide</h3>
-                                    <span class="tp-section-subtitle tp_fade_anim" data-delay=".5">Our Services</span>
+                                    <span class="tp-section-subtitle tp_fade_anim" data-delay=".5">A Brief catalog of Our Services</span>
                                 </div>
                             </div>
                             <div class="col-lg-8">
@@ -286,8 +286,8 @@ $current_page = 'services';
                         <div class="row">
                             <div class="col-12">
                                 <div class="tp-brand-heading mb-55">
-                                    <span class="tp-section-subtitle tp_fade_anim" data-delay=".3">// Our clients</span>
-                                    <h3 class="tp-section-title fs-52 tp-split-title tp-split-title">Who we work with</h3>
+                                    <span class="tp-section-subtitle tp_fade_anim" data-delay=".3">// Some of our clients</span>
+                                    <h3 class="tp-section-title fs-52 tp-split-title tp-split-title">Who we've worked with</h3>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 col-sm-6">
