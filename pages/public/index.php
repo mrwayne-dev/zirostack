@@ -636,12 +636,12 @@ $current_page = 'home';
                             <div class="col-xl-4 col-md-6">
                                 <div class="ma-project-item p-relative">
                                     <div class="ma-project-thumb tp-clip-anim">
-                                        <img class="tp-anim-img" data-animate="true" src="/assets/vendor/img/modern-agency/project/project-1.jpg" alt="">
+                                        <img class="tp-anim-img" data-animate="true" src="/assets/images/projects/api universe.png" alt="">
                                     </div>
                                     <div class="ma-project-content-wrap d-flex justify-content-between align-items-center">
                                         <div class="ma-project-content">
-                                            <h4 class="ma-project-title"><a href="/projects" class="tp-line-white">Trading website</a></h4>
-                                            <span>2025 - Strategy</span>
+                                            <h4 class="ma-project-title"><a href="/projects" class="tp-line-white">Api Universe</a></h4>
+                                            <span>2025 - Backend Systems</span>
                                         </div>
                                         <a href="/projects" class="ma-project-icon">
                                             <i>
@@ -656,12 +656,12 @@ $current_page = 'home';
                             <div class="col-xl-4 col-md-6">
                                 <div class="ma-project-item p-relative">
                                     <div class="ma-project-thumb tp-clip-anim">
-                                        <img class="tp-anim-img" data-animate="true" src="/assets/vendor/img/modern-agency/project/project-3.jpg" alt="">
+                                        <img class="tp-anim-img" data-animate="true" src="/assets/images/projects/Cleanlux site mockup.png" alt="">
                                     </div>
                                     <div class="ma-project-content-wrap d-flex justify-content-between align-items-center">
                                         <div class="ma-project-content">
-                                            <h4 class="ma-project-title"><a href="/projects" class="tp-line-white">MarketWave Pro</a></h4>
-                                            <span>2022 - Identity</span>
+                                            <h4 class="ma-project-title"><a href="/projects" class="tp-line-white">CleanLux</a></h4>
+                                            <span>2025 - Web Development & Management System</span>
                                         </div>
                                         <a href="/projects" class="ma-project-icon">
                                             <i>
@@ -676,51 +676,11 @@ $current_page = 'home';
                             <div class="col-xl-4 col-md-6">
                                 <div class="ma-project-item p-relative">
                                     <div class="ma-project-thumb tp-clip-anim">
-                                        <img class="tp-anim-img" data-animate="true" src="/assets/vendor/img/modern-agency/project/project-2.jpg" alt="">
+                                        <img class="tp-anim-img" data-animate="true" src="/assets/images/projects/Creedlance mockup.png" alt="">
                                     </div>
                                     <div class="ma-project-content-wrap d-flex justify-content-between align-items-center">
                                         <div class="ma-project-content">
-                                            <h4 class="ma-project-title"><a href="/projects" class="tp-line-white">Swift TradeX</a></h4>
-                                            <span>2025 - Positioning</span>
-                                        </div>
-                                        <a href="/projects" class="ma-project-icon">
-                                            <i>
-                                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                   <path d="M0.767323 13.7673L12.6922 1.84717L3.40552 3.59448" stroke="#010103" stroke-width="1.5" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-md-6">
-                                <div class="ma-project-item p-relative">
-                                    <div class="ma-project-thumb tp-clip-anim">
-                                        <img class="tp-anim-img" data-animate="true" src="/assets/vendor/img/modern-agency/project/project-4.jpg" alt="">
-                                    </div>
-                                    <div class="ma-project-content-wrap d-flex justify-content-between align-items-center">
-                                        <div class="ma-project-content">
-                                            <h4 class="ma-project-title"><a href="/projects" class="tp-line-white">BullBear Arena</a></h4>
-                                            <span>2025 - Naming</span>
-                                        </div>
-                                        <a href="/projects" class="ma-project-icon">
-                                            <i>
-                                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                   <path d="M0.767323 13.7673L12.6922 1.84717L3.40552 3.59448" stroke="#010103" stroke-width="1.5" />
-                                                </svg>
-                                            </i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-md-6">
-                                <div class="ma-project-item p-relative">
-                                    <div class="ma-project-thumb tp-clip-anim">
-                                        <img class="tp-anim-img" data-animate="true" src="/assets/vendor/img/modern-agency/project/project-5.jpg" alt="">
-                                    </div>
-                                    <div class="ma-project-content-wrap d-flex justify-content-between align-items-center">
-                                        <div class="ma-project-content">
-                                            <h4 class="ma-project-title"><a href="/projects" class="tp-line-white">NextGen Traders</a></h4>
+                                            <h4 class="ma-project-title"><a href="/projects" class="tp-line-white">Creedlance</a></h4>
                                             <span>2025 - Branding</span>
                                         </div>
                                         <a href="/projects" class="ma-project-icon">
@@ -736,12 +696,52 @@ $current_page = 'home';
                             <div class="col-xl-4 col-md-6">
                                 <div class="ma-project-item p-relative">
                                     <div class="ma-project-thumb tp-clip-anim">
-                                        <img class="tp-anim-img" data-animate="true" src="/assets/vendor/img/modern-agency/project/project-6.jpg" alt="">
+                                        <img class="tp-anim-img" data-animate="true" src="/assets/images/projects/cybecynmockup.png" alt="">
                                     </div>
                                     <div class="ma-project-content-wrap d-flex justify-content-between align-items-center">
                                         <div class="ma-project-content">
-                                            <h4 class="ma-project-title"><a href="/projects" class="tp-line-white">AlphaTrade Zone</a></h4>
-                                            <span>2025 - Consulting</span>
+                                            <h4 class="ma-project-title"><a href="/projects" class="tp-line-white">CyberCyn</a></h4>
+                                            <span>2025 - Branding</span>
+                                        </div>
+                                        <a href="/projects" class="ma-project-icon">
+                                            <i>
+                                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                   <path d="M0.767323 13.7673L12.6922 1.84717L3.40552 3.59448" stroke="#010103" stroke-width="1.5" />
+                                                </svg>
+                                            </i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-6">
+                                <div class="ma-project-item p-relative">
+                                    <div class="ma-project-thumb tp-clip-anim">
+                                        <img class="tp-anim-img" data-animate="true" src="/assets/images/projects/Riversstateacjmc.png" alt="">
+                                    </div>
+                                    <div class="ma-project-content-wrap d-flex justify-content-between align-items-center">
+                                        <div class="ma-project-content">
+                                            <h4 class="ma-project-title"><a href="/projects" class="tp-line-white">Rivers State ACJMC</a></h4>
+                                            <span>2025 - Web Development and Management System</span>
+                                        </div>
+                                        <a href="/projects" class="ma-project-icon">
+                                            <i>
+                                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                   <path d="M0.767323 13.7673L12.6922 1.84717L3.40552 3.59448" stroke="#010103" stroke-width="1.5" />
+                                                </svg>
+                                            </i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-6">
+                                <div class="ma-project-item p-relative">
+                                    <div class="ma-project-thumb tp-clip-anim">
+                                        <img class="tp-anim-img" data-animate="true" src="/assets/images/projects/Elevate Debate Mockup.png" alt="">
+                                    </div>
+                                    <div class="ma-project-content-wrap d-flex justify-content-between align-items-center">
+                                        <div class="ma-project-content">
+                                            <h4 class="ma-project-title"><a href="/projects" class="tp-line-white">Elevate Debate</a></h4>
+                                            <span>2025 - Web Development & Backend System</span>
                                         </div>
                                         <a href="/projects" class="ma-project-icon">
                                             <i>
@@ -779,7 +779,7 @@ $current_page = 'home';
                                             <div class="row align-items-center">
                                                 <div class="col-lg-4">
                                                     <div class="ma-testimonial-thumb">
-                                                        <img src="/assets/vendor/img/modern-agency/testimonial/testimonial-1.jpg" alt="">
+                                                        <img src="/assets/images/testimonial/testimonial1.png" alt="">
                                                         <span style="color: white;" class="ma-testimonial-quote">
                                                             <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                 <path d="M27.332 13.2984V0H15.1352V25.3333L27.332 13.2984Z" fill="currentcolor" />

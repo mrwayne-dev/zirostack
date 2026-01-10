@@ -292,51 +292,63 @@ $current_page = 'services';
                             </div>
                             <div class="col-lg-3 col-md-4 col-sm-6">
                                 <div class="inner-brand-item mb-30">
-                                    <span class="inner-brand-count">1. Organic</span>
-                                    <img src="../../assets/images/logo.webp" alt="">
+                                    <img src="/assets/images/logo/19.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 col-sm-6">
                                 <div class="inner-brand-item mb-30">
-                                    <span class="inner-brand-count">2. Natural</span>
-                                    <img src="../../assets/images/logo.webp" alt="">
+                                    <img src="/assets/images/logo/20.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 col-sm-6">
                                 <div class="inner-brand-item mb-30">
-                                    <span class="inner-brand-count">3. cuebe</span>
-                                    <img src="../../assets/images/logo.webp" alt="">
+                                    <img src="/assets/images/logo/21.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 col-sm-6">
                                 <div class="inner-brand-item mb-30">
-                                    <span class="inner-brand-count">4. microwave</span>
-                                    <img src="../../assets/images/logo.webp" alt="">
+                                    <img src="../../assets/images/logo/steelwhiteongradient2.png" alt="">
                                 </div>
                             </div>
                             
-                            <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="col-lg-3 col-md-4 col-sm-6 momo1">
                                 <div class="inner-brand-item mb-30">
-                                    <span class="inner-brand-count">5. Marland</span>
-                                    <img src="../../assets/images/logo.webp" alt="">
+                                    <img src="/assets/images/logo/8.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 col-sm-6">
                                 <div class="inner-brand-item mb-30">
-                                    <span class="inner-brand-count">6. alisa</span>
-                                    <img src="../../assets/images/logo.webp" alt="">
+                                    <img src="/assets/images/logo/jibs.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 col-sm-6">
                                 <div class="inner-brand-item mb-30">
-                                    <span class="inner-brand-count">7. newage</span>
-                                    <img src="../../assets/images/logo.webp" alt="">
+                                    <img src="/assets/images/logo/entrepreneur.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 col-sm-6">
                                 <div class="inner-brand-item mb-30">
-                                    <span class="inner-brand-count">8. rose</span>
-                                    <img src="../../assets/images/logo.webp" alt="">
+                                    <img src="/assets/images/logo/machel.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <div class="inner-brand-item mb-30">
+                                    <img src="/assets/images/logo/sscanada.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <div class="inner-brand-item mb-30">
+                                    <img src="/assets/images/logo/cleanlux.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <div class="inner-brand-item mb-30">
+                                    <img src="/assets/images/logo/rsajmsm.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <div class="inner-brand-item mb-30">
+                                    <img src="/assets/images/logo/supremeironic.png" alt="">
                                 </div>
                             </div>
                         </div>

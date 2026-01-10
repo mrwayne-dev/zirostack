@@ -260,7 +260,7 @@ $current_page = 'team';
                                     </div>
                                 </div>
                             </div>
-                            <div class="row tp-team-secondary justify-content-center">
+                            <!-- <div class="row tp-team-secondary justify-content-center">
                                 <div class="col-xl-3 col-lg-4 col-md-6">
                                     <div class="tp-team-item tp-team-item--sm p-relative mb-30">
                                         <div class="tp-team-thumb">
@@ -426,7 +426,7 @@ $current_page = 'team';
                                     </div>
                                 </div>
                             
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                  </div>
