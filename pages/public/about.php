@@ -99,7 +99,7 @@ $current_page = 'about';
                                                 </a>
                                             </div>
                                             <div class="bnc-about-content-btn tp_fade_anim" data-delay=".7" data-fade-from="top" data-ease="bounce">
-                                                <a class="tp-btn-green bdr-5 fw-700 ff-bricolage bg-none-style tp-btn-anim" href="Team.php">
+                                                <a class="tp-btn-green bdr-5 fw-700 ff-bricolage bg-none-style tp-btn-anim" href="/team">
                                                     <div style="color: black;" class="tp-btn-text">Our Team</div>
                                                     <span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10" viewBox="0 0 18 10" fill="none">

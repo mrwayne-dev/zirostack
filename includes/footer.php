@@ -10,12 +10,6 @@
                             <div class="col-lg-3 col-md-6">
                                 <div class="tp-footer-widget mb-40 tp-footer-3-col-1 tp_fade_anim" data-delay=".3">
                                     <div class="tp-footer-widget-info mb-30">
-                                        <h4 class="tp-footer-widget-title ff-unbounded fs-20 fw-500 mb-30">Address</h4>
-                                        <span>
-                                            <a class="tp-line-black" href="project-two-colum.html#">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, optio.
-                                            </a>
-                                        </span>
                                         <p>
                                             Mail :
                                             <a class="tp-line-white" href="mailto:support@zirostack.com">support@zirostack.com</a>

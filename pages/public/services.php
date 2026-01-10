@@ -218,6 +218,57 @@ $current_page = 'services';
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="col-lg-6">
+                                            <div class="tp-service-item mb-30">
+                                                <div class="tp-service-item-icon">
+                                                </div>
+                                                <h4 class="tp-service-item-title">Digital Marketing</h4>
+                                                <p>
+                                                    We drive growth through paid social, <br>
+                                                    PPC advertising, and data-driven <br>
+                                                    campaigns to maximize your ROI.
+                                                </p>
+                                                <div class="tp-service-item-btn">
+                                                    <a class=" tp-btn-anim tp-doubble-effect" href="/contact">
+                                                        <div class="tp-btn-text">Get a quote</div>
+                                                        <i>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                                                <path d="M1.01301 10.9362L10.9225 1.65031L3.41074 2.83889" stroke="currentColor" stroke-width="1.5"/>
+                                                            </svg>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                                                <path d="M1.01301 10.9362L10.9225 1.65031L3.41074 2.83889" stroke="currentColor" stroke-width="1.5"/>
+                                                            </svg>
+                                                        </i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <div class="tp-service-item mb-30">
+                                                <div class="tp-service-item-icon">
+                                                </div>
+                                                <h4 class="tp-service-item-title">AI & Automation</h4>
+                                                <p>
+                                                    We integrate smart algorithms and <br>
+                                                    workflow automation to streamline <br>
+                                                    operations and reduce manual tasks.
+                                                </p>
+                                                <div class="tp-service-item-btn">
+                                                    <a class=" tp-btn-anim tp-doubble-effect" href="/contact">
+                                                        <div class="tp-btn-text">Get a quote</div>
+                                                        <i>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                                                <path d="M1.01301 10.9362L10.9225 1.65031L3.41074 2.83889" stroke="currentColor" stroke-width="1.5"/>
+                                                            </svg>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                                                <path d="M1.01301 10.9362L10.9225 1.65031L3.41074 2.83889" stroke="currentColor" stroke-width="1.5"/>
+                                                            </svg>
+                                                        </i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
                                         
                                     </div>
                                 </div>

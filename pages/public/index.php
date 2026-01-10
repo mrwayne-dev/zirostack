@@ -443,7 +443,7 @@ $current_page = 'home';
                                     <span class="tp-section-subtitle ">// tools we employ in building/managing <br> digital products and startups</span>
                                     <h3 class="tp-section-title mb-45 tp-split-title">The services <br> we provide</h3>
                                     <div class="tp-service-btn tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">
-                                        <a class="tp-btn-green btn-black-bg tp-btn-anim btn-h-60" href="#">
+                                        <a class="tp-btn-green btn-black-bg tp-btn-anim btn-h-60" href="/contact">
                                             <div class="tp-btn-text"> Get a Quote </div>
                                             <span>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="8" viewBox="0 0 21 8" fill="none">
@@ -469,7 +469,7 @@ $current_page = 'home';
                                                   devices and in real-world usage scenarios.
                                                 </p>
                                                 <div class="tp-service-item-btn">
-                                                    <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
+                                                    <a class=" tp-btn-anim tp-doubble-effect" href="/contact">
                                                         <div class="tp-btn-text">Get a quote</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -488,14 +488,14 @@ $current_page = 'home';
                                                 <div class="tp-service-item-icon">
                                                     <img src="/assets/vendor/img/digital-agency/service/service-icon-2.png" alt="">
                                                 </div>
-                                                <h4 class="tp-service-item-title"><a class="tp-line-lr" href="service-details.html">Product Design (UI/UX)</a></h4>
+                                                <h4 class="tp-service-item-title"><a class="tp-line-lr" href="/contact">Product Design (UI/UX)</a></h4>
                                                 <p>
                                                     We design modern digital experiences <br> that  balance aesthetics
                                                      with usability.  <br>
                                                       built to convert users into loyal customers.
                                                 </p>
                                                 <div class="tp-service-item-btn">
-                                                    <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
+                                                    <a class=" tp-btn-anim tp-doubble-effect" href="/contact">
                                                         <div class="tp-btn-text">Get a quote</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -514,14 +514,14 @@ $current_page = 'home';
                                                 <div class="tp-service-item-icon">
                                                     <img src="/assets/vendor/img/digital-agency/service/service-icon-3.png" alt="">
                                                 </div>
-                                                <h4 class="tp-service-item-title"><a class="tp-line-lr" href="service-details.html">Web Development</a></h4>
+                                                <h4 class="tp-service-item-title"><a class="tp-line-lr" href="/contact">Web Development</a></h4>
                                                 <p>
                                                    Scalable, high-performance web applications <br>
                                                    tailored to business needs, and custom <br>
                                                     systems built for long-term growth.
                                                 </p>
                                                 <div class="tp-service-item-btn">
-                                                    <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
+                                                    <a class=" tp-btn-anim tp-doubble-effect" href="/contact">
                                                         <div class="tp-btn-text">Get a quote</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -540,14 +540,14 @@ $current_page = 'home';
                                                 <div class="tp-service-item-icon">
                                                     <img src="/assets/vendor/img/digital-agency/service/service-icon-4.png" alt="">
                                                 </div>
-                                                <h4 class="tp-service-item-title"><a class="tp-line-lr" href="service-details.html">Static Website Design</a></h4>
+                                                <h4 class="tp-service-item-title"><a class="tp-line-lr" href="/contact">Static Website Design</a></h4>
                                                 <p>
                                                     We create fast, modern, conversion-focused <br>
                                                      websites that reflect brand authority and work<br>
                                                       seamlessly across all screen sizes.
                                                 </p>
                                                 <div class="tp-service-item-btn">
-                                                    <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
+                                                    <a class=" tp-btn-anim tp-doubble-effect" href="/contact">
                                                         <div class="tp-btn-text">Get a quote</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -566,14 +566,14 @@ $current_page = 'home';
                                                 <div class="tp-service-item-icon">
                                                     <img src="/assets/vendor/img/digital-agency/service/service-icon-5.png" alt="">
                                                 </div>
-                                                <h4 class="tp-service-item-title"><a class="tp-line-lr" href="service-details.html">SEO</a></h4>
+                                                <h4 class="tp-service-item-title"><a class="tp-line-lr" href="/contact">SEO</a></h4>
                                                 <p>
                                                    We optimize websites and digital products for <br> 
                                                    search visibility, speed, and performance <br> 
                                                    helping  brands rank higher and convert better.
                                                 </p>
                                                 <div class="tp-service-item-btn">
-                                                    <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
+                                                    <a class=" tp-btn-anim tp-doubble-effect" href="/contact">
                                                         <div class="tp-btn-text">Get a quote</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -592,14 +592,14 @@ $current_page = 'home';
                                                 <div class="tp-service-item-icon">
                                                     <img src="/assets/vendor/img/digital-agency/service/service-icon-6.png" alt="">
                                                 </div>
-                                                <h4 class="tp-service-item-title"><a class="tp-line-lr" href="service-details.html">Brand Identity & Media</a></h4>
+                                                <h4 class="tp-service-item-title"><a class="tp-line-lr" href="/contact">Brand Identity & Media</a></h4>
                                                 <p>
                                                    We craft unique brand identities, color-  <br>
                                                    systems, typography, and design that Speak<br>
                                                    clarity, credibility, and long-term vision.
                                                 </p>
                                                 <div class="tp-service-item-btn">
-                                                    <a class=" tp-btn-anim tp-doubble-effect" href="service-details.html">
+                                                    <a class=" tp-btn-anim tp-doubble-effect" href="/contact">
                                                         <div class="tp-btn-text">Get a quote</div>
                                                         <i>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -640,10 +640,10 @@ $current_page = 'home';
                                     </div>
                                     <div class="ma-project-content-wrap d-flex justify-content-between align-items-center">
                                         <div class="ma-project-content">
-                                            <h4 class="ma-project-title"><a href="project-details.html" class="tp-line-white">Trading website</a></h4>
+                                            <h4 class="ma-project-title"><a href="/projects" class="tp-line-white">Trading website</a></h4>
                                             <span>2025 - Strategy</span>
                                         </div>
-                                        <a href="project-details.html" class="ma-project-icon">
+                                        <a href="/projects" class="ma-project-icon">
                                             <i>
                                                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                    <path d="M0.767323 13.7673L12.6922 1.84717L3.40552 3.59448" stroke="#010103" stroke-width="1.5" />
@@ -660,10 +660,10 @@ $current_page = 'home';
                                     </div>
                                     <div class="ma-project-content-wrap d-flex justify-content-between align-items-center">
                                         <div class="ma-project-content">
-                                            <h4 class="ma-project-title"><a href="project-details.html" class="tp-line-white">MarketWave Pro</a></h4>
+                                            <h4 class="ma-project-title"><a href="/projects" class="tp-line-white">MarketWave Pro</a></h4>
                                             <span>2022 - Identity</span>
                                         </div>
-                                        <a href="project-details.html" class="ma-project-icon">
+                                        <a href="/projects" class="ma-project-icon">
                                             <i>
                                                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                    <path d="M0.767323 13.7673L12.6922 1.84717L3.40552 3.59448" stroke="#010103" stroke-width="1.5" />
@@ -680,10 +680,10 @@ $current_page = 'home';
                                     </div>
                                     <div class="ma-project-content-wrap d-flex justify-content-between align-items-center">
                                         <div class="ma-project-content">
-                                            <h4 class="ma-project-title"><a href="project-details.html" class="tp-line-white">Swift TradeX</a></h4>
+                                            <h4 class="ma-project-title"><a href="/projects" class="tp-line-white">Swift TradeX</a></h4>
                                             <span>2025 - Positioning</span>
                                         </div>
-                                        <a href="project-details.html" class="ma-project-icon">
+                                        <a href="/projects" class="ma-project-icon">
                                             <i>
                                                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                    <path d="M0.767323 13.7673L12.6922 1.84717L3.40552 3.59448" stroke="#010103" stroke-width="1.5" />
@@ -700,10 +700,10 @@ $current_page = 'home';
                                     </div>
                                     <div class="ma-project-content-wrap d-flex justify-content-between align-items-center">
                                         <div class="ma-project-content">
-                                            <h4 class="ma-project-title"><a href="project-details.html" class="tp-line-white">BullBear Arena</a></h4>
+                                            <h4 class="ma-project-title"><a href="/projects" class="tp-line-white">BullBear Arena</a></h4>
                                             <span>2025 - Naming</span>
                                         </div>
-                                        <a href="project-details.html" class="ma-project-icon">
+                                        <a href="/projects" class="ma-project-icon">
                                             <i>
                                                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                    <path d="M0.767323 13.7673L12.6922 1.84717L3.40552 3.59448" stroke="#010103" stroke-width="1.5" />
@@ -720,10 +720,10 @@ $current_page = 'home';
                                     </div>
                                     <div class="ma-project-content-wrap d-flex justify-content-between align-items-center">
                                         <div class="ma-project-content">
-                                            <h4 class="ma-project-title"><a href="project-details.html" class="tp-line-white">NextGen Traders</a></h4>
+                                            <h4 class="ma-project-title"><a href="/projects" class="tp-line-white">NextGen Traders</a></h4>
                                             <span>2025 - Branding</span>
                                         </div>
-                                        <a href="project-details.html" class="ma-project-icon">
+                                        <a href="/projects" class="ma-project-icon">
                                             <i>
                                                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                    <path d="M0.767323 13.7673L12.6922 1.84717L3.40552 3.59448" stroke="#010103" stroke-width="1.5" />
@@ -740,10 +740,10 @@ $current_page = 'home';
                                     </div>
                                     <div class="ma-project-content-wrap d-flex justify-content-between align-items-center">
                                         <div class="ma-project-content">
-                                            <h4 class="ma-project-title"><a href="project-details.html" class="tp-line-white">AlphaTrade Zone</a></h4>
+                                            <h4 class="ma-project-title"><a href="/projects" class="tp-line-white">AlphaTrade Zone</a></h4>
                                             <span>2025 - Consulting</span>
                                         </div>
-                                        <a href="project-details.html" class="ma-project-icon">
+                                        <a href="/projects" class="ma-project-icon">
                                             <i>
                                                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                    <path d="M0.767323 13.7673L12.6922 1.84717L3.40552 3.59448" stroke="#010103" stroke-width="1.5" />
@@ -809,7 +809,7 @@ $current_page = 'home';
                                     </div>
                                 </div>
                             </div>
-                            <div class="ma-testimonial-arrow d-flex justify-content-end">
+                            <!-- <div class="ma-testimonial-arrow d-flex justify-content-end">
                                 <div class="tp-testimonial-slider-arrow">
                                     <button class="tp-testimonial-prev">
                                         <span>
@@ -826,7 +826,7 @@ $current_page = 'home';
                                         </span>
                                     </button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -842,7 +842,7 @@ $current_page = 'home';
                                     <h3 class="tp-section-title fs-62 tl-unbounded tp-split-title">Questions <br> And Answers</h3>
                                 </div>
                                 <div class="ma-faq-thumb">
-                                    <img class="tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce" src="/assets/vendor/img/modern-agency/faq/faq-1.jpg" alt="">
+                                    <img class="tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce" src="/assets/images/background/question.png" alt="">
                                     <div class="ma-faq-thumb-2">
                                         <span style="color: white;">
                                             We’re Here <br>
