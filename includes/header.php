@@ -32,6 +32,7 @@ include "template-css.php";
         </button>
     </div>
     <!-- back to top end -->
+     
 
     <!-- header area start -->
     <div class="hr-side-header z-index-5 d-none d-xl-flex flex-column justify-content-between">
@@ -137,27 +138,27 @@ include "template-css.php";
                     <h3 class="tp-offcanvas-title sm">Follow Us</h3>
                     <ul>
                         <li>
-                            <a href="https://facebook.com/yourpage" target="_blank">
+                            <a href=" https://www.facebook.com/share/1C2PozCQY7/" target="_blank">
                                 <i class="ph ph-facebook-logo"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://tiktok.com/@yourpage" target="_blank">
+                            <a href="https://www.tiktok.com/@zirostack_tech?_r=1&_t=ZS-92kOUaSzdhs" target="_blank">
                                 <i class="ph ph-tiktok-logo"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://instagram.com/yourpage" target="_blank">
+                            <a href=" https://www.instagram.com/zirostack?igsh=a3U0dXM5endjN2pt" target="_blank">
                                 <i class="ph ph-instagram-logo"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://linkedin.com/company/yourpage" target="_blank">
+                            <a href="https://www.linkedin.com/company/zirostack/" target="_blank">
                                 <i class="ph ph-linkedin-logo"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/yourpage" target="_blank">
+                            <a href="https://x.com/zirostack" target="_blank">
                                 <i class="ph ph-twitter-logo"></i>
                             </a>
                         </li>

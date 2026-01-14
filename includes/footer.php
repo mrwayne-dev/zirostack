@@ -109,7 +109,32 @@
             </main>
         </div> <!-- /#smooth-content -->
     </div> <!-- /#smooth-wrapper -->
-    
+
+    <a href="https://wa.me/2348074581371?text=Hello%20Zirostack%20team,%20I%20would%20like%20a%20free%20consultation."
+   class="zirostack-whatsapp"
+   target="_blank"
+   aria-label="Chat with Zirostack on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+        <path fill="#fff"
+              d="M16 2.667C8.82 2.667 2.667 8.82 2.667 16c0 2.89.758 5.6 2.084 7.99L2 30l6.235-2.61A13.28 13.28 0 0 0 16 29.333c7.18 0 13.333-6.153 13.333-13.333S23.18 2.667 16 2.667Zm0 24.1a10.8 10.8 0 0 1-5.52-1.53l-.395-.235-3.705 1.55 1.52-3.605-.255-.37A10.81 10.81 0 1 1 16 26.767Zm5.96-8.04c-.325-.165-1.93-.95-2.23-1.06-.3-.11-.52-.165-.74.165-.22.33-.85 1.06-1.04 1.28-.19.22-.38.245-.705.08-.325-.165-1.375-.505-2.62-1.61-.97-.865-1.625-1.93-1.815-2.255-.19-.33-.02-.505.145-.67.15-.15.33-.38.495-.57.165-.19.22-.33.33-.55.11-.22.055-.41-.025-.575-.08-.165-.74-1.785-1.015-2.445-.265-.64-.535-.555-.74-.565-.19-.01-.41-.01-.63-.01-.22 0-.575.08-.875.41-.3.33-1.15 1.125-1.15 2.74 0 1.615 1.18 3.175 1.345 3.395.165.22 2.325 3.555 5.63 4.985.785.34 1.395.545 1.87.7.785.25 1.5.215 2.065.13.63-.095 1.93-.79 2.205-1.55.275-.76.275-1.41.19-1.55-.08-.14-.3-.22-.63-.385Z"/>
+    </svg>
+</a>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const whatsappBtn = document.querySelector(".zirostack-whatsapp");
+    const showAfter = 120; // px scrolled before showing
+
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > showAfter) {
+            whatsappBtn.classList.add("show");
+        } else {
+            whatsappBtn.classList.remove("show");
+        }
+    });
+});
+</script>
+
 
     <?php include INCLUDES_PATH . '/template-js.php'; ?>
 

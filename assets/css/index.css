@@ -370,3 +370,41 @@ body, body * {
 .momo1{
   border-radius: 12px;
 }
+.zirostack-whatsapp {
+    position: fixed;
+    bottom: 105px;
+    right: 42px;
+    width: 55px;
+    height: 55px;
+    background-color: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    z-index: 9999;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.zirostack-whatsapp:hover {
+    transform: scale(1.08);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.3);
+}
+
+.zirostack-whatsapp svg {
+    display: block;
+}
+/* Scroll reveal behavior */
+.zirostack-whatsapp {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px) scale(0.95);
+    pointer-events: none;
+}
+
+.zirostack-whatsapp.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+}

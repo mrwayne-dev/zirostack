@@ -59,7 +59,7 @@ $current_page = 'projects';
                         <div class="row">
                             <div class="col-12">
                                 <div class="tp-breadcrumb-s9-wrap text-center">
-                                    <h2 class="tp-breadcrumb-s9-title mb-35 tp-split-title"><a href="https://api.universe360x.com/">CyberCyn</a></h2>
+                                    <h2 class="tp-breadcrumb-s9-title mb-35 tp-split-title">CyberCyn</h2>
                                     <div class="tp-breadcrumb-s9-subtitle d-flex justify-content-center tp_fade_anim" data-delay=".5">
                                         <div class="tp-breadcrumb-s1-subtitle"><a href="index.html">Project</a></div>
                                         <span>Branding</span>

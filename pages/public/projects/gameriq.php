@@ -59,7 +59,7 @@ $current_page = 'projects';
                         <div class="row">
                             <div class="col-12">
                                 <div class="tp-breadcrumb-s9-wrap text-center">
-                                    <h2 class="tp-breadcrumb-s9-title mb-35 tp-split-title"><a href="https://api.universe360x.com/">GameRig HQ</a></h2>
+                                    <h2 class="tp-breadcrumb-s9-title mb-35 tp-split-title"><a href="https://gamerighq.com/">GameRig HQ</a></h2>
                                     <div class="tp-breadcrumb-s9-subtitle d-flex justify-content-center tp_fade_anim" data-delay=".5">
                                         <div class="tp-breadcrumb-s1-subtitle"><a href="index.html">Project</a></div>
                                         <span>E-commerce Platform / Custom PC Builds</span>
@@ -107,6 +107,10 @@ $current_page = 'projects';
                             <span class="spacing">Industry :</span>
                             <span>Gaming Hardware & Consumer Electronics</span>
                         </li>
+                         <li>
+                                    <span class="spacing">Go to site :</span>
+                                    <span style="text-decoration: underline;"><a href="https://gamerighq.com/">GameRig HQ</a></span>
+                                </li>
                     </ul>
                 </div>
             </div>

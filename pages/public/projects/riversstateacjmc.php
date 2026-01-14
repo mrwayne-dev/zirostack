@@ -59,7 +59,7 @@ $current_page = 'projects';
                         <div class="row">
                             <div class="col-12">
                                 <div class="tp-breadcrumb-s9-wrap text-center">
-                                    <h2 class="tp-breadcrumb-s9-title mb-35 tp-split-title"><a href="https://api.universe360x.com/">Rivers State ACJMC</a></h2>
+                                    <h2 class="tp-breadcrumb-s9-title mb-35 tp-split-title"><a href="https://riversstateacjmc.org/">Rivers State ACJMC</a></h2>
                                     <div class="tp-breadcrumb-s9-subtitle d-flex justify-content-center tp_fade_anim" data-delay=".5">
                                         <div class="tp-breadcrumb-s1-subtitle"><a href="index.html">Project</a></div>
                                         <span>Government Website / Public Oversight Platform</span>
@@ -107,6 +107,10 @@ $current_page = 'projects';
                             <span class="spacing">Industry :</span>
                             <span>Public Administration & Justice System</span>
                         </li>
+                        <li>
+                                    <span class="spacing">Go to site :</span>
+                                    <span style="text-decoration: underline;"><a href="https://riversstateacjmc.org/">Rivers State ACJMC</a></span>
+                                </li>
                     </ul>
                 </div>
             </div>

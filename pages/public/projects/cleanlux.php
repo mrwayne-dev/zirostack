@@ -100,6 +100,10 @@ $current_page = 'projects';
                                     <span class="spacing">Industry :</span>
                                     <span>Laundry & Cleaning Services</span>
                                 </li>
+                                <li>
+                                    <span class="spacing">Go to site :</span>
+                                    <span style="text-decoration: underline;"><a href="https://cleanluxserviceslimited.com/">CleanLux</a></span>
+                                </li>
                             </ul>
                         </div>
                     </div>

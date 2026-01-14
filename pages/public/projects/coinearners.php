@@ -107,6 +107,10 @@ $current_page = 'projects';
                             <span class="spacing">Industry :</span>
                             <span>Financial Technology (FinTech)</span>
                         </li>
+                        <li>
+                            <span class="spacing">Go to site :</span>
+                            <span style="text-decoration: underline;"><a href="https://www.figma.com/design/7UIZH5c0MuXiGi8EcPXQVl/The-Coin-Earners?node-id=0-1&t=Q344eh6GUr7r7UEb-1">Coin Earners</a></span>
+                        </li>
                     </ul>
                 </div>
             </div>
