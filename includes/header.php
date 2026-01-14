@@ -15,8 +15,8 @@ include "template-css.php";
     <!-- preloader -->
     <div id="preloader">
         <div class="preloader">
-            <span></span>
-            <span></span>
+            <img src="assets/images/logo/zirostackicondarkmode.png" alt="Zirostack Logo" class="preloader-logo">
+            <div class="preloader-spinner"></div>
         </div>
     </div>
     <!-- preloader end  -->

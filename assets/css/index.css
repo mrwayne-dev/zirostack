@@ -408,3 +408,89 @@ body, body * {
     transform: translateY(0) scale(1);
     pointer-events: auto;
 }
+
+/* LinkedIn-style Loader */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999 !important;
+    background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%) !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+#preloader .preloader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: auto !important;
+    height: auto !important;
+    position: static !important;
+    margin: 0 !important;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#preloader .preloader-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    animation: fadeInScale 0.6s ease-out;
+    display: block;
+}
+
+#preloader .preloader-spinner {
+    position: relative;
+    width: 300px;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+#preloader .preloader-spinner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 2px;
+    animation: linkedinSlide 1.5s ease-in-out infinite;
+}
+
+/* Override old span styles */
+#preloader span {
+    display: none !important;
+}
+
+@keyframes linkedinSlide {
+    0% {
+        left: -40%;
+    }
+    50% {
+        left: 100%;
+    }
+    100% {
+        left: -40%;
+    }
+}
+
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
