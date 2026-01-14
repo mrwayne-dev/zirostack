@@ -421,6 +421,7 @@ body, body * {
     display: flex !important;
     align-items: center;
     justify-content: center;
+    transition: opacity 0.5s ease-out !important;
 }
 
 #preloader .preloader {
