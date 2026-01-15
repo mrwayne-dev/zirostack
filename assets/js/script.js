@@ -1,35 +1,37 @@
-// Ensure preloader fades out after page load
-document.addEventListener("DOMContentLoaded", () => {
-  // Fade out preloader after a short delay to ensure page is fully rendered
-  if (document.querySelector("#preloader")) {
-    setTimeout(() => {
-      const preloader = document.querySelector("#preloader");
-      preloader.style.opacity = "0";
-      preloader.style.pointerEvents = "none";
-      
-      // Remove from DOM after fade completes
-      setTimeout(() => {
-        preloader.style.display = "none";
-      }, 500);
-    }, 300);
-  }
-});
+// Ensure preloader fades out after page load and stays hidden
+let preloaderHidden = false;
 
-// Fallback: Also use window load event for additional certainty
-window.addEventListener("load", () => {
-  if (document.querySelector("#preloader")) {
-    const preloader = document.querySelector("#preloader");
+function hidePreloader() {
+  if (preloaderHidden) return; // Prevent hiding multiple times
+  
+  const preloader = document.querySelector("#preloader");
+  if (preloader) {
+    preloaderHidden = true;
     preloader.style.opacity = "0";
     preloader.style.pointerEvents = "none";
     
+    // Remove from DOM after fade completes
     setTimeout(() => {
       preloader.style.display = "none";
+      preloader.style.visibility = "hidden";
     }, 500);
   }
+}
+
+// Hide preloader when DOM is ready
+document.addEventListener("DOMContentLoaded", () => {
+  setTimeout(hidePreloader, 300);
+});
+
+// Also hide on window load
+window.addEventListener("load", () => {
+  hidePreloader();
 });
 
 document.addEventListener("DOMContentLoaded", () => {
   const el = document.querySelector(".hero-word-fade");
+  if (!el) return;
+  
   const words = ["Project", "Idea", "Vision", "Product", "Platform"];
   let i = 0;
 
