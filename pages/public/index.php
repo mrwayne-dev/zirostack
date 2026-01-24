@@ -65,7 +65,7 @@ $current_page = 'home';
                                                     </div>
                                                     <div class="col-lg-3">
                                                         <div class="hr-hero-play-btn-wrap mb-35">
-                                                            <a class="hr-hero-play-btn popup-video video-animetion" href="https://www.youtube.com/watch?v=VCPGMjCW0is">
+                                                            <a class="hr-hero-play-btn popup-video video-animetion" href="https://youtube.com/shorts/efCSxf_1JCU?si=ggvtW48h_vhLXr8r">
                                                                 <span>
                                                                     <svg viewBox="0 0 24 28" xmlns="http://www.w3.org/2000/svg">
 
