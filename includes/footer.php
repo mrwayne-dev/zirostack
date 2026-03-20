@@ -120,20 +120,7 @@
     </svg>
 </a>
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    const whatsappBtn = document.querySelector(".zirostack-whatsapp");
-    const showAfter = 120; // px scrolled before showing
-
-    window.addEventListener("scroll", () => {
-        if (window.scrollY > showAfter) {
-            whatsappBtn.classList.add("show");
-        } else {
-            whatsappBtn.classList.remove("show");
-        }
-    });
-});
-</script>
+<!-- WhatsApp scroll-reveal logic moved to assets/js/script.js for browser caching -->
 
 
     <?php include INCLUDES_PATH . '/template-js.php'; ?>

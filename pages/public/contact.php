@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require_once __DIR__ . '/../../config/constants.php';
 
 $pageTitle = "Contact – Zirostack";
@@ -8,7 +8,7 @@ $current_page = 'contact';
 
 <?php include INCLUDES_PATH . '/header.php'; ?>
 
-<div class="col-xl-10 offset-xl-2" style="background-color: white;">
+<div class="col-xl-10 offset-xl-2 page-bg-white">
             <!-- header area start -->
                             <div id="header-sticky" class="tp-header-area tp-header-ptb tp-header-blur sticky-black-bg header-transparent" >
                                 <div class="container-fluid">
@@ -24,11 +24,11 @@ $current_page = 'contact';
                                                 </div>
                                                 <div class="col-xl-8 col-6">
                                                     <div class="tp-header-right text-end">
-                                                        <div class="tp-header-14-bar-wrap" style="color: #000000; border-color: #000000;"" >
-                                                            <button class="tp-header-8-bar tp-offcanvas-open-btn" style="color: #000000; border-color: #000000;">
-                                                                <span style="color: #000000;">Menu</span>
-                                                                <span style="color: #000000;">
-                                                                    <svg style="color: #000000;" width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <div class="tp-header-14-bar-wrap header-dark">
+                                                            <button class="tp-header-8-bar tp-offcanvas-open-btn">
+                                                                <span>Menu</span>
+                                                                <span>
+                                                                    <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                         <path d="M0 0H14V1.5H0V0Z" fill="currentcolor" />
                                                                         <path d="M0 6H24V7.5H0V6Z" fill="currentcolor" />
                                                                     </svg>
@@ -45,7 +45,7 @@ $current_page = 'contact';
                             <!-- header area end -->
 
 <!-- contact top area start -->
-                 <div class="tp-contact-us-top-ptb pt-200 pb-80" style="background-color: white;">
+                 <div class="tp-contact-us-top-ptb pt-200 pb-80" class="page-bg-white">
                     <div class="container container-1480">
                         <div class="row">
                             <div class="col-lg-4">
@@ -66,7 +66,7 @@ $current_page = 'contact';
                             <div class="col-lg-8">
                                 <div class="tp-contact-us-top-wrapper p-relative">
                                     <div class="tp-contact-us-map">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63611.57343505697!2d6.9635970187655!3d4.81749473954739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cea39f2c48e3%3A0x53562bdd7d8832db!2sPort%20Harcourt%2C%20Rivers!5e0!3m2!1sen!2sng!4v1767468334413!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63611.57343505697!2d6.9635970187655!3d4.81749473954739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cea39f2c48e3%3A0x53562bdd7d8832db!2sPort%20Harcourt%2C%20Rivers!5e0!3m2!1sen!2sng!4v1767468334413!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </div>
                                     <div class="tp-contact-us-info">
                                         <div class="ar-about-funfact-wrap z-index-1 p-relative tp_fade_anim" data-delay=".5" data-bg-color="rgba(0, 74, 148, 0.9)">
@@ -155,20 +155,20 @@ $current_page = 'contact';
                                                 <div class="row">
                                                     <div class="col-lg-6">
                                                         <div class="tp-contact-us-form-input mb-30">
-                                                            <label>Full Name*</label>
-                                                            <input name="name" type="text" placeholder="Daniel Scoot">
+                                                            <label for="contact-name">Full Name*</label>
+                                                            <input id="contact-name" name="name" type="text" placeholder="Daniel Scoot" required>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-6">
                                                         <div class="tp-contact-us-form-input mb-30">
-                                                            <label>Email Address*</label>
-                                                            <input name="email" type="email" placeholder="Your Email">
+                                                            <label for="contact-email">Email Address*</label>
+                                                            <input id="contact-email" name="email" type="email" placeholder="Your Email" required>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-6">
                                                         <div class="tp-contact-us-form-input mb-30">
-                                                            <label>Type of Message</label>
-                                                            <select name="subject">
+                                                            <label for="contact-subject">Type of Message</label>
+                                                            <select id="contact-subject" name="subject">
                                                                 <option value="" disabled selected>Select message type</option>
                                                                 <option value="inquiry">General Inquiry</option>
                                                                 <option value="support">Support</option>
@@ -178,8 +178,8 @@ $current_page = 'contact';
                                                     </div>
                                                     <div class="col-lg-6">
                                                         <div class="tp-contact-us-form-input mb-30">
-                                                            <label>Related Service</label>
-                                                            <select name="service">
+                                                            <label for="contact-service">Related Service</label>
+                                                            <select id="contact-service" name="service">
                                                                 <option value="" disabled selected>Select a Service</option>
                                                                 <option value="web-design">Web Development</option>
                                                                 <option value="web-design">Product Development</option>
@@ -192,14 +192,14 @@ $current_page = 'contact';
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tp-contact-us-form-input mb-30">
-                                                            <label>Subject</label>
-                                                            <input name="text" type="text" placeholder="What's this about?">
+                                                            <label for="contact-text">Subject</label>
+                                                            <input id="contact-text" name="text" type="text" placeholder="What's this about?">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tp-contact-us-form-input mb-30">
-                                                            <label>Message</label>
-                                                            <textarea name="message" placeholder="Tell us more.."></textarea>
+                                                            <label for="contact-message">Message</label>
+                                                            <textarea id="contact-message" name="message" placeholder="Tell us more.."></textarea>
                                                         </div>
                                                         <div class="tp-contact-us-form-btn">
                                                             <button type="submit" class="tp-btn-green tp-btn-anim">

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require_once __DIR__ . '/../../config/constants.php';
 
 $pageTitle = "Team – Zirostack";
@@ -8,7 +8,7 @@ $current_page = 'team';
 
 <?php include INCLUDES_PATH . '/header.php'; ?>
 <!-- PAGE CONTENT COLUMN -->
-<div class="col-xl-10 offset-xl-2">
+<div class="col-xl-10 offset-xl-2 page-bg-white">
             <!-- header area start -->
                             <div id="header-sticky" class="tp-header-area tp-header-ptb tp-header-blur sticky-black-bg header-transparent" >
                                 <div class="container-fluid">
@@ -24,11 +24,11 @@ $current_page = 'team';
                                                 </div>
                                                 <div class="col-xl-8 col-6">
                                                     <div class="tp-header-right text-end">
-                                                        <div class="tp-header-14-bar-wrap" style="color: #000000; border-color: #000000;"" >
-                                                            <button class="tp-header-8-bar tp-offcanvas-open-btn" style="color: #000000; border-color: #000000;">
-                                                                <span style="color: #000000;">Menu</span>
-                                                                <span style="color: #000000;">
-                                                                    <svg style="color: #000000;" width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <div class="tp-header-14-bar-wrap header-dark">
+                                                            <button class="tp-header-8-bar tp-offcanvas-open-btn">
+                                                                <span>Menu</span>
+                                                                <span>
+                                                                    <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                         <path d="M0 0H14V1.5H0V0Z" fill="currentcolor" />
                                                                         <path d="M0 6H24V7.5H0V6Z" fill="currentcolor" />
                                                                     </svg>
@@ -45,7 +45,7 @@ $current_page = 'team';
                             <!-- header area end -->
 
     <!-- hero area start -->
-                <div class="sa-hero-ptb fix pt-180 pb-30" style="background-color: white;">
+                <div class="sa-hero-ptb fix pt-180 pb-30" class="page-bg-white">
                     <div class="sa-hero-text-wrapper hover-reveal-item p-relative mb-100">
                         <div class="swiper-container tp-text-2-slider-active fix">
                             <div class="swiper-wrapper slide-transtion">
@@ -98,7 +98,10 @@ $current_page = 'team';
                                 <div class="col-xl-3 col-lg-4 col-md-6">
                                     <div class="tp-team-item p-relative mb-30">
                                         <div class="tp-team-thumb">
-                                            <img src="/assets/images/team/tonye.png" alt="Tonye Williams">
+                                            <picture>
+                                                <source srcset="/assets/images/team/tonye.webp" type="image/webp">
+                                                <img src="/assets/images/team/tonye.png" alt="Tonye Williams — Head of Operations" loading="lazy">
+                                            </picture>
                                         </div>
                                         <div class="tp-team-content">
                                         <h4 class="tp-team-title">Tonye Williams</h4>
@@ -139,7 +142,10 @@ $current_page = 'team';
                                 <div class="col-xl-3 col-lg-4 col-md-6">
                                     <div class="tp-team-item p-relative mb-30">
                                         <div class="tp-team-thumb">
-                                            <img src="/assets/images/team/michael.png" alt="Michael">
+                                            <picture>
+                                                <source srcset="/assets/images/team/michael.webp" type="image/webp">
+                                                <img src="/assets/images/team/michael.png" alt="Michael — Director of Development" loading="lazy">
+                                            </picture>
                                         </div>
                                         <div class="tp-team-content">
                                         <h4 class="tp-team-title">Michael</h4>
@@ -180,7 +186,10 @@ $current_page = 'team';
                                 <div class="col-xl-3 col-lg-4 col-md-6">
                                     <div class="tp-team-item p-relative mb-30">
                                         <div class="tp-team-thumb">
-                                            <img src="/assets/images/team/andy.png" alt="Andrew">
+                                            <picture>
+                                                <source srcset="/assets/images/team/andy.webp" type="image/webp">
+                                                <img src="/assets/images/team/andy.png" alt="Andrew — Director of Branding" loading="lazy">
+                                            </picture>
                                         </div>
                                          <div class="tp-team-content">
                                         <h4 class="tp-team-title">Andrew</h4>
@@ -221,7 +230,10 @@ $current_page = 'team';
                                 <div class="col-xl-3 col-lg-4 col-md-6">
                                     <div class="tp-team-item p-relative mb-30">
                                         <div class="tp-team-thumb">
-                                            <img src="/assets/images/team/paul.png" alt="Paul">
+                                            <picture>
+                                                <source srcset="/assets/images/team/paul.webp" type="image/webp">
+                                                <img src="/assets/images/team/paul.png" alt="Paul — Director of Media" loading="lazy">
+                                            </picture>
                                         </div>
                                         <div class="tp-team-content">
                                         <h4 class="tp-team-title">Paul</h4>
@@ -434,7 +446,7 @@ $current_page = 'team';
 
 
                 <!-- testimonial area start -->
-                <div class="cr-testimonial-ptb pt-120 pb-120" style="background-color: white;">
+                <div class="cr-testimonial-ptb pt-120 pb-120" class="page-bg-white">
                     <div class="container container-1480">
                         <div class="row justify-content-center">
                             <div class="col-xl-12">
@@ -542,7 +554,7 @@ $current_page = 'team';
                 <!-- testimonial area end -->
 
                 <!-- text slider area start -->
-                <div class="ca-text-ptb inner-text-style" style="background-color: white;">
+                <div class="ca-text-ptb inner-text-style" class="page-bg-white">
                     <div class="ca-text-slider">
                         <div class="swiper-container tp-text-slider-active">
                             <div class="swiper-wrapper slide-transtion">

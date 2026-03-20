@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require_once __DIR__ . '/../../config/constants.php';
 
 $pageTitle = "Services – Zirostack";
@@ -7,7 +7,7 @@ $current_page = 'services';
 ?>
 
 <?php include INCLUDES_PATH . '/header.php'; ?>
-<div class="col-xl-10 offset-xl-2">
+<div class="col-xl-10 offset-xl-2 page-bg-white">
     <div class="hr-border-wrap">
                 <!-- header area start -->
                             <div id="header-sticky" class="tp-header-area tp-header-ptb tp-header-blur sticky-black-bg header-transparent" >
@@ -24,11 +24,11 @@ $current_page = 'services';
                                                 </div>
                                                 <div class="col-xl-8 col-6">
                                                     <div class="tp-header-right text-end">
-                                                        <div class="tp-header-14-bar-wrap" style="color: #000000; border-color: #000000;"" >
-                                                            <button class="tp-header-8-bar tp-offcanvas-open-btn" style="color: #000000; border-color: #000000;">
-                                                                <span style="color: #000000;">Menu</span>
-                                                                <span style="color: #000000;">
-                                                                    <svg style="color: #000000;" width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <div class="tp-header-14-bar-wrap header-dark">
+                                                            <button class="tp-header-8-bar tp-offcanvas-open-btn">
+                                                                <span>Menu</span>
+                                                                <span>
+                                                                    <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                         <path d="M0 0H14V1.5H0V0Z" fill="currentcolor" />
                                                                         <path d="M0 6H24V7.5H0V6Z" fill="currentcolor" />
                                                                     </svg>
@@ -44,7 +44,7 @@ $current_page = 'services';
                             </div>
                             <!-- header area end -->
 <!-- service area start -->
-                <div class="tp-service-area tp-item-anime-area-md tp-fixed-title-wrap position-relative tp-about-dgm-ptb pt-120 pb-130" style="background-color: white;">
+                <div class="tp-service-area tp-item-anime-area-md tp-fixed-title-wrap position-relative tp-about-dgm-ptb pt-120 pb-130" class="page-bg-white">
                     <span class="tp-service-inner-2-shape" data-speed="1.1">
                         <svg width="109" height="117" viewBox="0 0 109 117" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M108 45.004C101.431 48.7694 86.3472 54.7917 72.3355 54.9021M72.3355 54.9021C63.2351 54.9739 54.5867 52.5518 49.0166 45.3978C41.9197 35.9121 35.3239 15.1685 63.2763 2.37334C73.8209 -2.45343 84.3714 5.43994 80.3657 26.102C79.1386 32.4314 77.1035 43.5113 72.3355 54.9021ZM72.3355 54.9021C68.1235 64.9649 61.7787 75.2705 51.9743 82.7581C41.4633 90.7852 19.4538 99.558 3.35013 98.7752M3.35013 98.7752C2.55152 98.7364 1.76744 98.6741 1 98.587M3.35013 98.7752C2.51408 98.6783 1.72434 98.6171 1 98.587M3.35013 98.7752C11.5166 99.7216 24.1022 104.069 23.3176 116M1 98.587C6.10855 98.6647 17.9069 93.9861 24.2319 74.6501M82.1839 64.3617C80.7331 69.1506 73.4038 84.7265 58.5056 91.7165" stroke="#010103" stroke-width="1.5" />
@@ -281,7 +281,7 @@ $current_page = 'services';
 
 
                 <!-- brand area start -->
-                <div class="ds-brand-area tp-about-dgm-ptb pt-155 pb-65" style="background-color: white;">
+                <div class="ds-brand-area tp-about-dgm-ptb pt-155 pb-65" class="page-bg-white">
                     <div class="container container-1510">
                         <div class="row">
                             <div class="col-12">
@@ -358,7 +358,7 @@ $current_page = 'services';
 
 
                 <!-- text slider start -->
-                <div class="tp-copyright-slider-wrap inner-text-slider-wrap pb-95" style="background-color: white;">
+                <div class="tp-copyright-slider-wrap inner-text-slider-wrap pb-95" class="page-bg-white">
                     <div class="swiper-container tp-text-slider-active">
                         <div class="swiper-wrapper slide-transtion">
                             <div class="swiper-slide">

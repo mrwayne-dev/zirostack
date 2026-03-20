@@ -409,6 +409,72 @@ body, body * {
     pointer-events: auto;
 }
 
+/* ── Mobile sticky nav bar — hidden by default, slides in on scroll ── */
+.zs-mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 997;
+    height: 58px;
+    /* glassmorphism */
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    /* starts hidden — revealed by JS on scroll */
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
+}
+
+.zs-mobile-nav.zs-nav-visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.zs-mobile-nav__logo img {
+    height: 30px;
+    width: auto;
+    display: block;
+}
+
+.zs-mobile-nav__toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #010103;
+    padding: 6px 0;
+}
+
+.zs-mobile-nav__menu-label {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #010103;
+}
+
+/* ── WhatsApp button — sit clearly above back-to-top on mobile ── */
+@media (max-width: 767px) {
+    .zirostack-whatsapp {
+        right: 20px;
+        bottom: 110px; /* 20px + 44px button + 46px clearance */
+        width: 48px;
+        height: 48px;
+    }
+}
+
 /* LinkedIn-style Loader */
 #preloader {
     position: fixed;
@@ -661,4 +727,32 @@ body, body * {
         max-width: unset;
         width: 100%;
     }
+}
+
+/* ===============================
+   UTILITY CLASSES
+   =============================== */
+
+/* Dark header variant — light-background pages */
+.header-dark .tp-header-14-bar-wrap,
+.header-dark .tp-header-8-bar {
+    color: #000000 !important;
+    border-color: #000000 !important;
+}
+.header-dark .tp-header-8-bar span,
+.header-dark .tp-header-8-bar svg path {
+    color: #000000 !important;
+    fill: currentColor;
+}
+
+/* White page background */
+.page-bg-white {
+    background-color: #ffffff !important;
+    min-height: 100vh;
+}
+
+/* Responsive iframe */
+.tp-contact-us-map iframe {
+    width: 100% !important;
+    max-width: 100%;
 }

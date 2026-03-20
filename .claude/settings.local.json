@@ -1,7 +1,33 @@
 {
   "permissions": {
     "allow": [
-      "Bash(composer require:*)"
+      "Bash(composer require:*)",
+      "Bash(Remove-Item \"C:\\\\mrwayne\\\\web_dev\\\\zirostack\\\\assets\\\\images\\\\projects\\\\company.png\" -Force)",
+      "Bash(Write-Host \"Deleted company.png\")",
+      "Bash(Remove-Item \"C:\\\\mrwayne\\\\web_dev\\\\zirostack\\\\assets\\\\fonts\\\\template-font\" -Recurse -Force)",
+      "Bash(Write-Host \"Deleted template-font directory\")",
+      "Bash(cwebp -version)",
+      "Bash(convert --version)",
+      "Read(//c/Windows/system32/**)",
+      "Bash(python3 -c \"from PIL import Image; print\\(''''Pillow available''''\\)\")",
+      "Bash(python -c \"from PIL import Image; print\\(''''Pillow available''''\\)\")",
+      "Bash(ffmpeg -version)",
+      "Bash(python3 -c \"from PIL import Image; print\\(''Pillow OK''\\)\")",
+      "Bash(python -c \"from PIL import Image; print\\(''Pillow OK''\\)\")",
+      "Bash(node -e \"require\\(''sharp''\\); console.log\\(''sharp OK''\\)\")",
+      "Bash(python3:*)",
+      "Bash(python -c \"from PIL import Image; print\\(''OK''\\)\")",
+      "Bash(python:*)",
+      "Bash(grep -o '..\\\\{40\\\\}data-bg-color.\\\\{40\\\\}' C:/mrwayne/web_dev/zirostack/assets/vendor/js/main.js)",
+      "Bash(head -6 grep -n \"current_page\\\\|useTemplateAssets\\\\|pageTitle\" C:/mrwayne/web_dev/zirostack/pages/public/projects.php)",
+      "Bash(head -6 grep -n \"current_page\\\\|useTemplateAssets\\\\|pageTitle\" C:/mrwayne/web_dev/zirostack/pages/public/services.php)",
+      "Bash(head -6 grep -n \"current_page\\\\|useTemplateAssets\\\\|pageTitle\" C:/mrwayne/web_dev/zirostack/pages/public/team.php)",
+      "Bash(head -10 grep -n \"col-xl-10 offset-xl-2\\\\|hr-right-wrap\\\\|hr-border-wrap\\\\|page-bg-white\" C:/mrwayne/web_dev/zirostack/pages/public/projects.php)",
+      "Bash(grep -o '..\\\\{80\\\\}back-to-top.\\\\{80\\\\}' C:/mrwayne/web_dev/zirostack/assets/vendor/css/style.css)",
+      "Bash(grep -o '..\\\\{60\\\\}back-to-top-wrapper.\\\\{60\\\\}' C:/mrwayne/web_dev/zirostack/assets/vendor/css/style.css)",
+      "Bash(grep -o '..\\\\{20\\\\}offcanvas-menu.\\\\{100\\\\}' C:/mrwayne/web_dev/zirostack/assets/vendor/css/style.css)",
+      "Bash(grep -o '..\\\\{50\\\\}tp-mobile-menu-active.\\\\{100\\\\}' C:/mrwayne/web_dev/zirostack/assets/vendor/js/main.js)",
+      "Bash(grep -o '..\\\\{30\\\\}offcanvas-menu.\\\\{150\\\\}' C:/mrwayne/web_dev/zirostack/assets/vendor/js/main.js)"
     ]
   }
 }

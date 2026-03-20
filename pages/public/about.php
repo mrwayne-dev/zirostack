@@ -1,8 +1,8 @@
-<?php
+﻿<?php
 require_once __DIR__ . '/../../config/constants.php';
 
 $pageTitle = "About Us - Zirostack";
-$useTemplateAssets = true; 
+$useTemplateAssets = true;
 $current_page = 'about';
 ?>
 
@@ -11,7 +11,7 @@ $current_page = 'about';
 <?php include INCLUDES_PATH . '/header.php'; ?>
 
 
-<div class="col-xl-10 offset-xl-2">
+<div class="col-xl-10 offset-xl-2 page-bg-white">
     <div class="hr-border-wrap">
         <!-- header area start -->
                             <div id="header-sticky" class="tp-header-area tp-header-ptb tp-header-blur sticky-black-bg header-transparent" >
@@ -28,11 +28,11 @@ $current_page = 'about';
                                                 </div>
                                                 <div class="col-xl-8 col-6">
                                                     <div class="tp-header-right text-end">
-                                                        <div class="tp-header-14-bar-wrap" style="color: #000000; border-color: #000000;"" >
-                                                            <button class="tp-header-8-bar tp-offcanvas-open-btn" style="color: #000000; border-color: #000000;">
-                                                                <span style="color: #000000;">Menu</span>
-                                                                <span style="color: #000000;">
-                                                                    <svg style="color: #000000;" width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <div class="tp-header-14-bar-wrap header-dark">
+                                                            <button class="tp-header-8-bar tp-offcanvas-open-btn">
+                                                                <span>Menu</span>
+                                                                <span>
+                                                                    <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                         <path d="M0 0H14V1.5H0V0Z" fill="currentcolor" />
                                                                         <path d="M0 6H24V7.5H0V6Z" fill="currentcolor" />
                                                                     </svg>
@@ -49,7 +49,7 @@ $current_page = 'about';
                             <!-- header area end -->
 
          <!-- about area start -->
-                <div class="bnc-about-ptb p-relative pt-100 pb-120" style="background-color: white;">
+                <div class="bnc-about-ptb p-relative pt-100 pb-120" class="page-bg-white">
                     <div class="bnc-about-shape">
                         <img src="assets/img/business-consulting/about/about-2-shape.png" alt="">
                     </div>
@@ -118,7 +118,7 @@ $current_page = 'about';
                 <!-- about area end -->
 
                  <!-- step area start -->
-                <div class="bnc-step-area p-relative pt-100 pb-50" style="background-color: white;">
+                <div class="bnc-step-area p-relative pt-100 pb-50" class="page-bg-white">
                     <div class="bnc-step-text-wrap tp-about-inner-step-text">
                         <h4 class="bnc-step-text-title tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">Experts</h4>
                     </div>
@@ -131,7 +131,7 @@ $current_page = 'about';
                                         Achieve Our Clients Goals.</h3>
                                 </div>
                                 <div class="bnc-step-thumb fix tp-clip-anim z-index-1">
-                                    <img class="w-100 tp-anim-img" data-animate="true" src="/assets/images/background/aboutsection1.avif" alt="">
+                                    <img class="w-100 tp-anim-img" data-animate="true" src="/assets/images/background/aboutsection1.avif" alt="The Zirostack team at work" loading="lazy">
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -515,7 +515,10 @@ $current_page = 'about';
                             <div class="col-xl-3 col-lg-4 col-md-6">
                                 <div class="tp-team-item p-relative mb-30 tp_fade_anim" data-delay=".3">
                                     <div class="tp-team-thumb">
-                                        <img src="/assets/images/team/tonye.png" alt="Tonye">
+                                        <picture>
+                                            <source srcset="/assets/images/team/tonye.webp" type="image/webp">
+                                            <img src="/assets/images/team/tonye.png" alt="Tonye Williams — Head of Operations" loading="lazy">
+                                        </picture>
                                     </div>
                                     <div class="tp-team-content">
                                         <h4 class="tp-team-title">Tonye Williams</h4>
@@ -556,7 +559,10 @@ $current_page = 'about';
                             <div class="col-xl-3 col-lg-4 col-md-6">
                                 <div class="tp-team-item p-relative mb-30 tp_fade_anim" data-delay=".5">
                                     <div class="tp-team-thumb">
-                                        <img src="/assets/images/team/michael.png" alt="Michael">
+                                        <picture>
+                                            <source srcset="/assets/images/team/michael.webp" type="image/webp">
+                                            <img src="/assets/images/team/michael.png" alt="Michael — Director of Development" loading="lazy">
+                                        </picture>
                                     </div>
                                     <div class="tp-team-content">
                                         <h4 class="tp-team-title">Michael</h4>
@@ -597,7 +603,10 @@ $current_page = 'about';
                             <div class="col-xl-3 col-lg-4 col-md-6">
                                 <div class="tp-team-item p-relative mb-30 tp_fade_anim" data-delay=".7">
                                     <div class="tp-team-thumb">
-                                        <img src="/assets/images/team/andy.png" alt="Andrew">
+                                        <picture>
+                                            <source srcset="/assets/images/team/andy.webp" type="image/webp">
+                                            <img src="/assets/images/team/andy.png" alt="Andrew — Director of Branding" loading="lazy">
+                                        </picture>
                                     </div>
                                     <div class="tp-team-content">
                                         <h4 class="tp-team-title">Andrew</h4>
@@ -638,7 +647,10 @@ $current_page = 'about';
                                                        <div class="col-xl-3 col-lg-4 col-md-6">
                                 <div class="tp-team-item p-relative mb-30 tp_fade_anim" data-delay=".7">
                                     <div class="tp-team-thumb">
-                                        <img src="/assets/images/team/paul.png" alt="Paul">
+                                        <picture>
+                                            <source srcset="/assets/images/team/paul.webp" type="image/webp">
+                                            <img src="/assets/images/team/paul.png" alt="Paul — Director of Media" loading="lazy">
+                                        </picture>
                                     </div>
                                     <div class="tp-team-content">
                                         <h4 class="tp-team-title">Paul</h4>

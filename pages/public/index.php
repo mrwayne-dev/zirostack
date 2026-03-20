@@ -2,7 +2,8 @@
 require_once __DIR__ . '/../../config/constants.php';
 
 $pageTitle = "Zirostack";
-$useTemplateAssets = true; 
+$useTemplateAssets = true;
+$loadWebGL = true;        // Load three.js + webgl.js only on this page
 $current_page = 'home';
 ?>
 

@@ -28,6 +28,24 @@ window.addEventListener("load", () => {
   hidePreloader();
 });
 
+// WhatsApp scroll-reveal button
+document.addEventListener("DOMContentLoaded", function () {
+  var whatsappBtn = document.querySelector(".zirostack-whatsapp");
+  if (!whatsappBtn) return;
+  window.addEventListener("scroll", function () {
+    whatsappBtn.classList.toggle("show", window.scrollY > 120);
+  });
+});
+
+// Mobile sticky nav — slide in from top after scrolling past the page header
+document.addEventListener("DOMContentLoaded", function () {
+  var mobileNav = document.querySelector(".zs-mobile-nav");
+  if (!mobileNav) return;
+  window.addEventListener("scroll", function () {
+    mobileNav.classList.toggle("zs-nav-visible", window.scrollY > 80);
+  });
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   const el = document.querySelector(".hero-word-fade");
   if (!el) return;

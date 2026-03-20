@@ -37,7 +37,7 @@ include "template-css.php";
     <!-- header area start -->
     <div class="hr-side-header z-index-5 d-none d-xl-flex flex-column justify-content-between">
         <div class="hr-side-header-logo">
-            <a href="/"><img data-width="200" src="/assets/images/logo/zirostackdark-mode.png" alt=""></a>
+            <a href="/"><img data-width="200" src="/assets/images/logo/zirostackdark-mode.png" alt="Zirostack logo"></a>
         </div>
         <div class="hr-side-header-menu tp-header-dropdown">
             <nav class="tp-mobile-menu-active">
@@ -106,8 +106,8 @@ include "template-css.php";
             <div class="tp-offcanvas-top d-flex align-items-center justify-content-between">
                 <div class="tp-offcanvas-logo">
                     <a href="index.html">
-                        <img class="logo-1" data-width="120" src="/assets/vendor/img/logo/logo-black.png" alt="">
-                        <img class="logo-2" data-width="120" src="/assets/vendor/img/logo/logo-white.png" alt="">
+                        <img class="logo-1" data-width="120" src="/assets/vendor/img/logo/logo-black.png" alt="Zirostack">
+                        <img class="logo-2" data-width="120" src="/assets/vendor/img/logo/logo-white.png" alt="Zirostack">
                     </a>
                 </div>
                 <div class="tp-offcanvas-close">
@@ -172,6 +172,21 @@ include "template-css.php";
     <div class="body-overlay"></div>
     <!-- tp-offcanvus-area-end -->
 
+
+    <!-- ── Mobile sticky nav bar (hidden on xl+) ── -->
+    <div class="zs-mobile-nav d-xl-none">
+        <a href="/" class="zs-mobile-nav__logo">
+            <img src="/assets/images/logo/zirostacklight-mode.png" alt="Zirostack logo">
+        </a>
+        <button class="tp-offcanvas-open-btn zs-mobile-nav__toggle" aria-label="Open menu">
+            <span class="zs-mobile-nav__menu-label">Menu</span>
+            <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0H14V1.5H0V0Z" fill="currentcolor"/>
+                <path d="M0 6H24V7.5H0V6Z" fill="currentcolor"/>
+            </svg>
+        </button>
+    </div>
+    <!-- ── End mobile sticky nav bar ── -->
 
     <div id="smooth-wrapper">
         <div id="smooth-content">
