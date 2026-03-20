@@ -150,7 +150,8 @@ $current_page = 'contact';
                                             <h4 class="tp-contact-us-form-title">How we can help you?</h4>
                                         </div>
                                         <div class="tp-contact-us-form-wrap">
-                                            <form id="contact-form" action="#" method="POST">
+                                            <form id="contact-form" action="/api/utilities/contact.php" method="POST">
+                                                <input type="text" name="website" style="display:none;" tabindex="-1" autocomplete="off" aria-hidden="true">
                                                 <div class="row">
                                                     <div class="col-lg-6">
                                                         <div class="tp-contact-us-form-input mb-30">
@@ -209,7 +210,6 @@ $current_page = 'contact';
                                                                     </svg>
                                                                 </span>
                                                             </button>
-                                                            <p class="ajax-response mt-5"></p>
                                                         </div>
                                                     </div>
                                                 </div>
